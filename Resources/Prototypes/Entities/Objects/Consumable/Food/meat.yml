@@ -1845,3 +1845,39 @@
   - type: FoodSequenceElement
     entries:
       Burger: ThavenBurger
+
+- type: entity
+  name: BROS amanita # mushrooms can be a type of meat.
+  parent: FoodInjectableBase
+  id: FoodBROSAmanita
+  description: The severed head of a BROS. Just looking at it makes you feel... cruddy.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - mushroom
+      - crud
+  - type: Sprite
+    sprite: _Impstation/Objects/Consumable/Food/bros_amanita.rsi
+    state: bros_shroom
+  - type: Extractable
+    grindableSolutionName: food
+  - type: Item
+    size: Tiny
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: VentCrud
+          Quantity: 3
+        - ReagentId: Nutriment
+          Quantity: 2
+
+- type: entity
+  name: atinama SORB
+  parent: FoodBROSAmanita
+  id: FoodAtinamaSORB
+  description: .yddurc ...leef uoy sekam ti ta gnikool tsuJ .SORB a fo daeh dereves ehT
+  components:
+  - type: Sprite
+    state: sorb_shroom

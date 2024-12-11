@@ -15,7 +15,7 @@
         sprite: Mobs/Animals/bros.rsi
     - type: Butcherable
       spawned:
-        - id: FoodLingzhi
+        - id: FoodBROSAmanita
           amount: 1
     - type: NpcFactionMember
       factions:
@@ -113,6 +113,10 @@
       - map: ["enum.DamageStateVisualLayers.Base"]
         state: sorb
         sprite: Mobs/Animals/bros.rsi
+    - type: Butcherable
+      spawned:
+        - id: FoodAtinamaSORB
+          amount: 1
     - type: DamageStateVisuals
       states:
         Alive:

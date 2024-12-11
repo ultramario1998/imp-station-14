@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from BROS (ATARI 400/800), ripped by 4MASTY. Edit by lazyriverfolk.",
+  "size": {
+    "x": 8,
+    "y": 8
+  },
+  "states": [
+    {
+      "name": "bros_shroom"
+    },
+    {
+      "name": "sorb_shroom"
+    },
+    {
+      "name": "dark_shroom"
+    }
+  ]
+}
