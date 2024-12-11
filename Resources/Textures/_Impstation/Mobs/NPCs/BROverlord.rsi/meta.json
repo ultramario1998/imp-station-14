@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Based on  BROS (ATARI 400/800). Edit by lazyriverfolk.",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "broverlord",
+      "directions": 4
+    },
+    {
+      "name": "drorevorb",
+      "directions": 4
+    },
+    {
+      "name": "broverlord-dead",
+      "delays": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "drorevorb-dead",
+      "delays": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}

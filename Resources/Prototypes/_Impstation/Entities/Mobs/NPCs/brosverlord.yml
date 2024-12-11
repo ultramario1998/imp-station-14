@@ -1,0 +1,121 @@
+- type: entity
+  name: BROverlord
+  parent: [ SimpleSpaceMobBase, MobCombat ] #maybe won't need to be immune to spacing. we'll see?
+  id: BaseMobBROverlord
+  abstract: true
+  components:
+    - type: VentCrawler
+    - type: Sprite
+      drawdepth: Mobs
+    - type: NpcFactionMember
+      factions:
+        - Xeno
+    - type: InputMover
+    - type: MobMover
+    - type: HTN
+      rootTask:
+        task: SimpleHostileCompound
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeCircle
+            radius: 0.35
+          density: 130
+          mask:
+          - MobMask
+          layer:
+          - MobLayer
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        300: Dead
+    - type: MeleeWeapon
+      altDisarm: false
+      angle: 0
+      animation: WeaponArcPunch
+      soundHit:
+        path: /Audio/_Impstation/Animals/broverlord_hit.ogg
+      damage:
+        types:
+          Blunt: 40
+    - type: ReplacementAccent
+      accent: bros
+    - type: Speech
+      speechSounds: Bros
+      speechVerb: Bros
+    - type: Vocal
+      sounds:
+        Male: Bros
+        Female: Bros
+        Unsexed: Bros
+    - type: TriggerOnMobstateChange
+      mobState:
+      - Dead
+    - type: EmitSoundOnTrigger
+      sound:
+        path: /Audio/_Impstation/Animals/broverlord_hurt.ogg
+        params:
+          variation: 0.125
+    - type: Bloodstream
+      bloodMaxVolume: 500
+      bloodReagent: VentCrud
+    - type: NoSlip
+    - type: ZombieImmune
+    - type: Food
+    - type: Extractable
+      grindableSolutionName: food
+    - type: SolutionContainerManager
+      solutions:
+        food:
+          reagents:
+          - ReagentId: VentCrud
+            Quantity: 2
+          - ReagentId: GroundBros
+            Quantity: 3
+    - type: NPCRetaliation
+    - type: Tag
+      tags:
+      - BROS
+
+- type: entity
+  name: BROverlord
+  parent: BaseMobBROverlord
+  id: MobBROverlord
+  components:
+    - type: Sprite
+      layers:
+      - map: ["enum.DamageStateVisualLayers.Base"]
+        sprite: _Impstation/Mobs/NPCs/BROverlord.rsi
+        state: broverlord
+    - type: Butcherable
+      spawned:
+        - id: FoodBROSAmanita
+          amount: 3
+    - type: DamageStateVisuals
+      states:
+        Alive:
+          Base: broverlord
+        Dead:
+          Base: broverlord-dead
+
+- type: entity
+  name: drorevORB
+  parent: BaseMobBROverlord
+  id: MobdrorevORB
+  components:
+    - type: Sprite
+      layers:
+      - map: ["enum.DamageStateVisualLayers.Base"]
+        sprite: _Impstation/Mobs/NPCs/BROverlord.rsi
+        state: drorevorb
+    - type: Butcherable
+      spawned:
+        - id: FoodAtinamaSORB
+          amount: 1
+    - type: DamageStateVisuals
+      states:
+        Alive:
+          Base: drorevorb
+        Dead:
+          Base: drorevorb-dead
