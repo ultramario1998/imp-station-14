@@ -1,6 +1,6 @@
 - type: entity
   name: BROverlord
-  parent: [ SimpleSpaceMobBase, MobCombat ] #maybe won't need to be immune to spacing. we'll see?
+  parent: [ SimpleSpaceMobBase, MobCombat, MobBloodstream ] #maybe won't need to be immune to spacing. we'll see?
   id: BaseMobBROverlord
   abstract: true
   components:
