@@ -1,7 +1,7 @@
 - type: entity
-  name: BROverlord
+  name: BROSverlord
   parent: [ SimpleSpaceMobBase, MobCombat, MobBloodstream ] #maybe won't need to be immune to spacing. we'll see?
-  id: BaseMobBROverlord
+  id: BaseMobBROSverlord
   abstract: true
   components:
     - type: VentCrawler
@@ -35,7 +35,7 @@
       angle: 0
       animation: WeaponArcPunch
       soundHit:
-        path: /Audio/_Impstation/Animals/broverlord_hit.ogg
+        path: /Audio/_Impstation/Animals/brosverlord_hit.ogg
       damage:
         types:
           Blunt: 40
@@ -54,7 +54,7 @@
       - Dead
     - type: EmitSoundOnTrigger
       sound:
-        path: /Audio/_Impstation/Animals/broverlord_hurt.ogg
+        path: /Audio/_Impstation/Animals/brosverlord_hurt.ogg
         params:
           variation: 0.125
     - type: Bloodstream
@@ -79,15 +79,15 @@
       - BROS
 
 - type: entity
-  name: BROverlord
-  parent: BaseMobBROverlord
-  id: MobBROverlord
+  name: BROSverlord
+  parent: BaseMobBROSverlord
+  id: MobBROSverlord
   components:
     - type: Sprite
       layers:
       - map: ["enum.DamageStateVisualLayers.Base"]
-        sprite: _Impstation/Mobs/NPCs/BROverlord.rsi
-        state: broverlord
+        sprite: _Impstation/Mobs/NPCs/BROSverlord.rsi
+        state: brosverlord
     - type: Butcherable
       spawned:
         - id: FoodBROSAmanita
@@ -95,20 +95,20 @@
     - type: DamageStateVisuals
       states:
         Alive:
-          Base: broverlord
+          Base: brosverlord
         Dead:
-          Base: broverlord-dead
+          Base: brosverlord-dead
 
 - type: entity
-  name: drorevORB
-  parent: BaseMobBROverlord
-  id: MobdrorevORB
+  name: drorevSORB
+  parent: BaseMobBROSverlord
+  id: MobdrorevSORB
   components:
     - type: Sprite
       layers:
       - map: ["enum.DamageStateVisualLayers.Base"]
-        sprite: _Impstation/Mobs/NPCs/BROverlord.rsi
-        state: drorevorb
+        sprite: _Impstation/Mobs/NPCs/BROSverlord.rsi
+        state: drorevsorb
     - type: Butcherable
       spawned:
         - id: FoodAtinamaSORB
@@ -116,6 +116,6 @@
     - type: DamageStateVisuals
       states:
         Alive:
-          Base: drorevorb
+          Base: drorevsorb
         Dead:
-          Base: drorevorb-dead
+          Base: drorevsorb-dead

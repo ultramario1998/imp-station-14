@@ -8,15 +8,15 @@
   },
   "states": [
     {
-      "name": "broverlord",
+      "name": "brosverlord",
       "directions": 4
     },
     {
-      "name": "drorevorb",
+      "name": "drorevsorb",
       "directions": 4
     },
     {
-      "name": "broverlord-dead",
+      "name": "brosverlord-dead",
       "delays": [
         [
           1
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "name": "drorevorb-dead",
+      "name": "drorevsorb-dead",
       "delays": [
         [
           1
