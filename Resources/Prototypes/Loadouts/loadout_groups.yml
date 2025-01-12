@@ -21,7 +21,8 @@
   - CigPackSpirits #imp
   - CigarCase
   - CigarGold
-  - GoldPersonalAI #imp
+  - GoldPersonalAI #imp >420 hours
+  - TutorialAI_Newcomer #imp <15 hours
   - FolderBlack #imp
   - FolderHamster #imp
   - FolderMime #imp
@@ -40,6 +41,9 @@
   - ClothingNeckTransPin
   - ClothingNeckAutismPin
   - ClothingNeckGoldAutismPin
+  - ClothingHeadHatKippahBlueAndGold #imp
+  - ClothingHeadHatKippahSimple #imp
+  - ClothingHeadHatKippahWhiteAndBlue #imp
   - TowelColorBlack
   - TowelColorDarkBlue
   - TowelColorDarkGreen
@@ -58,15 +62,6 @@
   - TowelColorYellow
   - CardBoxBlack
   - HarmonicaInstrument #imp
-
-# For introductory roles learning more complex jobs, like an in-game personal mentor
-- type: loadoutGroup
-  id: Learner
-  name: loadout-group-learner
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - PersonalAI
 
 - type: loadoutGroup
   id: Glasses
@@ -308,6 +303,10 @@
   - BartenderJumpsuit
   - BartenderJumpskirt
   - BartenderJumpsuitPurple
+  - ClothingUniformNightclubSuit #imp
+  - ClothingUniformNightclubSuitSkirt #imp
+  - ClothingUniformSeniorBartender #imp
+  - ClothingUniformSeniorBartenderSkirt #imp
 
 - type: loadoutGroup
   id: BartenderNeck
@@ -342,13 +341,6 @@
   loadouts:
   - BartenderPDA
   - SeniorBartenderPDA
-
-- type: loadoutGroup
-  id: Mixologist
-  name: loadout-group-bartender-mixologist
-  minLimit: 0
-  loadouts:
-  - ChemMasterFlatpack
 
 - type: loadoutGroup
   id: ChefHead
@@ -413,6 +405,8 @@
   - LibrarianJumpskirt
   - CuratorJumpsuit
   - CuratorJumpskirt
+  - ClothingUniformBrownSuit #imp
+  - ClothingUniformBrownSuitSkirt #imp
 
 - type: loadoutGroup
   id: LibrarianNeck
@@ -443,6 +437,8 @@
   - LawyerJumpskirtRed
   - LawyerJumpsuitGood
   - LawyerJumpskirtGood
+  - ClothingUniformCreamSuit #imp
+  - ClothingUniformCreamSuitSkirt #imp
 
 - type: loadoutGroup
   id: LawyerNeck
@@ -485,6 +481,8 @@
   - ChaplainJumpskirt
   - ChaplainRobesLight
   - ChaplainRobesDark
+  - ClothingUniformFuneralSuit #imp
+  - ClothingUniformFuneralSuitSkirt #imp
 
 - type: loadoutGroup
   id: ChaplainOuterClothing
@@ -778,6 +776,8 @@
   loadouts:
   - MusicianJumpsuit
   - MusicianJumpskirt
+  - ClothingUniformMrSpaceWide #imp
+  - ClothingUniformMrSpaceWideSkirt #imp
 
 - type: loadoutGroup
   id: MusicianNeck
@@ -1504,6 +1504,10 @@
   - DetectiveJumpskirt
   - NoirJumpsuit
   - NoirJumpskirt
+  - ClothingUniformMiamiVice #imp
+  - ClothingUniformMiamiViceSkirt #imp
+  - ClothingUniformDetectiveSuit #imp
+  - ClothingUniformDetectiveSuitSkirt #imp
 
 - type: loadoutGroup
   id: DetectiveOuterClothing
@@ -1869,6 +1873,8 @@
   loadouts:
   - ReporterJumpsuit
   - JournalistJumpsuit
+  - ClothingUniformBrosBlazer #imp
+  - ClothingUniformBrosBlazerSkirt #imp
 
 - type: loadoutGroup
   id: ReporterNeck

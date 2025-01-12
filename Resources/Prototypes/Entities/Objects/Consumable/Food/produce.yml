@@ -236,7 +236,7 @@
   name: death nettle
   description: This nettle's out for blood.
   id: DeathNettle
-  parent: ProduceBase
+  parent: [ProduceBase, BaseMajorContraband]
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/death_nettle.rsi
@@ -1712,7 +1712,7 @@
 
 - type: entity
   name: fly amanita
-  parent: FoodProduceBase
+  parent: [FoodProduceBase, BaseMajorContraband]
   id: FoodFlyAmanita
   description: A delicious-looking mushroom like you see in those cartoons.
   components:
@@ -1742,7 +1742,7 @@
 
 - type: entity
   name: gatfruit
-  parent: [ FoodProduceBase, BaseSyndicateContraband ]
+  parent: [ FoodProduceBase, Tier2Contraband ]
   id: FoodGatfruit
   description: A delicious, gun-shaped fruit with a thick wooden stem.
   components:

@@ -6,21 +6,32 @@
     mode: SnapgridCenter
   components:
     - type: Supermatter
+    - type: AtmosDevice
     - type: RadiationSource
     - type: AmbientSound
-      range: 5
-      volume: 0
+      range: 20
+      volume: -5
       sound:
         path: /Audio/_EinsteinEngines/Supermatter/calm.ogg
+    - type: EmitSoundOnTrigger
+      sound:
+        collection: SupermatterAccentNormal
     - type: Physics
     - type: Speech
-      speechSounds: Pai
+      speechSounds: null
+      speechVerb: Supermatter
+      suffixSpeechVerbs:
+        chat-speech-verb-suffix-exclamation-strong: Supermatter
+        chat-speech-verb-suffix-exclamation: Supermatter
+        chat-speech-verb-suffix-question: Supermatter
+        chat-speech-verb-suffix-stutter: Supermatter
+        chat-speech-verb-suffix-mumble: Supermatter
     - type: Fixtures
       fixtures:
         fix1:
           shape:
             !type:PhysShapeAabb
-            bounds: "-0.25,-0.25,0.25,0.25"
+            bounds: "-0.25,-0.25,0.25,0.4"
           mask:
             - Impassable
             - MidImpassable
@@ -41,9 +52,11 @@
     - type: Clickable
     - type: InteractionOutline
     - type: Sprite
-      drawdepth: WallMountedItems
       sprite: _EinsteinEngines/Structures/Power/Generation/Supermatter/supermatter.rsi
       state: supermatter
+      drawdepth: Mobs
+      snapCardinals: true
+      offset: -0.015,0.295
     - type: Icon
       sprite: _EinsteinEngines/Structures/Power/Generation/Supermatter/supermatter.rsi
       state: supermatter
@@ -54,9 +67,9 @@
       color: "#ffe000"
     - type: Explosive
       explosionType: Supermatter
-      maxIntensity: 25000
+      totalIntensity: 120000
       intensitySlope: 5
-      totalIntensity: 25000
+      maxIntensity: 100
     - type: GuideHelp
       guides: [ Supermatter, Power ]
     - type: WarpPoint

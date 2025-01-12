@@ -113,6 +113,7 @@
     tags:
     - Bee
     - Trash
+    - MultitoolDefibrillatorTarget
   - type: Bloodstream
     bloodMaxVolume: 0.1
   - type: MobPrice
@@ -378,6 +379,7 @@
     tags:
     - Trash
     - VimPilot
+    - MultitoolDefibrillatorTarget
   - type: Destructible
     thresholds:
     - trigger:
@@ -538,6 +540,7 @@
     - Trash
     - CannotSuicide
     - VimPilot
+    - MultitoolDefibrillatorTarget
   - type: CanEscapeInventory
   - type: NpcFactionMember
     factions:
@@ -771,6 +774,9 @@
     bloodMaxVolume: 0.1
   - type: MobPrice
     price: 50
+  - type: Tag
+    tags:
+    - MultitoolDefibrillatorTarget
 
 - type: entity
   name: cow
@@ -1727,6 +1733,12 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 3
+        - ReagentId: MouseBites #imp
+          Quantity: 2
+      mousebites: #imp. dont look at this.
+        reagents:
+        - ReagentId: MouseBites
+          Quantity: 500 # DONT LOOK AT THIS
   - type: Butcherable
     spawned:
     - id: FoodMeatRat
@@ -1740,6 +1752,7 @@
     - ChefPilot
     - Mouse
     - Meat
+    - MultitoolDefibrillatorTarget
   - type: Respirator
     damage:
       types:
@@ -1785,6 +1798,9 @@
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: Mouse
+  - type: MeleeChemicalInjector #imp
+    solution: mousebites
+    transferAmount: 1
 
 - type: entity
   parent: MobMouse
@@ -1976,6 +1992,7 @@
   - type: Tag
     tags:
     - VimPilot
+    - MultitoolDefibrillatorTarget
 
 
 - type: entity
@@ -2026,6 +2043,9 @@
     interactSuccessSpawn: EffectHearts
   - type: Bloodstream
     bloodMaxVolume: 50
+  - type: Tag
+    tags:
+    - MultitoolDefibrillatorTarget
 
 - type: entity
   name: frog
@@ -2087,6 +2107,7 @@
   - type: Tag
     tags:
     - VimPilot
+    - MultitoolDefibrillatorTarget
 
 # Would be cool to have some functionality for the parrot to be able to sit on stuff
 - type: entity
@@ -2207,7 +2228,7 @@
 
 - type: entity
   name: grenade penguin
-  parent: [ MobPenguin, MobCombat, BaseSyndicateContraband ]
+  parent: [ MobPenguin, MobCombat, Tier3Contraband ]
   id: MobGrenadePenguin
   description: A small penguin with a grenade strapped around its neck. Harvested by the Syndicate from icy shit-hole planets.
   components:
@@ -2909,6 +2930,10 @@
   - type: Grammar
     attributes:
       gender: epicene
+  - type: Tag
+    tags:
+    - VimPilot
+    - MultitoolDefibrillatorTarget
 
 - type: entity
   name: cat
@@ -3135,6 +3160,10 @@
     thresholds:
       0: Alive
       25: Dead
+  - type: Tag
+    tags:
+    - VimPilot
+    - MultitoolDefibrillatorTarget
 
 - type: entity
   name: sloth
@@ -3355,6 +3384,7 @@
     - Trash
     - Hamster
     - Meat
+    - MultitoolDefibrillatorTarget
   - type: Respirator
     damage:
       types:
@@ -3545,6 +3575,16 @@
     reformTime: 10
     popupText: diona-reform-attempt
     reformPrototype: MobDionaReformed
+  - type: Item
+    size: Small
+    heldPrefix: 0
+  - type: Clothing
+    quickEquip: false
+    sprite: Mobs/Animals/nymph.rsi
+    equippedPrefix: 0
+    slots:
+      - HEAD
+  - type: CanEscapeInventory
 
 - type: entity
   parent: MobDionaNymph

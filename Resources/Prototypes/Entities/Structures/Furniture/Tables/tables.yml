@@ -54,6 +54,7 @@
   - type: Construction
     graph: Table
     node: TableFrame
+  - type: ThrownItemImmune # imp
 
 - type: entity
   id: CounterWoodFrame
@@ -78,7 +79,6 @@
         - TableMask
         layer:
         - TableLayer
-        - BulletImpassable #Goobstation
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Wood
