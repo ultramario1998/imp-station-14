@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Based on  BROS (ATARI 400/800). Edit by lazyriverfolk.",
+  "size": {
+    "x": 8,
+    "y": 8
+  },
+  "states": [
+    {
+      "name": "darkbros",
+      "directions": 4
+    }
+  ]
+}
