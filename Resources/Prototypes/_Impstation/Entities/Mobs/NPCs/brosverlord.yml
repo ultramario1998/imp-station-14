@@ -20,7 +20,7 @@
         fix1:
           shape:
             !type:PhysShapeCircle
-            radius: 0.35
+            radius: 0.50 #make them feel just a little wider than a normal mob, while still being able to fit through doors
           density: 130
           mask:
           - MobMask
@@ -29,7 +29,7 @@
     - type: MobThresholds
       thresholds:
         0: Alive
-        300: Dead
+        800: Dead
     - type: MeleeWeapon
       altDisarm: false
       angle: 0
