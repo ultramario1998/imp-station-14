@@ -3,7 +3,7 @@
   mapName: 'Box Station'
   mapPath: /Maps/_Impstation/box.yml
   minPlayers: 35
-  maxPlayers: 70
+  maxPlayers: 80
   stations:
     Boxstation:
       stationProto: StandardNanotrasenStation
@@ -27,6 +27,7 @@
             Chaplain: [ 1, 1 ]
             Librarian: [ 1, 1 ]
             ServiceWorker: [ 2, 2 ]
+            Reporter: [ 1, 1 ] # Imp
             #engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 3, 3 ]
@@ -55,6 +56,7 @@
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 3 ]
             CargoTechnician: [ 3, 3 ]
+            Courier: [ 2, 2 ] # Imp
             #civilian
             Passenger: [ -1, -1 ]
             Clown: [ 1, 1 ]
