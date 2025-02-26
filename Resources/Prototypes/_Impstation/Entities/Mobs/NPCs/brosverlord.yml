@@ -1,6 +1,6 @@
 - type: entity
   name: BROSverlord
-  parent: [ SimpleSpaceMobBase, MobCombat, MobBloodstream ] #maybe won't need to be immune to spacing. we'll see?
+  parent: [ SimpleSpaceMobBase, MobCombat, MobBloodstream ] # maybe won't need to be immune to spacing. we'll see?
   id: BaseMobBROSverlord
   abstract: true
   components:
@@ -20,7 +20,7 @@
         fix1:
           shape:
             !type:PhysShapeCircle
-            radius: 0.50 #make them feel just a little wider than a normal mob, while still being able to fit through doors
+            radius: 0.50 # make them feel just a little wider than a normal mob, while still being able to fit through doors
           density: 130
           mask:
           - MobMask
@@ -46,9 +46,9 @@
       speechVerb: Bros
     - type: Vocal
       sounds:
-        Male: Bros
-        Female: Bros
-        Unsexed: Bros
+        Male: Brosverlord
+        Female: Brosverlord
+        Unsexed: Brosverlord
     - type: TriggerOnMobstateChange
       mobState:
       - Dead

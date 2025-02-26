@@ -101,6 +101,16 @@
   - /Audio/_Impstation/Animals/bros_hit.ogg
 
 - type: soundCollection
+  id: SuperUngh
+  files:
+  - /Audio/_Impstation/Animals/brosverlord_hit.ogg
+
+- type: soundCollection
+  id: BrosverlordScream
+  files:
+  - /Audio/_Impstation/Animals/brosverlord_scream.ogg
+
+- type: soundCollection
   id: Cracks
   files:
     - /Audio/_Impstation/Effects/Emotes/knuckles.ogg
