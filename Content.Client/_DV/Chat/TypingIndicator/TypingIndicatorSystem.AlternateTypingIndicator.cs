@@ -28,6 +28,6 @@ public sealed partial class TypingIndicatorSystem
 
         _isClientTyping = true;
         _lastTextChange = _time.CurTime;
-        RaisePredictiveEvent(new TypingChangedEvent(true, protoId));
+        RaisePredictiveEvent(new TypingChangedEvent(TypingIndicatorState.Typing, protoId));
     }
 }
