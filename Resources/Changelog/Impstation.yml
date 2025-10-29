@@ -1,14 +1,6 @@
 ﻿Entries:
 - author: DinnerCalzone
   changes:
-  - message: Fixed reinforced secret doors not appearing in the construction menu
-      properly.
-    type: Fix
-  id: 1869
-  time: '2025-06-18T09:23:40.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2812
-- author: DinnerCalzone
-  changes:
   - message: A large number of new chemical barrels have been added to the salvage
       loot pool.
     type: Add
@@ -4199,3 +4191,12 @@
   id: 2368
   time: '2025-10-29T12:22:25.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3535
+- author: TheGrimbeeper
+  changes:
+  - message: Some natural artifact effects are only on while their node is active.
+    type: Fix
+  - message: Some natural artifact effects are limited (no more infinite magic books).
+    type: Fix
+  id: 2369
+  time: '2025-10-29T12:37:15.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3633
