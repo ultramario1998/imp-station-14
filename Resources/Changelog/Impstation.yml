@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: TheLuggage05
-  changes:
-  - message: Added a cargo order for the Mail RPDS. Up your courier game today!
-    type: Add
-  - message: The RPDS mail capsules Work Now.
-    type: Fix
-  id: 1868
-  time: '2025-06-18T09:15:34.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2809
 - author: DinnerCalzone
   changes:
   - message: Fixed reinforced secret doors not appearing in the construction menu
@@ -4200,3 +4191,11 @@
   id: 2367
   time: '2025-10-29T12:07:33.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3625
+- author: Kandiyaki
+  changes:
+  - message: A new Heretic item, the Frangiclave, which instantly breaks any object
+      it's thrown at.
+    type: Add
+  id: 2368
+  time: '2025-10-29T12:22:25.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3535
