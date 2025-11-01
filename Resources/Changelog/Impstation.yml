@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: mqole
-  changes:
-  - message: Circumcised lizards.
-    type: Fix
-  id: 1873
-  time: '2025-06-20T04:29:46.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2827
 - author: DinnerCalzone
   changes:
   - message: Empty liquid storage tanks can now be ordered from Cargo.
@@ -4199,3 +4192,12 @@
   id: 2372
   time: '2025-11-01T01:21:12.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3647
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: The M1 and the T25 have new firing modes! Check 'em out!
+    type: Add
+  - message: Several balance changes to the M1 and the T25-- check the PR for details
+    type: Tweak
+  id: 2373
+  time: '2025-11-01T01:23:48.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3638
