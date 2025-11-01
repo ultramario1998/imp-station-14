@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: DinnerCalzone
-  changes:
-  - message: Empty liquid storage tanks can now be ordered from Cargo.
-    type: Add
-  id: 1874
-  time: '2025-06-20T05:23:43.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2826
 - author: MintyTheBinty
   changes:
   - message: Paprika is now available from tampered condiment vendors!
@@ -4201,3 +4194,12 @@
   id: 2373
   time: '2025-11-01T01:23:48.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3638
+- author: entings
+  changes:
+  - message: Lots of little dietary tweaks. This one's for you, Reptilian players.
+    type: Tweak
+  - message: Arachnids can breathe again, for real this time.
+    type: Fix
+  id: 2374
+  time: '2025-11-01T03:47:36.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3626
