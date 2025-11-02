@@ -1,25 +1,4 @@
 ﻿Entries:
-- author: widgetbeck
-  changes:
-  - message: Replicator Tier 3 speed has been reduced.
-    type: Tweak
-  - message: Replicator flat structural damage reductions have been removed.
-    type: Tweak
-  - message: All Replicator tiers are now vulnerable to flash.
-    type: Add
-  - message: There is now a clear visual indicator for which Replicator is the Queen
-      once the nest has been destroyed.
-    type: Add
-  - message: Replicator Tier 1 stun has been slightly reduced, and Tier 2 stun has
-      been slightly increased (along with a new sprite.)
-    type: Tweak
-  - message: Replicator Tier 2's whip has received a small damage buff.
-    type: Tweak
-  - message: Replicators cannot be zombified.
-    type: Remove
-  id: 1878
-  time: '2025-06-20T05:44:14.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2804
 - author: Ruddygreat, DarkIcedCoffee
   changes:
   - message: Added the S.A.L.V.O hud.
@@ -4198,3 +4177,10 @@
   id: 2377
   time: '2025-11-02T01:18:26.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3650
+- author: kipdotnet
+  changes:
+  - message: Allulalo now have survival boxes. oops.
+    type: Fix
+  id: 2378
+  time: '2025-11-02T02:55:31.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3655
