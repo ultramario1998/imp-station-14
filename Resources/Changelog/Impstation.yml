@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Ruddygreat, DarkIcedCoffee
-  changes:
-  - message: Added the S.A.L.V.O hud.
-    type: Add
-  id: 1879
-  time: '2025-06-20T05:43:16.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2669
 - author: CrystalClover
   changes:
   - message: Added Pulp, a mushy substance derived from wood products.
@@ -4184,3 +4177,11 @@
   id: 2378
   time: '2025-11-02T02:55:31.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3655
+- author: TheGrimbeeper
+  changes:
+  - message: Artifacts now slightly permissive of contaminants in what you splash
+      on them.
+    type: Tweak
+  id: 2379
+  time: '2025-11-02T12:38:34.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3656
