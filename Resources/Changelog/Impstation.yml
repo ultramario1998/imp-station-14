@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: CrystalClover
-  changes:
-  - message: Added Pulp, a mushy substance derived from wood products.
-    type: Add
-  - message: Moths now derive sustainence from Cellulose, with Fiber and Pulp being
-      digested into Cellulose.
-    type: Tweak
-  - message: Moths can now (slowly) eat Cardboard and Wood sheets.
-    type: Tweak
-  - message: The Nutribrick wrapper is now actually paper; it contains 10 Pulp and
-      recycles into Cardboard.
-    type: Tweak
-  id: 1880
-  time: '2025-06-21T01:08:24.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2806
 - author: DVDPlayerOfDiscordFame
   changes:
   - message: The M-1 Energy Shotgun doesn't need to wait 30 seconds to recharge anymore,
@@ -4185,3 +4170,10 @@
   id: 2379
   time: '2025-11-02T12:38:34.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3656
+- author: starlighthowls
+  changes:
+  - message: Dolphin got un-cursed.
+    type: Tweak
+  id: 2380
+  time: '2025-11-03T10:37:23.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3649
