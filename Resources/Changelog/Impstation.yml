@@ -1,29 +1,6 @@
 ﻿Entries:
 - author: widgetbeck
   changes:
-  - message: Replicators no longer get points or levelup progress from humanoids.
-      They still provide enough spawning progress for a new ghostrole, however.
-    type: Remove
-  - message: Reduced the amount of time Replicators are stunned by EMPs.
-    type: Tweak
-  - message: Gave Replicators their own faction, meaning they should now be counted
-      as hostile by carp and rats.
-    type: Tweak
-  - message: Adjusted Replicator Tier 2 pulling speeds.
-    type: Tweak
-  - message: Adjusted Replicator Tier 3 damage.
-    type: Tweak
-  - message: Increased minimum playercount and decreased event weight for the ReplicatorSpawn
-      event.
-    type: Tweak
-  - message: Fixed Replicator Nests incorrectly assigning spawning progress to certain
-      items. Stacked items should now contribute to spawning more ghostroles.
-    type: Fix
-  id: 1883
-  time: '2025-06-21T22:41:13.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2847
-- author: widgetbeck
-  changes:
   - message: Removed the Thaven "your moods are secret" mood - It's more interesting
       if you treat the moods as secret by default.
     type: Remove
@@ -4177,3 +4154,10 @@
   id: 2382
   time: '2025-11-04T02:07:39.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/2872
+- author: mousesweater
+  changes:
+  - message: new positive traits! slight and hefty!
+    type: Add
+  id: 2383
+  time: '2025-11-04T02:19:53.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3641
