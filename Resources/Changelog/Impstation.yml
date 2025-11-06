@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: sev7ves
-  changes:
-  - message: can now teleport to artifacts and anomalies as ghost.
-    type: Tweak
-  id: 1889
-  time: '2025-06-22T08:33:03.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2552
 - author: CombustibleToast
   changes:
   - message: Condensers no longer work slower at higher pressures.
@@ -4155,3 +4148,12 @@
   id: 2388
   time: '2025-11-05T16:06:49.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3642
+- author: starlighthowls
+  changes:
+  - message: Added allulalo plushie.
+    type: Add
+  - message: Added Eeeplet plushie.
+    type: Add
+  id: 2389
+  time: '2025-11-06T08:31:36.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3654
