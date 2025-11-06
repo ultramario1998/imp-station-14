@@ -1,18 +1,4 @@
 ﻿Entries:
-- author: SixValentine
-  changes:
-  - message: Luna is now compliant with modern mapping standards
-    type: Add
-  id: 1891
-  time: '2025-06-22T14:27:17.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2828
-- author: Jellvisk
-  changes:
-  - message: metamorphic holes can now properly be deconstructed
-    type: Fix
-  id: 1892
-  time: '2025-06-23T01:54:20.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2852
 - author: crocodilecarousel
   changes:
   - message: fish have decided they hate snakes now
@@ -4159,3 +4145,17 @@
   id: 2390
   time: '2025-11-06T12:37:20.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3541
+- author: sev7ves
+  changes:
+  - message: Decapoids can use the crusher bolt without dying badly.
+    type: Tweak
+  id: 2391
+  time: '2025-11-06T18:08:13.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3670
+- author: sev7ves
+  changes:
+  - message: allulalo can use holopads now.
+    type: Fix
+  id: 2392
+  time: '2025-11-06T18:08:35.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3669
