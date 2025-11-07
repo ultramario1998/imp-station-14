@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: DinnerCalzone
-  changes:
-  - message: Airlock sprites have received some adjustments. Some airlocks are associated
-      with different colors than before.
-    type: Tweak
-  id: 1895
-  time: '2025-06-27T11:56:01.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2867
 - author: ATDoop
   changes:
   - message: Added a disclaimer to the character records menu.
@@ -4160,3 +4152,22 @@
   id: 2394
   time: '2025-11-07T06:46:56.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3679
+- author: kipdotnet
+  changes:
+  - message: Folding chairs are now a 1x4 in storage.
+    type: Tweak
+  - message: Allulalo now hold 4u of Ethanotoxin, up from 2u. The guidebook has been
+      updated to clarify that they dont have an unlimited amount of it and shouldnt
+      be gnawing their coworkers to death.
+    type: Tweak
+  - message: Fixed Allulalo being able to use computers from the floor.
+    type: Fix
+  - message: The "No Accent" trait now actually works for Allulalo.
+    type: Fix
+  - message: Allulalo sprites should now have significantly less floating pixels.
+    type: Fix
+  - message: Allulalo are now included on the species guidebook page.
+    type: Fix
+  id: 2395
+  time: '2025-11-07T07:28:16.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3661
