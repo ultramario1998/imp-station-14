@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: mqole
-  changes:
-  - message: Thaven are now vulnerable to Ion Storms.
-    type: Add
-  id: 1894
-  time: '2025-06-24T23:15:17.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2850
 - author: DinnerCalzone
   changes:
   - message: Airlock sprites have received some adjustments. Some airlocks are associated
@@ -4160,3 +4153,10 @@
   id: 2393
   time: '2025-11-07T02:14:14.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3666
+- author: VeeNomine
+  changes:
+  - message: 'Law !@#%: Silicon World'
+    type: Add
+  id: 2394
+  time: '2025-11-07T06:46:56.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3679
