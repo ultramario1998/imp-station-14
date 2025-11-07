@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: crocodilecarousel
-  changes:
-  - message: fish have decided they hate snakes now
-    type: Fix
-  id: 1893
-  time: '2025-06-24T14:33:27.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2857
 - author: mqole
   changes:
   - message: Thaven are now vulnerable to Ion Storms.
@@ -4159,3 +4152,11 @@
   id: 2392
   time: '2025-11-06T18:08:35.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3669
+- author: Kandiyaki
+  changes:
+  - message: allulalo heretics are no longer forced to have a mansus grasp in their
+      nonexistent second hand when drawing a transmutation rune.
+    type: Fix
+  id: 2393
+  time: '2025-11-07T02:14:14.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3666
