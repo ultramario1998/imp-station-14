@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: Stonylogray, mousesweater, and Dinner
-  changes:
-  - message: The syndicate has harnessed Dark Forces to allow traitorous chaplains
-      to produce profaned versions of nullrod items. Go forth and spread chaos!
-    type: Add
-  - message: The aureate quiver has been transmogrified into a belt-slot container
-      rather than a magazine.
-    type: Tweak
-  - message: Nullrods and nullrod items are no longer contraband.
-    type: Tweak
-  - message: The aureole arc now has functioning wielding sprites.
-    type: Fix
-  id: 1898
-  time: '2025-06-27T14:15:52.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2631
 - author: Darkmajia
   changes:
   - message: Lowpop rounds no longer have specifically lower-intensity gamemodes.
@@ -4175,3 +4160,10 @@
   id: 2397
   time: '2025-11-07T22:42:31.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3629
+- author: kipdotnet
+  changes:
+  - message: Fixed vacuum flasks turning into giant error signs when you opened them.
+    type: Fix
+  id: 2398
+  time: '2025-11-08T10:12:26.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3688
