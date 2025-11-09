@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: crocodilecarousel
-  changes:
-  - message: new shipment of cmo outfits!
-    type: Add
-  id: 1902
-  time: '2025-06-27T14:21:15.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2832
 - author: ultramario1998
   changes:
   - message: The Jermov AI lawset has been downloaded. Currently admin-only.
@@ -4161,3 +4154,10 @@
   id: 2401
   time: '2025-11-08T23:01:09.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3618
+- author: kipdotnet
+  changes:
+  - message: Allulalo have footsteps now.
+    type: Fix
+  id: 2402
+  time: '2025-11-09T00:43:06.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3693
