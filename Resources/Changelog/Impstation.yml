@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: ultramario1998
-  changes:
-  - message: The Jermov AI lawset has been downloaded. Currently admin-only.
-    type: Add
-  id: 1903
-  time: '2025-06-27T14:21:45.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2837
 - author: DVDPlayerOfDiscordFame
   changes:
   - message: The Blaster Magnum's stats have been adjusted to help the gun feel better
@@ -4161,3 +4154,13 @@
   id: 2402
   time: '2025-11-09T00:43:06.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3693
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: The M1's kinetic bolt now packs a bit more of a punch. The Blaster Cannon,
+      instead, packs less of a punch.
+    type: Tweak
+  - message: the AKMS crate is now more expensive.
+    type: Tweak
+  id: 2403
+  time: '2025-11-09T00:51:56.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3692
