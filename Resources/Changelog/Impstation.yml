@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: youtubevideo3
-  changes:
-  - message: The Head of Personnel has acquired a new Power Suit they can equip to
-      better intimidate their enemies.
-    type: Add
-  id: 1908
-  time: '2025-06-27T14:52:22.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2862
 - author: sev7ves,GoGlitch,Wolfie
   changes:
   - message: A new pest has managed to catch a ride on a grey ship and has infested
@@ -4185,3 +4177,11 @@
   id: 2407
   time: '2025-11-10T09:37:33.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3552
+- author: yesteryuri, juniwoofs
+  changes:
+  - message: Added 61 hairstyles for Humans, Dwarves, and Slimes, and 4 hairs(?) for
+      Kodepiia!
+    type: Add
+  id: 2408
+  time: '2025-11-10T10:03:18.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3634
