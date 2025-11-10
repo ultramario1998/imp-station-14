@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: ATDoop
-  changes:
-  - message: Hardsuits now have a delay when equipping and unequipping them.
-    type: Tweak
-  id: 1907
-  time: '2025-06-27T14:29:41.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2873
 - author: youtubevideo3
   changes:
   - message: The Head of Personnel has acquired a new Power Suit they can equip to
@@ -4185,3 +4178,10 @@
   id: 2406
   time: '2025-11-10T03:00:18.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3702
+- author: yesteryuri
+  changes:
+  - message: Head revolutionaries have a death rattle in their unionist noggin
+    type: Add
+  id: 2407
+  time: '2025-11-10T09:37:33.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3552
