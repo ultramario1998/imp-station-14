@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: sev7ves,GoGlitch,Wolfie
-  changes:
-  - message: A new pest has managed to catch a ride on a grey ship and has infested
-      the station!
-    type: Add
-  id: 1909
-  time: '2025-06-27T14:53:46.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2658
-- author: hivehum
-  changes:
-  - message: Thaven can get high on nitrous, but it still doesn't choke them.
-    type: Tweak
-  id: 1910
-  time: '2025-06-27T15:18:50.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2859
 - author: Stonylogray
   changes:
   - message: Strange libraries have been spotted in IMP sector.
@@ -4185,3 +4170,35 @@
   id: 2408
   time: '2025-11-10T10:03:18.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3634
+- author: mqole, poeMota, Sh1ntra, whatston3, EckoAurum
+  changes:
+  - message: Handheld radios have been replaced with HandiComms, now with selectable
+      radio frequencies.
+    type: Add
+  id: 2409
+  time: '2025-11-11T00:58:26.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3695
+- author: KittenColony
+  changes:
+  - message: Records now support monospace.
+    type: Tweak
+  - message: Nukie mice will now wiggle their tails and move their paws.
+    type: Tweak
+  - message: Characters with the 'synthetic' trait will no longer get notified of
+      Ion Storms. A new event, Synth Storms, has been added instead.
+    type: Tweak
+  - message: Now listening post operatives will spawn with a binary key in their headset.
+    type: Tweak
+  - message: The Listening Post's crew monitoring console now shows the station instead
+      of the post.
+    type: Tweak
+  - message: Tape recorders can now be controlled using four signal ports corresponding
+      to their buttons.
+    type: Add
+  - message: The AAC tablet now has its own typing indicator.
+    type: Add
+  - message: added a few phrases to the AAC tablet
+    type: Add
+  id: 2410
+  time: '2025-11-11T00:57:52.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3596
