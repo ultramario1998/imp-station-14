@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: CrystalClover
-  changes:
-  - message: "A shipment from a bakery in Space France recently spilled its cargo,\
-      \ look out! \U0001F956"
-    type: Add
-  id: 1919
-  time: '2025-06-28T03:55:47.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2891
 - author: widgetbeck
   changes:
   - message: Tier 3 Replicators can now shed nanites to return to Tier 1, allowing
@@ -4169,3 +4161,20 @@
   id: 2418
   time: '2025-11-11T01:50:25.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3657
+- author: mqole, Huaqas
+  changes:
+  - message: Dragons, carp, spiders, and zombies now have their own collective mind
+      channels! Use +c, +s, or +z.
+    type: Add
+  - message: You can now see what collective minds you have access to using the character
+      menu.
+    type: Add
+  - message: Paradox clones now inherit access to the collective minds of their original.
+    type: Add
+  - message: Ghosts can now see messages sent using collective minds.
+    type: Fix
+  - message: The Mycorrhizal Gestalt has been renamed to the Mycorrhizae.
+    type: Tweak
+  id: 2419
+  time: '2025-11-11T02:04:21.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3703
