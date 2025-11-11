@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: astral_amy
-  changes:
-  - message: There are now sentry turrets defending the most secure parts of Bedlam.
-    type: Add
-  - message: Bedlam's Science department now has a resource silo!
-    type: Add
-  id: 1918
-  time: '2025-06-28T03:04:54.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2880
 - author: CrystalClover
   changes:
   - message: "A shipment from a bakery in Space France recently spilled its cargo,\
@@ -4171,3 +4162,10 @@
   id: 2417
   time: '2025-11-11T00:57:34.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3596
+- author: mqole
+  changes:
+  - message: You can now use items on things people are wearing or holding.
+    type: Add
+  id: 2418
+  time: '2025-11-11T01:50:25.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3657
