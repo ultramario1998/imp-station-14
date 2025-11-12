@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: maelines
-  changes:
-  - message: You can look evil and fucked up and dark-sided.... ("Gloomy" marking
-      for Human, Dwarves, Slime-folk and Thaven.)
-    type: Add
-  id: 1923
-  time: '2025-06-28T04:04:11.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2892
 - author: mqole
   changes:
   - message: Random character appearances have gotten even zanier.
@@ -4165,3 +4157,10 @@
   id: 2422
   time: '2025-11-12T08:01:31.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3715
+- author: mousesweater
+  changes:
+  - message: welding masks don't fit on borgs. get flashed, idiot.
+    type: Remove
+  id: 2423
+  time: '2025-11-12T08:43:06.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3709
