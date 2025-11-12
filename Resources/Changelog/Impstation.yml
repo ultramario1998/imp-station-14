@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: meridiadottxt
-  changes:
-  - message: added the GX-14 Liquidator, an admin spawn only death squad shuttle
-    type: Add
-  id: 1922
-  time: '2025-06-28T04:02:20.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2885
 - author: maelines
   changes:
   - message: You can look evil and fucked up and dark-sided.... ("Gloomy" marking
@@ -4165,3 +4158,10 @@
   id: 2421
   time: '2025-11-11T19:14:01.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3540
+- author: mqole
+  changes:
+  - message: The handheld crew monitor works again.
+    type: Fix
+  id: 2422
+  time: '2025-11-12T08:01:31.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3715
