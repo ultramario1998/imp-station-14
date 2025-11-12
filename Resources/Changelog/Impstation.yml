@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: mqole
-  changes:
-  - message: Random character appearances have gotten even zanier.
-    type: Tweak
-  id: 1924
-  time: '2025-06-28T04:01:37.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2855
 - author: Mousetrinity
   changes:
   - message: hear ye hear ye! the rules of the initial infected have been slightly
@@ -4164,3 +4157,13 @@
   id: 2423
   time: '2025-11-12T08:43:06.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3709
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: You can craft a cool glaive at the Security Techfab now!
+    type: Add
+  - message: You can choose a knife and a tourniquet for your security loadout now
+      instead of a pistol and magazine!
+    type: Add
+  id: 2424
+  time: '2025-11-12T08:47:22.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3710
