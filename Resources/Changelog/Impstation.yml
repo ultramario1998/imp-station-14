@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: DVDPlayerOfDiscordFame
-  changes:
-  - message: The Lecter uses our sprite again.
-    type: Fix
-  id: 1928
-  time: '2025-06-28T20:17:15.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2900
 - author: CrystalClover
   changes:
   - message: Added ability to tuck away the wig on the clown mask
@@ -4165,3 +4158,10 @@
   id: 2427
   time: '2025-11-14T05:29:25.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3723
+- author: Squamatic
+  changes:
+  - message: Vulpkanin have received new scream sounds!
+    type: Tweak
+  id: 2428
+  time: '2025-11-14T05:31:12.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3724
