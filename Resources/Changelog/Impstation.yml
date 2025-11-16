@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Stonylogray
-  changes:
-  - message: Cigarettes are now bad for you.
-    type: Tweak
-  id: 1930
-  time: '2025-06-28T23:37:54.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2889
 - author: crocodilecarousel and hivehum
   changes:
   - message: press g and get decorating or else!!!
@@ -4162,3 +4155,10 @@
   id: 2429
   time: '2025-11-15T00:12:05.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3561
+- author: eviltori
+  changes:
+  - message: random character appearances have gotten less zany.
+    type: Tweak
+  id: 2430
+  time: '2025-11-16T19:44:13.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3728
