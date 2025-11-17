@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: starlighthowls
-  changes:
-  - message: lepidodent can now be found on NT stations.
-    type: Add
-  id: 1933
-  time: '2025-06-29T09:34:27.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2816
 - author: kipdotnet
   changes:
   - message: Banana has had a small cleanup of decals and should look nicer.
@@ -4161,3 +4154,12 @@
   id: 2432
   time: '2025-11-17T09:12:22.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3730
+- author: TuttlePants
+  changes:
+  - message: Tourists now take longer to line up their perfect shot
+    type: Tweak
+  - message: Tourist cameras are now made using plastic instead of cotton
+    type: Fix
+  id: 2433
+  time: '2025-11-17T11:22:59.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3729
