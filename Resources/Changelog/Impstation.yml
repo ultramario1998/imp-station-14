@@ -1,35 +1,4 @@
 ﻿Entries:
-- author: kipdotnet
-  changes:
-  - message: Banana has had a small cleanup of decals and should look nicer.
-    type: Tweak
-  id: 1934
-  time: '2025-06-29T22:59:52.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2904
-- author: EpicToast
-  changes:
-  - message: Barratry has been updated with Harmony's changes, including genpop, a
-      TEG, and other layout changes.
-    type: Tweak
-  - message: Union Station has been temporarily derotated for renovations.
-    type: Remove
-  id: 1935
-  time: '2025-06-30T04:37:38.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2908
-- author: AvianMaiden
-  changes:
-  - message: Suit storage tanks are now strap-off.
-    type: Tweak
-  id: 1936
-  time: '2025-06-30T16:19:48.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2913
-- author: Mousetrinity
-  changes:
-  - message: coats on moths are no longer vacuum sealed
-    type: Tweak
-  id: 1937
-  time: '2025-06-30T16:21:15.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2907
 - author: hivehum
   changes:
   - message: Pride month is OVER. Get back to work.
@@ -4163,3 +4132,34 @@
   id: 2433
   time: '2025-11-17T11:22:59.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3729
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: Some icon sprites are now corrected to use our sprites instead of the
+      upstream ones we have replaced.
+    type: Fix
+  id: 2434
+  time: '2025-11-18T20:36:12.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3713
+- author: msTheowo
+  changes:
+  - message: Utility knives are yellow now.
+    type: Tweak
+  id: 2435
+  time: '2025-11-18T21:22:46.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3734
+- author: msTheowo
+  changes:
+  - message: Departmental economy has been put down. The station only has one bank
+      account.
+    type: Remove
+  id: 2436
+  time: '2025-11-19T23:41:29.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3664
+- author: Jellvisk, sev7ves
+  changes:
+  - message: Made the flash visuals a lot less intense, also a version with no double
+      vision for reduced motion
+    type: Tweak
+  id: 2437
+  time: '2025-11-19T23:34:51.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3722
