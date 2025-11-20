@@ -166,6 +166,7 @@
     - Engineering
     - Maintenance
   - type: DroneVision
+  - type: ZombieImmune
 
 # jermov board
 # credit to moomoobeef (github) for the original pr, teensarlacc (discord) for the original text

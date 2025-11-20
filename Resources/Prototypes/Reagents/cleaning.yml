@@ -85,28 +85,34 @@
     Food:
       metabolismRate: 0.4 # imp - accent lasts for like 15 seconds otherwise
       effects:
-      #- !type:ChemVomit # imp - sorry i thought of something funnier
+      #- !type:Vomit #imp, replaced with accent status effect
       #  conditions:
-      #  - !type:ReagentThreshold
+      #  - !type:ReagentCondition
+      #    reagent: SoapReagent
+      #    min: 6
+      #  probability: 0.20
+      - !type:GenericStatusEffect # imp TODO:update with status effect refactor
+        key: PGAccent
+        component: PGAccent
+    Drink:
+      metabolismRate: 0.4 # imp - accent lasts for like 15 seconds otherwise
+      effects:
+      #- !type:Vomit #imp, replaced with accent status effect
+      #  conditions:
+      #  - !type:ReagentCondition
+      #    reagent: SoapReagent
       #    min: 6
       #  probability: 0.20
       - !type:GenericStatusEffect # imp
         key: PGAccent
         component: PGAccent
-    #Drink: # imp
-    #  effects:
-      #- !type:ChemVomit
-      #  conditions:
-      #  - !type:ReagentThreshold
-      #    min: 6
-      #  probability: 0.20
-  #imp edit start
-  tileReactions:
-  - !type:CleanTileReaction
-    cleanCost: .5 #cleans reagents in puddles at a 1:2 ratio, 1/2 as efficient as space cleaner
-  - !type:CleanDecalsReaction
-    cleanCost: .5 #1/2 the efficiency of space cleaner, still cleans 10 decals with one spray bottle spray
-  #imp edit end
+      #imp edit start TODO: add a soapy water reagent that has this effect and remove this from soap
+      tileReactions:
+      - !type:CleanTileReaction
+        cleanCost: .5 #cleans reagents in puddles at a 1:2 ratio, 1/2 as efficient as space cleaner
+      - !type:CleanDecalsReaction
+        cleanCost: .5 #1/2 the efficiency of space cleaner, still cleans 10 decals with one spray bottle spray
+      #imp edit end
 
 - type: reagent
   id: SpaceLube
@@ -143,7 +149,7 @@
       methods: [ Touch ]
       effects:
       # pva glue? no, antibiotic glue for sealing wounds
-      - !type:ModifyBleedAmount
+      - !type:ModifyBleed
         amount: -1.5
   metabolisms:
     Narcotic:
@@ -157,8 +163,6 @@
       - !type:GenericStatusEffect
         key: Muted
         component: Muted
-        type: Add
         time: 5
-        refresh: false
   footstepSound:
     collection: FootstepSlime

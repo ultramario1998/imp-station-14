@@ -11,6 +11,7 @@ using Content.Shared.Heretic;
 using Content.Shared.Heretic.Prototypes;
 using Content.Shared.Mind;
 using Content.Shared.Store.Components;
+using Content.Shared.Temperature.Components;
 using Robust.Shared.Audio;
 
 namespace Content.Server.Heretic.EntitySystems;

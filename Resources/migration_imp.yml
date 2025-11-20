@@ -121,3 +121,7 @@ ComplexXenoArtifact: ReticulatedXenoArtifactStructure
 ComplexXenoArtifactItem: ReticulatedXenoArtifactItem
 RandomXAEArtifactSpawner: RandomArtifactSpawner
 RandomXAEArtifactSpawner20: RandomArtifactSpawner20
+
+# 2025-11-08
+# upstream merge replacement prototypes
+CrayonRainbowInfinite: CrayonInfinite

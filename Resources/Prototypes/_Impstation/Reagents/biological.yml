@@ -10,8 +10,7 @@
   slipData:
     requiredSlipSpeed: 4.0 #It's not as slippery as water
   friction: 0.4
-  impEvaporates: true
-  impEvaporationAmount: 15.0
+  evaporationSpeed: 15.0
   metabolisms:
     Food:
       effects:
@@ -21,11 +20,6 @@
     collection: FootstepBlood
     params:
       volume: 6
-  tileReactions:
-    - !type:EnsureTileReaction
-      components:
-        - type: ImpEvaporation
-          solution: puddle
 
 
 - type: reagent
@@ -232,7 +226,7 @@
     amount: 0.25
   - !type:PlantAdjustWater
     amount: 0.7
-  
+
 - type: reagent
   id: ReaperBlood
   name: reagent-name-reaper-blood
