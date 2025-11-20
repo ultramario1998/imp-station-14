@@ -28,6 +28,8 @@
     - id: VentClog
     - id: GoblinKnightEvent # imp
     - id: HereticBooksSpawnSmall #imp
+    - id: BiomagneticPolarizationRule # imp
+    - id: SynthStorm # CD: Unique event for synths
 
 - type: entityTable
   id: GreaterAntagEventsTable #imp: higher impact antags
@@ -45,6 +47,7 @@
     - id: BountyHunterSpawn # imp
     - id: ReplicatorSpawn # imp
     - id: VRexEvent #imp
+    - id: EeepEvent # imp
 
 - type: entityTable
   id: LesserAntagEventsTable # imp: lower impact antags
@@ -61,6 +64,8 @@
     - id: OppaSpawnLight #imp
     - id: OppaSpawnNight #imp
     - id: SyndicateInfiltratorSpawn # imp
+    - !type:NestedSelector # imp
+      tableId: TouristShuttleEvents
 
 - type: entityTable
   id: SleeperlessGreaterAntagEventsTable
@@ -78,7 +83,8 @@
     - id: ChangelingAwakening # imp
     - id: BountyHunterSpawn # imp
     - id: ReplicatorSpawn # imp
-    - id: VRexEvent #imp
+    - id: VRexEvent # imp
+    - id: EeepEvent # imp
 
 - type: entityTable
   id: DerelictBorgEventTable #For Derelict Borg spawns

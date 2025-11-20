@@ -20,6 +20,8 @@ public sealed partial class ArtifactDurabilityRestoreEntityEffectsSystem : Entit
         foreach (var node in _xenoArtifact.GetActiveNodes(entity))
         {
             _xenoArtifact.AdjustNodeDurability(node.Owner, durability);
+            //#IMP Also restore number of natural artifact unlocks (Durability counts down while unlocks count up, so negative 'restore')
+            _xenoArtifact.AdjustNodeUnlocks((node.Owner, node.Comp), -durability);
         }
     }
 }

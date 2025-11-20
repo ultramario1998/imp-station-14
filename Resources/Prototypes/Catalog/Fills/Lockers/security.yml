@@ -61,6 +61,8 @@
     - id: TicketPad
     - id: BoxToken
     - id: BaseSeclinkRadio
+    - id: TckutFlatpack
+    - id: Multitool
     # imp edit end
 
 - type: entityTable
