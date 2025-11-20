@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: astral_amy
-  changes:
-  - message: Added some funny purple to Bedlam. Just a little bit.
-    type: Add
-  - message: Made a small number of qualtiy-of-life adjustments to Bedlam.
-    type: Tweak
-  id: 1939
-  time: '2025-07-01T07:11:49.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2933
 - author: Mousetrinity
   changes:
   - message: you can now no longer unlock warden before detective
@@ -4163,3 +4154,10 @@
   id: 2438
   time: '2025-11-20T10:20:28.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3741
+- author: Kandiyaki
+  changes:
+  - message: heretics will ACTUALLY roll in lowpop now. oops.
+    type: Fix
+  id: 2439
+  time: '2025-11-20T10:21:44.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3733
