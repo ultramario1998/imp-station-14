@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: hivehum
-  changes:
-  - message: Pride month is OVER. Get back to work.
-    type: Remove
-  id: 1938
-  time: '2025-07-01T02:47:37.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2910
 - author: astral_amy
   changes:
   - message: Added some funny purple to Bedlam. Just a little bit.
@@ -4163,3 +4156,10 @@
   id: 2437
   time: '2025-11-19T23:34:51.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3722
+- author: TheGrimbeeper
+  changes:
+  - message: toy rocket launcher fire slower
+    type: Tweak
+  id: 2438
+  time: '2025-11-20T10:20:28.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3741
