@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: AvianMaiden
-  changes:
-  - message: A new jumpsuit to the CE's loadout, for all those hard-workin' supervisors
-      who need to be both comfy and safe.
-    type: Add
-  id: 1943
-  time: '2025-07-01T07:22:12.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2923
 - author: hivehum
   changes:
   - message: The Head of Personnel's dresser has a wider variety of options.
@@ -4164,3 +4156,11 @@
   id: 2442
   time: '2025-11-20T10:38:21.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3742
+- author: TheGrimbeeper
+  changes:
+  - message: reduced toy RPG stun power by 50%. The nerfing will continue until morale
+      improves.
+    type: Tweak
+  id: 2443
+  time: '2025-11-21T06:51:47.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3749
