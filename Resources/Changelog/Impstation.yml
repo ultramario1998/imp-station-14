@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: hivehum
-  changes:
-  - message: The Head of Personnel's dresser has a wider variety of options.
-    type: Tweak
-  id: 1944
-  time: '2025-07-01T07:28:00.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2922
 - author: FutureExalt
   changes:
   - message: brigmeds now have their own fashionable bomber jackets!
@@ -4164,3 +4157,15 @@
   id: 2443
   time: '2025-11-21T06:51:47.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3749
+- author: kipdotnet
+  changes:
+  - message: Allulalo now recieve less speed benefits from Hyperzine, Desoxyephedrine,
+      and Ephedrine.
+    type: Tweak
+  - message: Allulalo now metabolise narcotics, medicine and poison 50% faster, as
+      well as getting hungry and thirsty 30% faster. You want to be fast? Sure. Everything
+      is faster.
+    type: Tweak
+  id: 2444
+  time: '2025-11-23T08:30:27.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3750
