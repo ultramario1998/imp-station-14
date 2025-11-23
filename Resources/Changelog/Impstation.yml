@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: FutureExalt
-  changes:
-  - message: brigmeds now have their own fashionable bomber jackets!
-    type: Add
-  id: 1945
-  time: '2025-07-01T07:27:34.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2882
 - author: hivehum
   changes:
   - message: Glowsticks are craftable.
@@ -4169,3 +4162,11 @@
   id: 2444
   time: '2025-11-23T08:30:27.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3750
+- author: FlippenPage
+  changes:
+  - message: wow the black utility belt crafting recipe was broken for 9 months! hope
+      someone got FIRED for that blunder.
+    type: Fix
+  id: 2445
+  time: '2025-11-23T08:48:19.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3744
