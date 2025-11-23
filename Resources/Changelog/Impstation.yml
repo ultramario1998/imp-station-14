@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Pinkbat5
-  changes:
-  - message: Removed security bomber jackets and armoured vests from most non-officer
-      security jobs.
-    type: Remove
-  id: 1949
-  time: '2025-07-01T08:02:35.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2928
 - author: youtubevideo3
   changes:
   - message: NT has designed a new marching uniform for their musicians!
@@ -4164,3 +4156,10 @@
   id: 2448
   time: '2025-11-23T09:09:38.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3748
+- author: honeyed-lemons
+  changes:
+  - message: Radio channels have been tweaked, even for you dirty unionists.
+    type: Tweak
+  id: 2449
+  time: '2025-11-23T09:19:21.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3731
