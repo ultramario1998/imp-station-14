@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: youtubevideo3
-  changes:
-  - message: NT has designed a new marching uniform for their musicians!
-    type: Add
-  id: 1950
-  time: '2025-07-01T08:12:47.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2911
 - author: DinnerCalzone
   changes:
   - message: Maints airlocks are once again refereed to as 'maintenance access'.
@@ -4163,3 +4156,11 @@
   id: 2449
   time: '2025-11-23T09:19:21.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3731
+- author: Smugman
+  changes:
+  - message: The codex cicatrix no longer erases its own contents upon being closed,
+      diary enjoyers rejoice.
+    type: Fix
+  id: 2450
+  time: '2025-11-23T09:21:27.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3752
