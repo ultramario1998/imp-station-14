@@ -1,15 +1,4 @@
 ﻿Entries:
-- author: sowelipililimute, Eternally-Confused, msTheowo
-  changes:
-  - message: Colored paper and white paper reams from Delta-V
-    type: Add
-  - message: Colored sticky notes from Delta-V
-    type: Add
-  - message: Bureaucracy crates contain more folders
-    type: Tweak
-  id: 1947
-  time: '2025-07-01T07:34:54.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2926
 - author: emmetian
   changes:
   - message: Added 34 new markings for gastropoids (with shell variants)
@@ -4170,3 +4159,10 @@
   id: 2446
   time: '2025-11-23T08:54:59.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3738
+- author: TuttlePants
+  changes:
+  - message: Bounty Hunters now spawn with a randomized appearance
+    type: Tweak
+  id: 2447
+  time: '2025-11-23T09:04:32.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3751
