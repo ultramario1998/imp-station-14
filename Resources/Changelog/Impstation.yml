@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: DinnerCalzone
-  changes:
-  - message: Maints airlocks are once again refereed to as 'maintenance access'.
-    type: Tweak
-  id: 1951
-  time: '2025-07-01T08:12:32.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2914
 - author: jtfg-dev
   changes:
   - message: Gave some non-bullet guns proper descriptions.
@@ -4164,3 +4157,11 @@
   id: 2450
   time: '2025-11-23T09:21:27.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3752
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: Traitors can now purchase bundles of extended magazines for the Viper
+      or Cobra!
+    type: Add
+  id: 2451
+  time: '2025-11-23T09:34:36.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3747
