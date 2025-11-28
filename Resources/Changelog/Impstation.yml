@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: meridiadottxt
-  changes:
-  - message: added a spawner for mappers that selects between a blaster magnum, the
-      mule's leg, and the wt550 for HoS enrichment
-    type: Add
-  id: 1953
-  time: '2025-07-01T08:48:33.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2918
 - author: hivehum
   changes:
   - message: Happy pride month from Interdyne Pharmaceuticals!
@@ -4164,3 +4156,11 @@
   id: 2452
   time: '2025-11-26T21:08:56.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3769
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: the antique disabler's package doesn't look like a gun in your hands
+      anymore.
+    type: Fix
+  id: 2453
+  time: '2025-11-28T21:00:44.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3779
