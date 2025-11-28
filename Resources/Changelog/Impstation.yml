@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: Mousetrinity
-  changes:
-  - message: 'floating flora from planet teo, now in your exotic seed crates! note:
-      NT tech cannot extract the uppisium at this time, please be patient as our strongest
-      teo researchers work to remedy this'
-    type: Add
-  id: 1955
-  time: '2025-07-01T08:52:20.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2864
 - author: hivehum
   changes:
   - message: me at bowls
@@ -4165,3 +4156,11 @@
   id: 2454
   time: '2025-11-28T21:23:51.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3739
+- author: ComedyIdiot
+  changes:
+  - message: The PKA's recharge sound has been tweaked to sound like it used to back
+      in the good 'ol days of February 2025.
+    type: Tweak
+  id: 2455
+  time: '2025-11-28T21:54:47.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3758
