@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: sev7ves
-  changes:
-  - message: Added clown related Thaven moods.
-    type: Add
-  id: 1957
-  time: '2025-07-01T09:05:59.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2704
 - author: maenyas, mqole, rainyatrium, LankLTE, ZigTag
   changes:
   - message: sheep can dream of robot. New synthetic trait!
@@ -4165,3 +4158,12 @@
   id: 2456
   time: '2025-11-30T05:07:49.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3784
+- author: Smugman
+  changes:
+  - message: Recruiters and Synthesis Specialists are less rare now
+    type: Tweak
+  - message: Treatcoins actually spawn properly despite full hands
+    type: Fix
+  id: 2457
+  time: '2025-12-01T22:57:31.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3736
