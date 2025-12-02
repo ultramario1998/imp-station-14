@@ -53,9 +53,9 @@
     layers:
     - state: gold
     - state: stripe_top
-      color: "#1b67a5"
+      color: &color-command-top "#1b67a5" #imp, add anchor
     - state: stripe_bottom
-      color: "#0e4069"
+      color: &color-command-bottom "#0e4069" #imp, add anchor
     - sprite: *icon-rsi
       offset: *icon-offset
       state: Captain
@@ -81,9 +81,9 @@
     layers:
     - state: silver
     - state: stripe_top
-      color: &color-service-top "#639137"
+      color: *color-command-top #imp, use command color
     - state: stripe_bottom
-      color: &color-service-bottom "#446326"
+      color: *color-command-bottom #imp, use command color
     - sprite: *icon-rsi
       offset: *icon-offset
       state: HeadOfPersonnel
@@ -550,9 +550,9 @@
     layers:
     - state: default
     - state: stripe_top
-      color: *color-service-top
+      color: &color-service-top "#639137" #imp, moved anchor here from HoP
     - state: stripe_bottom
-      color: *color-service-bottom
+      color: &color-service-bottom "#446326" #imp, moved anchor here from HoP
     - sprite: *icon-rsi
       offset: *icon-offset
       state: ServiceWorker
@@ -1101,11 +1101,12 @@
   - type: Sprite
     layers:
     - state: centcom
+      sprite: &imp-card-rsi _Impstation/Objects/Misc/id_cards.rsi #imp
     - state: stripe_top
       color: &color-centcomm-top "#134975"
     - state: stripe_bottom
       color: &color-centcomm-bottom "#0d304d"
-    - sprite: *icon-rsi
+    - sprite: &imp-icon-rsi _Impstation/Interface/Misc/job_icons.rsi #imp
       offset: *icon-offset
       state: Nanotrasen
   - type: Item
@@ -1127,7 +1128,7 @@
       color: *color-centcomm-top
     - state: stripe_bottom
       color: *color-centcomm-bottom
-    - sprite: *icon-rsi
+    - sprite: *imp-icon-rsi #imp
       offset: *icon-offset
       state: ERTLeader
   - type: Item
@@ -1145,11 +1146,12 @@
   - type: Sprite
     layers:
     - state: centcom
+      sprite: *imp-card-rsi #imp
     - state: stripe_top
       color: *color-service-top
     - state: stripe_bottom
       color: *color-service-bottom
-    - sprite: *icon-rsi
+    - sprite: *imp-icon-rsi #imp
       offset: *icon-offset
       state: ERTChaplain
   - type: Item
@@ -1167,11 +1169,12 @@
   - type: Sprite
     layers:
     - state: centcom
+      sprite: *imp-card-rsi #imp
     - state: stripe_top
       color: *color-engineering-top
     - state: stripe_bottom
       color: *color-engineering-bottom
-    - sprite: *icon-rsi
+    - sprite: *imp-icon-rsi #imp
       offset: *icon-offset
       state: ERTEngineer
   - type: Item
@@ -1189,11 +1192,12 @@
   - type: Sprite
     layers:
     - state: centcom
+      sprite: *imp-card-rsi #imp
     - state: stripe_top
       color: *color-service-top
     - state: stripe_bottom
       color: *color-service-bottom
-    - sprite: *icon-rsi
+    - sprite: *imp-icon-rsi #imp
       offset: *icon-offset
       state: ERTJanitor
   - type: Item
@@ -1211,11 +1215,12 @@
   - type: Sprite
     layers:
     - state: centcom
+      sprite: *imp-card-rsi #imp
     - state: stripe_top
       color: *color-medical-top
     - state: stripe_bottom
       color: *color-medical-bottom
-    - sprite: *icon-rsi
+    - sprite: *imp-icon-rsi #imp
       offset: *icon-offset
       state: ERTMedical
   - type: Item
@@ -1233,11 +1238,12 @@
   - type: Sprite
     layers:
     - state: centcom
+      sprite: *imp-card-rsi #imp
     - state: stripe_top
       color: *color-security-top
     - state: stripe_bottom
       color: *color-security-bottom
-    - sprite: *icon-rsi
+    - sprite: *imp-icon-rsi #imp
       offset: *icon-offset
       state: ERTSecurity
   - type: Item
@@ -1254,12 +1260,13 @@
   components:
   - type: Sprite
     layers:
-    - state: centcom
+    - state: deathsquad #imp
+      sprite: *imp-card-rsi #imp
     - state: stripe_top
       color: *color-centcomm-top
     - state: stripe_bottom
       color: *color-centcomm-bottom
-    - sprite: *icon-rsi
+    - sprite: *imp-icon-rsi #imp
       offset: *icon-offset
       state: DeathSquad
   - type: PresetIdCard
@@ -1276,11 +1283,12 @@
   - type: Sprite
     layers:
     - state: centcom
+      sprite: *imp-card-rsi #imp
     - state: stripe_top
       color: *color-centcomm-top
     - state: stripe_bottom
       color: *color-centcomm-bottom
-    - sprite: *icon-rsi
+    - sprite: *imp-icon-rsi #imp
       offset: *icon-offset
       state: CBURN
   - type: Item
@@ -1301,7 +1309,7 @@
     sprite: _Impstation/Objects/Misc/id_cards.rsi #imp
     layers:
     - state: admin
-    - sprite: *icon-rsi
+    - sprite: *imp-icon-rsi #imp
       offset: *icon-offset
       state: Admin
   - type: Clothing
