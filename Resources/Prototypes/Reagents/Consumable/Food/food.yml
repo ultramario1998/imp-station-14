@@ -91,7 +91,7 @@
         visualType: MediumCaution
         messages: [ "generic-reagent-effect-sick" ]
         probability: 0.5
-      - !type:ChemVomit
+      - !type:Vomit
         probability: 0.1
         conditions:
         - !type:MetabolizerTypeCondition

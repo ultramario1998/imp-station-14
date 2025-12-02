@@ -37,16 +37,16 @@
             Poison: .2
             Caustic: .2
         conditions:
-        - !type:Breathing
-        - !type:Internals
-          usingInternals: false
+        - !type:BreathingCondition
+        - !type:InternalsCondition
+          inverted: true
       - !type:Emote
         emote: Cough
         showInGuidebook: true
         conditions:
-        - !type:Breathing
-        - !type:Internals
-          usingInternals: false
+        - !type:BreathingCondition
+        - !type:InternalsCondition
+          inverted: true
   tileReactions:
   - !type:CleanTileReaction
     cleanCost: .125 #cleans reagents in puddles at a 1:8 ratio, twice as efficient as space cleaner

@@ -436,7 +436,8 @@
         conditions:
           - !type:MetabolizerTypeCondition
             type: [Animal]
-          - !type:ReagentThreshold #imp
+          - !type:ReagentCondition #imp
+            reagent: Theobromine
             min: 0.12
       # imp edit start
       - !type:PopupMessage # let them know why they're puking
@@ -479,7 +480,7 @@
       effects:
         - !type:HealthChange
           conditions: #imp
-          - !type:HasTag
+          - !type:TagCondition
             tag: BROS
             invert: true
           damage:
@@ -837,13 +838,13 @@
         conditions:
         - !type:MetabolizerTypeCondition
           type: [Vox, Rat] #imp, added rat
-        # imp edit start
-        - !type:HealthChange
-          conditions:
-          - !type:MetabolizerTypeCondition
-            type: [ Rat, Vox ]
-            inverted: true
-          damage:
-            types:
-              Poison: 0.5
-        # imp edit end
+      # imp edit start
+      - !type:HealthChange
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Rat, Vox ]
+          inverted: true
+        damage:
+          types:
+            Poison: 0.5
+      # imp edit end

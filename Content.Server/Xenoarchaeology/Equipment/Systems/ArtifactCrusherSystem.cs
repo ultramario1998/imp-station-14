@@ -1,7 +1,6 @@
 using Content.Server.Body.Systems;
 using Content.Server.Stack;
 using Content.Shared.Body.Components;
-using Content.Shared.Damage; //imp
 using Content.Shared.Storage.Components;
 using Content.Shared.Whitelist;
 using Content.Shared.Xenoarchaeology.Equipment;
@@ -9,7 +8,8 @@ using Content.Shared.Xenoarchaeology.Equipment.Components;
 using Robust.Shared.Collections;
 using Robust.Shared.Random;
 using Content.Shared._Goobstation.Changeling; //imp
-using Content.Server.Xenoarchaeology.Artifact; //imp
+using Content.Server.Xenoarchaeology.Artifact;
+using Content.Shared.Damage.Systems; //imp
 using Content.Shared.Xenoarchaeology.Artifact.Components; //imp
 
 namespace Content.Server.Xenoarchaeology.Equipment.Systems;

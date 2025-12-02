@@ -228,7 +228,8 @@
             Cellular: 0.2
       - !type:HealthChange
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Nicotine
           min: 1
         damage:
           types:
@@ -504,5 +505,6 @@
         key: RelentlessPositivity
         component: RelentlessPositivity
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Happiness
           max: 20

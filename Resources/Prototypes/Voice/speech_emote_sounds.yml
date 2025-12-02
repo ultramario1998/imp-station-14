@@ -299,7 +299,9 @@
     Click:
       path: /Audio/Voice/Vox/vox_click.ogg
     Chitter:
-      path: /Audio/Voice/Vox/vox_chitter.ogg
+      path: VoxChitter #imp edit
+      params: #imp edit
+        volume: -5
     Honk:
       collection: BikeHorn
     Crying:
@@ -315,10 +317,6 @@
     DefaultDeathgasp:
       path: /Audio/Effects/Gasp/vox_DeathGasp.ogg
     # imp edit start
-    Chitter:
-      collection: VoxChitter
-      params:
-        volume: -5
     Coo:
       collection: VoxCoo
       params:

@@ -464,51 +464,47 @@
 # imp edits start, vapour breathers
       - !type:Oxygenate
         conditions:
-        - !type:OrganType
-          type: Decapoid
+        - !type:MetabolizerTypeCondition
+          type: [ Decapoid, Thaven ] # thaven can breathe all gases safely
       - !type:ModifyLungGas
         conditions:
-        - !type:OrganType
-          type: Decapoid
+        - !type:MetabolizerTypeCondition
+          type: [ Decapoid ]
         ratios:
           Ammonia: 1.0
           WaterVapor: -1.0
-      - !type:Oxygenate # thaven can breathe all gases safely
-        conditions:
-        - !type:OrganType
-          type: Thaven
       - !type:SatiateThirst # thaven breathing water vapor get thirsty slower
         conditions:
-        - !type:OrganType
-          type: Thaven
+        - !type:MetabolizerTypeCondition
+          type: [ Thaven ]
         factor: 0.1
       - !type:PopupMessage # for apids. they're bees, they get calm if you smoke 'em
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
           reagent: Water
           min: 0.5
-        - !type:OrganType
-          type: Apid
+        - !type:MetabolizerTypeCondition
+          type: [ Apid ]
         type: Local
         visualType: Medium
         messages: [ "effect-sleepy" ]
         probability: 0.1
-      - !type:MovespeedModifier
+      - !type:MovementSpeedModifier
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
           reagent: Water
           min: 1
-        - !type:OrganType
-          type: Apid
+        - !type:MetabolizerTypeCondition
+          type: [ Apid ]
         walkSpeedModifier: 0.65
         sprintSpeedModifier: 0.65
       - !type:GenericStatusEffect
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
           reagent: Water
           min: 1.8
-        - !type:OrganType
-          type: Apid
+        - !type:MetabolizerTypeCondition
+          type: [ Apid ]
         key: ForcedSleep
         component: ForcedSleeping
         time: 3
@@ -623,9 +619,8 @@
       effects:
       - !type:HealthChange
         conditions:
-        - !type:OrganType
-          type: Snail
-          shouldHave: true
+        - !type:MetabolizerTypeCondition
+          type: [ Snail ]
         damage:
           types:
             Poison: 4

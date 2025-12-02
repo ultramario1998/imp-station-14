@@ -98,7 +98,8 @@
         minScale: 5
       - !type:ActivateArtifact #IMP
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Artifexium
           min: 5
 
 - type: reagent

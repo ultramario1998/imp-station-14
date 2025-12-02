@@ -1210,7 +1210,7 @@
       # imp edit start
       - !type:AdjustReagent
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
           reagent: ForeverWeed
           min: 1
         reagent: ForeverWeed
