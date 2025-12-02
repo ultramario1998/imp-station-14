@@ -15,7 +15,7 @@ using Content.Shared.Random.Helpers;
 using Content.Shared.RatKing;
 using Robust.Shared.Map;
 using Content.Shared.Body.Components; // imp
-using Content.Shared.Damage; // imp
+using Content.Shared.Damage.Components; // imp
 using Content.Shared.SubFloor; // imp
 using Robust.Shared.Containers; // imp
 

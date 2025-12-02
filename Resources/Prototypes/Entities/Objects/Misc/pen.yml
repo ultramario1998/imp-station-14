@@ -26,16 +26,6 @@
         maxDistance: 2
   - type: UseDelay
     delay: 1.5
-  - type: EmbeddableProjectile
-    offset: 0.3,0.0
-    removalTime: 0.0
-  - type: ThrowingAngle
-    angle: 315
-  - type: LandAtCursor
-  - type: DamageOtherOnHit
-    damage:
-      types:
-        Piercing: 1
   - type: Fixtures
     fixtures:
       fix1:
@@ -54,19 +44,25 @@
 
 - type: entity
   parent: Pen
-  id: BasePenFancy
+  id: PenEmbeddable
   abstract: true
   components:
+  - type: EmbeddableProjectile
+    offset: 0.3,0.0
+    removalTime: 0.0
+  - type: ThrowingAngle
+    angle: 315
+  - type: LandAtCursor
   - type: DamageOtherOnHit
     damage:
       types:
-        Piercing: 3 #nothing shows luxury like inflicting injury
+        Piercing: 3
 
 #TODO: I want the luxury pen to write a cool font like Merriweather in the future.
 
 - type: entity
   name: luxury pen
-  parent: BasePenFancy
+  parent: Pen
   id: LuxuryPen
   description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
   components:
@@ -85,14 +81,13 @@
 
 - type: entity
   id: BaseAdvancedPen
-  parent: BasePenFancy
+  parent: PenEmbeddable
   abstract: true
   components:
   - type: Tag
     tags:
     - Write
     - WriteIgnoreStamps
-    - Pickaxe
     - Pen
   - type: MeleeWeapon
     wideAnimationRotation: -45
@@ -159,7 +154,7 @@
 
 - type: entity
   name: captain's fountain pen
-  parent: BasePenFancy
+  parent: PenEmbeddable
   id: PenCap
   description: A luxurious fountain pen for the captain of the station. Perfect for signing death warrants. # imp edit
   components:
@@ -172,7 +167,7 @@
 
 - type: entity
   name: HoP's fountain pen # imp; emphasizing this is an acronym and not for some guy named hop
-  parent: BasePenFancy
+  parent: PenEmbeddable
   id: PenHop
   description: A luxurious fountain pen for the head of personnel of the station. Perfect for signing all those employee safety waivers. # imp edit
   components:
@@ -185,7 +180,7 @@
 
 - type: entity
   name: wizard's magical pen
-  parent: [ BasePenFancy, BaseMagicalContraband ]
+  parent: [ PenEmbeddable, BaseMagicalContraband ]
   id: PenWiz
   description: A luxurious fountain pen. Seems to have a magical crystal eraser.
   components:
