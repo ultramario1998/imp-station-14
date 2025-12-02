@@ -42,6 +42,7 @@ public sealed class SolutionDumpingSystem : EntitySystem
         SubscribeLocalEvent<DrainableSolutionComponent, DragDropDraggedEvent>(OnDrainableDragged);
 
         SubscribeLocalEvent<DumpableSolutionComponent, DrainedTargetEvent>(OnDrainedToDumpableDragged);
+        SubscribeLocalEvent<DumpableSolutionComponent, GetVerbsEvent<Verb>>(AddFillVerb); //imp edit
 
         // We use queries for these since CanDropDraggedEvent gets called pretty rapidly
         _dumpQuery = GetEntityQuery<DumpableSolutionComponent>();
@@ -149,6 +150,35 @@ public sealed class SolutionDumpingSystem : EntitySystem
         return !_openable.IsClosed(sourceContainer, user, predicted: true)
                && !_openable.IsClosed(targetContainer, user, predicted: true);
     }
+
+    // imp addition start
+    // adds a verb to entities with the DumpableSolution component to allow a player to dump a solution into the entity without needing to click-and-drag
+    // mostly copied from DrainSystem
+    private void AddFillVerb(Entity<DumpableSolutionComponent> entity, ref GetVerbsEvent<Verb> args)
+    {
+        if (!args.CanAccess || !args.CanInteract || args.Using == null)
+            return;
+
+        if (!TryComp(args.Using, out SpillableComponent? spillable) ||
+            !TryComp(args.Target, out DumpableSolutionComponent? dumpable))
+            return;
+
+        var used = args.Using.Value;
+        var user = args.User;
+        var target = args.Target;
+        Verb verb = new()
+        {
+            Text = Loc.GetString("dumpablesolution-component-fill-verb-inhand", ("object", Name(used))),
+            Act = () =>
+            {
+                var fill = new DragDropDraggedEvent(user, target);
+                RaiseLocalEvent(used, ref fill);
+            },
+            Icon = new SpriteSpecifier.Texture(new ResPath("/Textures/Interface/VerbIcons/eject.svg.192dpi.png"))
+        };
+        args.Verbs.Add(verb);
+    }
+    // end imp addition
 }
 
 /// <summary>
