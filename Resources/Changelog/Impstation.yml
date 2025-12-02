@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: maenyas, mqole, rainyatrium, LankLTE, ZigTag
-  changes:
-  - message: sheep can dream of robot. New synthetic trait!
-    type: Add
-  - message: two new drinks made with synthblood!
-    type: Add
-  id: 1958
-  time: '2025-07-01T15:23:05.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2903
 - author: TheLuggage05
   changes:
   - message: Moved the service request computer board to the HD locker, where it belongs.
@@ -4167,3 +4158,15 @@
   id: 2457
   time: '2025-12-01T22:57:31.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3736
+- author: Spung22
+  changes:
+  - message: Listening Post Operatives no longer have a species accent.
+    type: Tweak
+  - message: The Listening Post has received an upgrade! Including an intercomm and
+      document printer, as well as some extra goodies! See the full PR for details.
+    type: Tweak
+  - message: The Listening Post PDA is no longer an error.
+    type: Fix
+  id: 2458
+  time: '2025-12-02T02:21:40.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3699
