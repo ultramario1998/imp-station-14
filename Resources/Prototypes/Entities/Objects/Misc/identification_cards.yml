@@ -1103,9 +1103,9 @@
     - state: centcom
       sprite: &imp-card-rsi _Impstation/Objects/Misc/id_cards.rsi #imp
     - state: stripe_top
-      color: &color-centcomm-top "#134975"
+      color: &color-centcomm-top "#00a85b" #imp edit, greened
     - state: stripe_bottom
-      color: &color-centcomm-bottom "#0d304d"
+      color: &color-centcomm-bottom "#006c2e" #imp edit, greened
     - sprite: &imp-icon-rsi _Impstation/Interface/Misc/job_icons.rsi #imp
       offset: *icon-offset
       state: Nanotrasen
@@ -1262,10 +1262,10 @@
     layers:
     - state: deathsquad #imp
       sprite: *imp-card-rsi #imp
-    - state: stripe_top
-      color: *color-centcomm-top
-    - state: stripe_bottom
-      color: *color-centcomm-bottom
+    #- state: stripe_top #imp edit, use base color from deathsquad state
+    #  color: *color-centcomm-top
+    #- state: stripe_bottom
+    #  color: *color-centcomm-bottom
     - sprite: *imp-icon-rsi #imp
       offset: *icon-offset
       state: DeathSquad

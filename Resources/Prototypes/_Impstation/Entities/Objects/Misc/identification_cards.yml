@@ -36,7 +36,7 @@
       color: &color-science-top "#a53aaa"
     - state: stripe_bottom
       color: &color-science-bottom "#652368"
-    - sprite: *imp-icon-rsi
+    - sprite: &icon-rsi Interface/Misc/job_icons.rsi
       offset: *icon-offset
       state: Roboticist
   - type: IdCard
@@ -97,7 +97,7 @@
       color: *color-supply-top
     - state: stripe_bottom
       color: *color-supply-bottom
-    - sprite: &icon-rsi Interface/Misc/job_icons.rsi
+    - sprite: *icon-rsi
       offset: *icon-offset
       state: CargoTechnician
   - type: PresetIdCard
