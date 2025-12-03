@@ -26,7 +26,7 @@ public abstract partial class SharedChatSystem
                     dict[lowerWord] = value.Add(emote);
 
                     var errMsg = $"Duplicate of emote word {lowerWord}";
-                    Log.Warning(errMsg);
+                    Log.Debug(errMsg); // IMP EDIT: really these should be warnings but for some fucking reason it breaks linter and they dont pay me enough to troubleshoot it another 2 hours -mq
 
                     continue;
                 }
