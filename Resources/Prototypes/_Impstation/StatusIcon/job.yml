@@ -19,7 +19,7 @@
   id: JobIconDeathsquad
   icon:
     sprite: *icon-rsi-imp
-    state: Deathsquad
+    state: DeathSquad
   jobName: job-name-deathsquad
 
 - type: jobIcon
