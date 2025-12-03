@@ -49,11 +49,8 @@
   id: HitscanDisabler
   categories: [ HideSpawnMenu ]
   components:
-  - type: HitscanBasicDamage
+  - type: HitscanStaminaDamage
     staminaDamage: 30
-    damage:
-      types:
-        Heat: 0
   - type: HitscanBasicVisuals
     muzzleFlash:
       sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi

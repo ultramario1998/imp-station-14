@@ -1178,9 +1178,8 @@
   metabolisms: #imp
     Narcotic:
       effects:
-      - !type:GenericStatusEffect
-        key: SeeingRainbows
-        component: SeeingRainbows
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectSeeingRainbow
         type: Add
         time: 3
         refresh: false

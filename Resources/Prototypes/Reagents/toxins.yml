@@ -482,7 +482,7 @@
           conditions: #imp
           - !type:TagCondition
             tag: BROS
-            invert: true
+            inverted: true
           damage:
             types:
               Poison: 2

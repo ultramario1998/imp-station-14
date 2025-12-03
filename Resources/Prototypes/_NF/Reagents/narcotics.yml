@@ -15,9 +15,8 @@
     Narcotic:
       effects:
       # Effects for goblins
-      - !type:GenericStatusEffect
-        key: SeeingRainbows
-        component: SeeingRainbows
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectSeeingRainbow
         type: Add
         time: 15
         conditions:

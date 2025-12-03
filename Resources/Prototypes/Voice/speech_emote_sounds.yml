@@ -299,7 +299,7 @@
     Click:
       path: /Audio/Voice/Vox/vox_click.ogg
     Chitter:
-      path: VoxChitter #imp edit
+      collection: VoxChitter #imp edit
       params: #imp edit
         volume: -5
     Honk:

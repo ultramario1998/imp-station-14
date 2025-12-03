@@ -17,9 +17,8 @@
           max: 5
         reagent: ForeverWeed
         amount: 1
-      - !type:GenericStatusEffect
-        key: SeeingRainbows
-        component: SeeingRainbows
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectSeeingRainbow
         type: Add
         time: 1
         refresh: false

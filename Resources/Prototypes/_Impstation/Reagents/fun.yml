@@ -32,7 +32,7 @@
             Blunt: 1
         conditions:
         - !type:TagCondition
-          invert: true
+          inverted: true
           tag: BROS
 
 - type: reagent

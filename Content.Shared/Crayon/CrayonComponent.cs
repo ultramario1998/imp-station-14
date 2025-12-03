@@ -40,6 +40,13 @@ public sealed partial class CrayonComponent : Component
     /// </summary>
     [DataField, AutoNetworkedField]
     public bool DeleteEmpty = true;
+
+    // imp add
+    /// <summary>
+    ///     Does this crayon have infinite charges?
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public bool Infinite;
 }
 
 /// <summary>
