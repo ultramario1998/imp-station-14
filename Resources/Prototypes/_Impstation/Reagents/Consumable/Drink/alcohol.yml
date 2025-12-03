@@ -79,10 +79,9 @@
     Narcotic:
       effects:
       - !type:ModifyStatusEffect
-        key: StatusEffectSeeingRainbow
+        effectProto: StatusEffectSeeingRainbow
         type: Add
         time: 5
-        refresh: false
     Medicine:
       effects:
       - !type:HealthChange
@@ -818,7 +817,6 @@
         effectProto: StatusEffectSeeingRainbow
         type: Add
         time: 4
-        refresh: false
       - !type:PopupMessage
         type: Local
         visualType: Medium
@@ -863,7 +861,6 @@
         effectProto: StatusEffectSeeingRainbow
         type: Add
         time: 5
-        refresh: false
   fizziness: 0.1
 
 - type: reagent

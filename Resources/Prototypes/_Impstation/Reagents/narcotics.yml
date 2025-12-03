@@ -21,7 +21,6 @@
         effectProto: StatusEffectSeeingRainbow
         type: Add
         time: 1
-        refresh: false
       - !type:PopupMessage
         type: Local
         messages:

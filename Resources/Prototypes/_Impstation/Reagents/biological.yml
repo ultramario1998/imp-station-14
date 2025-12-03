@@ -149,7 +149,6 @@
         effectProto: StatusEffectSeeingRainbow
         type: Add
         time: 5
-        refresh: false
   plantMetabolism:
     - !type:PlantAdjustToxins
       amount: 2

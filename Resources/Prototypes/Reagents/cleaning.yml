@@ -107,12 +107,12 @@
         key: PGAccent
         component: PGAccent
       #imp edit start TODO: add a soapy water reagent that has this effect and remove this from soap
-    tileReactions:
-    - !type:CleanTileReaction
-      cleanCost: .5 #cleans reagents in puddles at a 1:2 ratio, 1/2 as efficient as space cleaner
-    - !type:CleanDecalsReaction
-      cleanCost: .5 #1/2 the efficiency of space cleaner, still cleans 10 decals with one spray bottle spray
-    #imp edit end
+  tileReactions:
+  - !type:CleanTileReaction
+    cleanCost: .5 #cleans reagents in puddles at a 1:2 ratio, 1/2 as efficient as space cleaner
+  - !type:CleanDecalsReaction
+    cleanCost: .5 #1/2 the efficiency of space cleaner, still cleans 10 decals with one spray bottle spray
+  #imp edit end
 
 - type: reagent
   id: SpaceLube
@@ -148,7 +148,7 @@
     Acidic:
       methods: [ Touch ]
       effects:
-      # pva glue? no, antibiotic glue for sealing wounds
+      # pva glue? no, atileRentibiotic glue for sealing wounds
       - !type:ModifyBleed
         amount: -1.5
   metabolisms:

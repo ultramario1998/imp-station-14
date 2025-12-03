@@ -121,7 +121,6 @@
         component: Feminized
         type: Add
         time: 2
-        refresh: false
 
 - type: reagent
   id: Testosterone
@@ -142,7 +141,6 @@
         component: Masculinized
         type: Add
         time: 2
-        refresh: false
 
 - type: reagent
   id: Holium

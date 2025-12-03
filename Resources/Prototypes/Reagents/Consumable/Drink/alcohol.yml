@@ -1182,7 +1182,6 @@
         effectProto: StatusEffectSeeingRainbow
         type: Add
         time: 3
-        refresh: false
 
 - type: reagent
   id: Hooch
