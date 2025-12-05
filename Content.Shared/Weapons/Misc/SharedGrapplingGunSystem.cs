@@ -274,7 +274,7 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
         // Setting velocity directly for mob movement fucks this so need to make them aware of it.
         // joint.Breakpoint = 4000f;
 
-        _popup.PopupEntity(Loc.GetString("grapple-hit"), args.Weapon); // IMP
+        _popup.PopupEntity(Loc.GetString("grapple-hit"), args.Weapon.Value); // IMP
 
         Dirty(uid, jointComp);
     }
