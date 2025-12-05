@@ -8,13 +8,10 @@
     state: icon
   - type: Item
     size: Normal
-    sprite: _Impstation/Objects/Tanks/generic.rsi
-  - type: Tag
-    tags:
-    - GasTank
+    sprite: _Impstation/Objects/Tanks/generic.rsi # imp
   - type: Clothing
     quickEquip: false
-    sprite: _Impstation/Objects/Tanks/generic.rsi
+    sprite: _Impstation/Objects/Tanks/generic.rsi # imp
     slots:
     - Back
     - suitStorage
@@ -100,13 +97,14 @@
     sprite: _Impstation/Objects/Tanks/oxygen_emergency.rsi #imp
   - type: Item
     size: Small
-    sprite: _Impstation/Objects/Tanks/oxygen_emergency.rsi
+    sprite: _Impstation/Objects/Tanks/oxygen_emergency.rsi # imp
+    storedRotation: -45
   - type: GasTank
     air:
       volume: 0.66
       temperature: 293.15
   - type: Clothing
-    sprite: _Impstation/Objects/Tanks/oxygen_emergency.rsi
+    sprite: _Impstation/Objects/Tanks/oxygen_emergency.rsi # imp
     slots:
     - Pocket
     - Belt
