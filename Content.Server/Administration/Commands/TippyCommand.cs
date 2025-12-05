@@ -4,6 +4,7 @@ using Robust.Server.Player;
 using Robust.Shared.Console;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
+using Content.Shared.Ghost; // imp
 
 namespace Content.Server.Administration.Commands;
 
@@ -25,7 +26,19 @@ public sealed class TippyCommand : LocalizedEntityCommands
         }
 
         ICommonSession? targetSession = null;
-        if (args[0] != "all")
+        // imp start: tippy adjustments
+        HashSet<ICommonSession> ghostSessions = [];
+        if (args[0] == "ghosts")
+        {
+            var query = new EntityQueryEnumerator<GhostComponent, ActorComponent>();
+            while (query.MoveNext(out var ent, out _, out _))
+            {
+                if (_player.TryGetSessionByEntity(ent, out var session))
+                    ghostSessions.Add(session);
+            }
+        }
+        // imp end
+        else if (args[0] != "all") // imp else
         {
             if (!_player.TryGetSessionByUsername(args[0], out targetSession))
             {
@@ -63,7 +76,14 @@ public sealed class TippyCommand : LocalizedEntityCommands
         if (args.Length > 5 && float.TryParse(args[5], out var parsedWaddleInterval))
             waddleInterval = parsedWaddleInterval;
 
-        if (targetSession != null) // send to specified player
+        // imp add start
+        if (ghostSessions.Count > 0)
+        {
+            foreach (var session in ghostSessions)
+                _tips.SendTippy(session, msg, prototype, speakTime, slideTime, waddleInterval);
+        }
+        // imp end
+        else if (targetSession != null) // send to specified player // imp else
             _tips.SendTippy(targetSession, msg, prototype, speakTime, slideTime, waddleInterval);
         else // send to everyone
             _tips.SendTippy(msg, prototype, speakTime, slideTime, waddleInterval);

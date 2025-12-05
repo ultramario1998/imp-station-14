@@ -4,10 +4,14 @@
   id: GrenadeBase
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/grenade.rsi
-    layers:
+    sprite: _Impstation/Objects/Weapons/Grenades/grenade.rsi #imp
+    layers: #imp - changed the way layers work so that the unshaded primed layer will work.
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]
+    - state: primed-unshaded # imp add
+      shader: unshaded
+      visible: false
+      map: ["triggerlight"]
   - type: Item
     size: Small
   - type: Clothing
@@ -34,6 +38,9 @@
         enum.ConstructionVisuals.Layer:
           Primed: { state: primed }
           Unprimed: { state: icon }
+        triggerlight: # imp
+          Primed: { visible: true }
+          Unprimed: { visible: false }
   - type: Tag
     tags:
     - HandGrenade

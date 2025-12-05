@@ -5,7 +5,7 @@
   description: A tactical grenade that releases a large, long-lasting cloud of smoke when used.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/smoke.rsi
+    sprite: _Impstation/Objects/Weapons/Grenades/smoke.rsi #imp
   - type: SmokeOnTrigger
     keysIn:
     - timer
@@ -14,7 +14,7 @@
   - type: EmitSoundOnTrigger
     keysIn:
     - timer
-    sound: /Audio/Items/smoke_grenade_smoke.ogg
+    sound: /Audio/Effects/smoke.ogg #imp
     positional: true
   - type: DeleteOnTrigger
     keysIn:
@@ -24,13 +24,13 @@
       path: /Audio/Items/smoke_grenade_prime.ogg
 
 - type: entity
-  parent: [ BaseCivilianContraband, SmokeGrenade ]
+  parent: [ BaseServiceContraband, SmokeGrenade ] #imp edit
   id: CleanerGrenade
   name: cleanade
-  description: Special grenade for janitors, releasing large cloud of space cleaner foam.
+  description: A special grenade for janitors, releasing large cloud of space cleaner foam. #imp
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/janitor.rsi
+    sprite: _Impstation/Objects/Weapons/Grenades/janitor.rsi #imp
   - type: SmokeOnTrigger
     keysIn:
     - timer
@@ -41,19 +41,32 @@
       reagents:
       - ReagentId: SpaceCleaner
         Quantity: 30
+  # imp edit start
+  - type: EmitSoundOnTrigger
+    keysIn:
+    - timer
+    sound: /Audio/Items/smoke_grenade_smoke.ogg
+  - type: Tag
+    tags:
+    - CleanerGrenade
+    - Grenade
+  - type: CartridgeAmmo
+    proto: BulletGrenadeCleaner
+    deleteOnSpawn: true
+  # imp edit end
 
 - type: entity
   parent: SmokeGrenade
   id: TearGasGrenade
   name: tear gas grenade
-  description: A riot control tear gas grenade. Causes irritation, pain and makes you cry your eyes out.
+  description: A chemical irritant grenade intended for riot control. Makes you cry your eyes out and cough your lungs out. #imp
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/tear_gas.rsi
+    sprite: _Impstation/Objects/Weapons/Grenades/tear_gas.rsi #imp
   - type: SmokeOnTrigger
     keysIn:
     - timer
-    duration: 10
+    duration: 15 #imp
     spreadAmount: 30
     smokePrototype: TearGasSmokeWhite
     solution:
@@ -68,14 +81,18 @@
   description: An emergency tool used for patching hull breaches with special quick-set metal foam. Almost as good as real floors!
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/metalfoam.rsi
+    sprite: _Impstation/Objects/Weapons/Grenades/metalfoam.rsi #imp
   - type: TimerTrigger
     delay: 5
+  - type: EmitSoundOnTrigger #imp
+    keysIn:
+    - timer
+    sound: /Audio/Items/smoke_grenade_smoke.ogg
   - type: SmokeOnTrigger
     keysIn:
     - timer
-    duration: 10
-    spreadAmount: 20
+    duration: 2 # imp 10 -> 2
+    spreadAmount: 5 #imp 20 ->5
     smokePrototype: AluminiumMetalFoam
   - type: StaticPrice
     price: 350
@@ -87,7 +104,7 @@
   description: A special solid state chemical grenade used for quickly releasing standard air into a spaced area. Fills up to 30 tiles!
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/airboom.rsi
+    sprite: _Impstation/Objects/Weapons/Grenades/airboom.rsi #imp
   - type: EmitSoundOnTrigger
     keysIn:
     - timer
@@ -115,3 +132,11 @@
         enabled:
           True: { state: active }
           False: { state: spent }
+      enum.Trigger.TriggerVisuals.VisualState: #imp everything in this little category
+        enum.ConstructionVisuals.Layer:
+          Primed: { state: primed }
+          Unprimed: { state: icon }
+        triggerlight:
+          Primed: { visible: true }
+          Unprimed: { visible: false }
+

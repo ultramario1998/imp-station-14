@@ -352,7 +352,7 @@
       requirement:
         !type:DepartmentTimeRequirement
         department: Security
-        time: 100h
+        time: 90h # imp, was 100h
   storage:
     back:
     - Dinkystar
