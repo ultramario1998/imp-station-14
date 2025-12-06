@@ -2,6 +2,7 @@
   id: MothershipCore
   name: roles-antag-mothership-core-name
   antagonist: true
+  playTimeTracker: AntagMothershipCore # imp
   setPreference: true
   objective: roles-antag-mothership-core-objective
   requirements:
@@ -14,6 +15,7 @@
   id: Xenoborg
   name: roles-antag-xenoborg-name
   antagonist: true
+  playTimeTracker: AntagXenoborg # imp
   setPreference: true
   objective: roles-antag-xenoborg-objective
   requirements:
