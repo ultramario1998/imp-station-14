@@ -20,7 +20,7 @@
   id: AntiqueDisablerStealObjective
   components:
   - type: NotJobRequirement
-    jobs: HeadOfPersonnel
+    jobs: [ HeadOfPersonnel ]
   - type: StealCondition
     stealGroup: AntiqueDisabler
     descriptionText: objective-condition-steal-antiquedisabler-description
