@@ -482,7 +482,7 @@
   id: BingusStealObjective
   components:
   - type: NotJobRequirement #imp edit
-    job: [MedicalDoctor, Paramedic, Chemist ] # imp edit
+    jobs: [MedicalDoctor, Paramedic, Chemist ] # imp edit
   - type: StealCondition
     stealGroup: AnimalNamedCat
     verifyMapExistence: true # imp - because sometimes the cat is finfin
@@ -516,7 +516,7 @@
   id: MortyStealObjective
   components:
   - type: NotJobRequirement #imp edit
-    job: [MedicalDoctor, Paramedic, Chemist, Chaplain ] # imp edit
+    jobs: [MedicalDoctor, Paramedic, Chemist, Chaplain ] # imp edit
   - type: StealCondition
     stealGroup: AnimalMorty
   - type: Objective

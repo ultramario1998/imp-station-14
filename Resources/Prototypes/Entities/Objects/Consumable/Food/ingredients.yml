@@ -624,7 +624,6 @@
           Quantity: 10
   - type: Tag # imp - humans shouldnt be eating moth food
     tags:
-    - Ingredient
     - ClothMade
 
 - type: entity
@@ -703,7 +702,6 @@
     grindableSolutionName: food
   - type: Tag # Frontier
     tags:
-    - Ingredient
     - NFButterStick
     - UnguFood # imp
 
@@ -984,7 +982,6 @@
         Quantity: 2
   - type: Tag # imp
     tags:
-      - Ingredient
       - Fruit
 
 - type: entity
@@ -1039,5 +1036,4 @@
           Quantity: 3.33
   - type: Tag # imp - humans shouldnt be eating moth food
     tags:
-    - Ingredient
     - ClothMade

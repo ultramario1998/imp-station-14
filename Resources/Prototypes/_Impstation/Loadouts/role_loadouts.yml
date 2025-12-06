@@ -16,7 +16,7 @@
 # Special
 # GroupSpeciesBreathTool
 # GroupTankHarness
-# Weapon 
+# Weapon
 # Ammo
 
 # Cargo
@@ -53,7 +53,7 @@
   - SecurityEyewear
   - SurvivalBrigmedic
   - Trinkets
-  - SecurityStar
+  - SecStar
   - GroupSpeciesBreathToolMedSec
   - GroupBreathToolDecapoid
   - GroupTankHarnessWithOuterwear
