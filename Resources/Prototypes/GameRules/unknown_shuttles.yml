@@ -133,7 +133,7 @@
   - type: StationEvent
     startAnnouncement: true #!!
   - type: LoadMapRule
-  path: /Maps/_Impstation/Shuttles/ShuttleEvent/cryptid.yml # imp
+    gridPath: /Maps/_Impstation/Shuttles/ShuttleEvent/cryptid.yml # imp
 
 - type: entity
   id: UnknownShuttleEternal
@@ -203,7 +203,7 @@
     weight: 5 #imp
     minimumPlayers: 15 #imp
   - type: LoadMapRule
-  path: /Maps/_Impstation/Shuttles/ShuttleEvent/lambordeere.yml #imp
+    gridPath: /Maps/_Impstation/Shuttles/ShuttleEvent/lambordeere.yml #imp
 
 - type: entity
   id: UnknownShuttleManOWar
