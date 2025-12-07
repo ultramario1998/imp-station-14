@@ -462,6 +462,7 @@
             Heat: 3
 # imp edits start, vapour breathers
       - !type:Oxygenate
+        scaling: true
         conditions:
         - !type:MetabolizerTypeCondition
           type: [ Decapoid, Thaven ] # thaven can breathe all gases safely
