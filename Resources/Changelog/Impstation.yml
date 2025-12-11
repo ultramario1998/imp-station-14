@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: DinnerCalzone
-  changes:
-  - message: Tck'Tck along with a number of other entities' toggleable lights should
-      work now.
-    type: Fix
-  id: 1976
-  time: '2025-07-05T14:29:17.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2958
 - author: CrystalClover
   changes:
   - message: Immovable Baguettes can now spawn naturally.
@@ -4170,3 +4162,10 @@
   id: 2475
   time: '2025-12-10T18:08:30.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3762
+- author: coyragon96
+  changes:
+  - message: The ninja's power drain now drains the correct amount of power.
+    type: Fix
+  id: 2476
+  time: '2025-12-11T01:45:10.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3788
