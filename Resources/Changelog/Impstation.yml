@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: CrystalClover
-  changes:
-  - message: Immovable Baguettes can now spawn naturally.
-    type: Fix
-  id: 1977
-  time: '2025-07-05T14:41:47.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2989
 - author: mqole
   changes:
   - message: Snail shells now layer properly.
@@ -4169,3 +4162,12 @@
   id: 2476
   time: '2025-12-11T01:45:10.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3788
+- author: hivehum
+  changes:
+  - message: Nanotrasen is pleased to announce that trade negotiations regarding its
+      supplier of matter bins and capacitors have completed, and new shipments have
+      arrived at all stations.
+    type: Add
+  id: 2477
+  time: '2025-12-11T04:57:13.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3777
