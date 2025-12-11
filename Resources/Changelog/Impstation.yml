@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: SixValentine
-  changes:
-  - message: Luna and Hash are getting a little more green access. Abuse them, see
-      what happens.
-    type: Tweak
-  id: 1979
-  time: '2025-07-06T04:56:20.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2995
-- author: TheLuggage05
-  changes:
-  - message: Radio jammers cost 2 TC in the uplink now!
-    type: Tweak
-  id: 1980
-  time: '2025-07-06T04:57:11.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2996
 - author: britno
   changes:
   - message: Gave the zookeeper a toolbelt they were meant to have ages ago. Whoops!
@@ -4171,3 +4156,18 @@
   id: 2478
   time: '2025-12-11T05:28:46.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3840
+- author: yesteryuri
+  changes:
+  - message: Doughs and cheese and such have a page in the cooking recipes now
+    type: Add
+  id: 2479
+  time: '2025-12-11T05:36:45.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3768
+- author: kipdotnet
+  changes:
+  - message: Ephedrine and Desoxyephedrine now cause you to heat up and gain thirst
+      from prolonged use.
+    type: Tweak
+  id: 2480
+  time: '2025-12-11T05:37:08.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3745
