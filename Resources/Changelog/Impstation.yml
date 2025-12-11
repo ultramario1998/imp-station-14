@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: britno
-  changes:
-  - message: Gave the zookeeper a toolbelt they were meant to have ages ago. Whoops!
-    type: Fix
-  id: 1981
-  time: '2025-07-06T04:58:34.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2991
 - author: hivehum
   changes:
   - message: 'Calling all besties: KILL!!!!!!!!!!!!!!!!!!!!!!! (you may now be ordered
@@ -4171,3 +4164,11 @@
   id: 2480
   time: '2025-12-11T05:37:08.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3745
+- author: mqole
+  changes:
+  - message: Hospitality Directors now have access to the Service Job Board! Coordinate
+      an event for your crew, and keep morale high.
+    type: Add
+  id: 2481
+  time: '2025-12-11T18:17:44.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3377
