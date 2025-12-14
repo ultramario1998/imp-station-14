@@ -60,9 +60,6 @@
   - type: DnaSubstanceTrace
   # imp edit start
   - type: DamageOtherOnHit
-    damage:
-      types:
-        Blunt: 6
     staminaCost: 8
   # imp edit end
 
@@ -103,9 +100,6 @@
         - MopAdv
     # imp edit start
     - type: DamageOtherOnHit
-      damage:
-        types:
-          Blunt: 6
       staminaCost: 8
     # imp edit end
 

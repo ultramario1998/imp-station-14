@@ -14,8 +14,8 @@ using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
-using Content.Shared.Damage.Components; // imp
-using Content.Shared.Damage.Systems; // imp
+using Content.Shared.Damage.Components; // EE THROWING
+using Content.Shared.Damage.Systems; // EE THROWING
 
 namespace Content.Shared.Throwing;
 
@@ -40,7 +40,7 @@ public sealed class ThrowingSystem : EntitySystem
     [Dependency] private readonly ISharedAdminLogManager _adminLogger = default!;
     [Dependency] private readonly IConfigurationManager _configManager = default!;
     [Dependency] private readonly AnchorableSystem _anchorable = default!;
-    [Dependency] private readonly SharedStaminaSystem _stamina = default!; // imp
+    [Dependency] private readonly SharedStaminaSystem _stamina = default!; // EE THROWING
 
     private EntityQuery<AnchorableComponent> _anchorableQuery;
 
@@ -257,7 +257,7 @@ public sealed class ThrowingSystem : EntitySystem
         if (pushEv.Push)
             _physics.ApplyLinearImpulse(user.Value, -impulseVector / physics.Mass * pushbackRatio * MathF.Min(massLimit, physics.Mass), body: userPhysics);
 
-        if (TryComp<DamageOtherOnHitComponent>(uid, out var damage) && TryComp<StaminaComponent>(user, out var stamina)) // imp
+        if (TryComp<DamageOtherOnHitComponent>(uid, out var damage) && TryComp<StaminaComponent>(user, out var stamina)) // EE THROWING
             _stamina.TakeStaminaDamage(user.Value, damage.StaminaCost, stamina, visual: false);
     }
 

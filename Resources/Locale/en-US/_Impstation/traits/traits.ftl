@@ -53,6 +53,9 @@ trait-basicpirate-accent-desc = You can't stop speaking like a pirate! No involu
 trait-basicfrench-name = French (Basic)
 trait-basicfrench-desc = You speak with the cadence of someone who has cast off their vow of silence, with far fewer word replacements.
 
+trait-russian-name = Russian accent
+trait-russian-desc = Is wonderful day on Space Station 14, da?
+
 trait-basicrussian-name = Russian (Basic)
 trait-basicrussian-desc = You speak with a Russian accent, with far fewer word replacements.
 
