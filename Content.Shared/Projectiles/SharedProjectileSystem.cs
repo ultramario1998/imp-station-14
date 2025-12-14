@@ -260,23 +260,20 @@ public abstract partial class SharedProjectileSystem : EntitySystem
 
     private void OnEmbeddableTermination(Entity<EmbeddedContainerComponent> container, ref EntityTerminatingEvent args)
     {
-        RemoveEmbeddedChildren(container);
+        DetachAllEmbedded(container);
     }
 
-    // TODO: CLEAN THIS UP
-    /// <summary>
-    /// Imp: Unembeds all child entities on a given entity.
-    /// </summary>
-    public void RemoveEmbeddedChildren(EntityUid uid)
+    public void DetachAllEmbedded(Entity<EmbeddedContainerComponent> container)
     {
-        var enumerator = Transform(uid).ChildEnumerator;
-
-        while (enumerator.MoveNext(out var child))
+        foreach (var embedded in container.Comp.EmbeddedObjects)
         {
-            if (TryComp<EmbeddableProjectileComponent>(child, out var embed))
-                EmbedDetach(child, embed);
+            if (!TryComp<EmbeddableProjectileComponent>(embedded, out var embeddedComp))
+                continue;
+
+            EmbedDetach(embedded, embeddedComp);
         }
     }
+
     private void PreventCollision(EntityUid uid, ProjectileComponent component, ref PreventCollideEvent args)
     {
         if (component.IgnoreShooter && (args.OtherEntity == component.Shooter || args.OtherEntity == component.Weapon))
