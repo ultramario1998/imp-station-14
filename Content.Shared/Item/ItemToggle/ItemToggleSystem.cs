@@ -436,7 +436,7 @@ public sealed class ItemToggleSystem : EntitySystem
             {
                 embeddable.EmbedOnThrow = activatedEmbedOnThrow;
 
-                if (embeddable.Target != null && activatedEmbedOnThrow == false)
+                if (embeddable.EmbeddedIntoUid != null && activatedEmbedOnThrow == false)
                     _projectile.EmbedDetach(uid, embeddable);
             }
 
@@ -456,7 +456,7 @@ public sealed class ItemToggleSystem : EntitySystem
             {
                 embeddable.EmbedOnThrow = deactivatedEmbedOnThrow;
 
-                if (embeddable.Target != null && deactivatedEmbedOnThrow == false)
+                if (embeddable.EmbeddedIntoUid != null && deactivatedEmbedOnThrow == false)
                     _projectile.EmbedDetach(uid, embeddable);
             }
 
