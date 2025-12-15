@@ -1101,9 +1101,9 @@
     - proto: BulletLaserMagnum
       fireCost: 175 #imp, was 150
     - proto: BulletBlasterFlare #imp - was BulletLaserWindowPiercingMagnum
-      fireCost: 87.5 #imp, was 150
-    - proto: BulletMagnumDisabler #imp
-      fireCost: 116 #imp, was 62.5
+      fireCost: 116 #imp, was 150
+    - proto: BulletMagnumDisabler #imp- was BulletDisabler
+      fireCost: 175 #imp, was 62.5
       pacifismAllowedMode: true
   - type: BatterySelfRecharger #imp reduced the recharge delay and the recharge rate
     autoRechargeRate: 35 #imp - was 48
