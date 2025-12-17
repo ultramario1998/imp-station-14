@@ -53,6 +53,23 @@ public abstract class SharedTipsSystem : EntitySystem
         float waddleInterval = 0.5f)
     { }
 
+    // IMP ADD
+    /// <summary>
+    /// Send a tippy message to all ghosts.
+    /// </summary>
+    /// <param name="message">The text to show in the speech bubble.</param>
+    /// <param name="prototype">The entity to show. Defaults to tippy.</param>
+    /// <param name="speakTime">The time the speech bubble is shown, in seconds.</param>
+    /// <param name="slideTime">The time the entity takes to walk onto the screen, in seconds.</param>
+    /// <param name="waddleInterval">The time between waddle animation steps, in seconds.</param>
+    public virtual void SendGhostTippy(
+        string message,
+        EntProtoId? prototype = null,
+        float speakTime = 5f,
+        float slideTime = 3f,
+        float waddleInterval = 0.5f)
+    { }
+
     /// <summary>
     /// Send a random tippy message from the dataset given in <see cref="CCVars.TipsDataset"/>.
     /// </summary>

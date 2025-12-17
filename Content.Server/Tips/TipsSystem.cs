@@ -10,6 +10,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Content.Shared.Ghost; // imp
+using Robust.Server.Player; // imp
 
 namespace Content.Server.Tips;
 
@@ -21,6 +22,7 @@ public sealed class TipsSystem : SharedTipsSystem
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly GameTicker _ticker = default!;
+    [Dependency] private readonly IPlayerManager _player = default!; // imp
 
     private bool _tipsEnabled;
     private float _tipTimeOutOfRound;
@@ -110,6 +112,22 @@ public sealed class TipsSystem : SharedTipsSystem
     {
         var ev = new TippyEvent(message, prototype, speakTime, slideTime, waddleInterval);
         RaiseNetworkEvent(ev, session);
+    }
+
+    // IMP ADD
+    public override void SendGhostTippy(
+        string message,
+        EntProtoId? prototype = null,
+        float speakTime = 5f,
+        float slideTime = 3f,
+        float waddleInterval = 0.5f)
+    {
+        var ev = new TippyEvent(message, prototype, speakTime, slideTime, waddleInterval);
+        var query = EntityQueryEnumerator<GhostComponent, ActorComponent>();
+
+        while (query.MoveNext(out var ent, out _, out _))
+            if (_player.TryGetSessionByEntity(ent, out var session))
+                RaiseNetworkEvent(ev, session);
     }
 
     public override void AnnounceRandomTip()
