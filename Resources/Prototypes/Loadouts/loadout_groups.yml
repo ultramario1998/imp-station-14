@@ -1593,6 +1593,9 @@
   - EmergencyNitrogenSecurity
   - EmergencyOxygenSecurity
   - LoadoutSpeciesVoxNitrogen
+  - EmergencyMeatSecurity # imp
+  - EmergencyWheatSecurity # imp
+  - LoadoutSpeciesAquaticFullTank # Imp
 
 # Medical
 - type: loadoutGroup
