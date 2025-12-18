@@ -374,15 +374,13 @@ public sealed class ItemToggleSystem : EntitySystem
         {
             if (args.Activated)
             {
-                var newThrowingAngle = new ThrowingAngleComponent();
+                EnsureComp<ThrowingAngleComponent>(uid, out var newThrowingAngle);
 
                 if (component.ActivatedAngle is { } activatedAngle)
                     newThrowingAngle.Angle = activatedAngle;
 
                 if (component.ActivatedAngularVelocity is { } activatedAngularVelocity)
                     newThrowingAngle.AngularVelocity = activatedAngularVelocity;
-
-                AddComp(uid, newThrowingAngle);
             }
             else
                 RemCompDeferred<ThrowingAngleComponent>(uid);
