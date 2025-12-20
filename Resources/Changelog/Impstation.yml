@@ -1,13 +1,6 @@
 ﻿Entries:
 - author: hivehum
   changes:
-  - message: Thaven mimes get their starting baguette back. No response from the crowd.
-    type: Fix
-  id: 1990
-  time: '2025-07-07T05:34:59.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3010
-- author: hivehum
-  changes:
   - message: Headphones no longer teleport you to a source game.
     type: Fix
   id: 1991
@@ -4160,3 +4153,12 @@
   id: 2489
   time: '2025-12-20T03:26:22.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3855
+- author: VeeNomine
+  changes:
+  - message: Updated the aroace pride scarf's coloring.
+    type: Tweak
+  - message: The uniform printer can once again print the Aeropilot Cloak.
+    type: Fix
+  id: 2490
+  time: '2025-12-20T04:07:48.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3860
