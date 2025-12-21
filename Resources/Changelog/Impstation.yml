@@ -1,48 +1,4 @@
 ﻿Entries:
-- author: Pinkbat5
-  changes:
-  - message: Some species reach middle-age and old age earlier or later in life.
-    type: Tweak
-  - message: Especially old characters now appear as "ancient" instead of "old."
-    type: Add
-  id: 1987
-  time: '2025-07-06T18:14:43.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2902
-- author: youtubevideo3
-  changes:
-  - message: 'Medical Procedure: My Horses Have Been Unsquashed (My Horses Were Squashed)'
-    type: Tweak
-  id: 1988
-  time: '2025-07-07T04:37:44.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3017
-- author: CrocodileCarousel & Pinkbat5
-  changes:
-  - message: The lobby playtime text now has a little more personality.
-    type: Tweak
-  id: 1989
-  time: '2025-07-07T05:32:19.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3015
-- author: hivehum
-  changes:
-  - message: Thaven mimes get their starting baguette back. No response from the crowd.
-    type: Fix
-  id: 1990
-  time: '2025-07-07T05:34:59.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3010
-- author: hivehum
-  changes:
-  - message: Headphones no longer teleport you to a source game.
-    type: Fix
-  id: 1991
-  time: '2025-07-07T05:36:46.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3004
-- author: VeeNomine
-  changes:
-  - message: Added a new prestige item, the Librarian's Space Dress.
-    type: Add
-  id: 1992
-  time: '2025-07-07T05:38:36.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3006
 - author: hivehum
   changes:
   - message: Bark like a dog. your below me moron
@@ -4162,3 +4118,49 @@
   id: 2486
   time: '2025-12-18T07:20:24.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3868
+- author: honeyed-lemons
+  changes:
+  - message: A portable incubator has been added to the "Meat Manipulation" Research
+    type: Add
+  id: 2487
+  time: '2025-12-19T02:04:21.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3295
+- author: ATDoop
+  changes:
+  - message: Anomalocarids have even more custom clothes sprites!
+    type: Add
+  id: 2488
+  time: '2025-12-19T06:36:42.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3831
+- author: mqole
+  changes:
+  - message: Decapoids, apids, and monkeys can wield items again.
+    type: Fix
+  id: 2489
+  time: '2025-12-20T03:26:22.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3855
+- author: VeeNomine
+  changes:
+  - message: Updated the aroace pride scarf's coloring.
+    type: Tweak
+  - message: The uniform printer can once again print the Aeropilot Cloak.
+    type: Fix
+  id: 2490
+  time: '2025-12-20T04:07:48.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3860
+- author: lobsterpaw
+  changes:
+  - message: The revolutionary encryption key box is now cleverly disguised.
+    type: Tweak
+  id: 2491
+  time: '2025-12-21T02:08:39.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3874
+- author: honeyed-lemons
+  changes:
+  - message: Puddles are back to being bigger (but not as deep!)
+    type: Tweak
+  - message: Advanced Mops are more Advanced
+    type: Tweak
+  id: 2492
+  time: '2025-12-21T02:12:17.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3846
