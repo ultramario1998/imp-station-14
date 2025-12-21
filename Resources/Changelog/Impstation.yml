@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: hivehum
-  changes:
-  - message: Bark like a dog. your below me moron
-    type: Tweak
-  id: 1993
-  time: '2025-07-07T05:44:04.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3009
 - author: eviltori
   changes:
   - message: elite syndicate spies are now fucking around in your maintenance tunnels.
@@ -4164,3 +4157,10 @@
   id: 2492
   time: '2025-12-21T02:12:17.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3846
+- author: TheGrimbeeper
+  changes:
+  - message: Changelings no longer out themselves by buying flash immunity.
+    type: Fix
+  id: 2493
+  time: '2025-12-21T02:49:42.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3847
