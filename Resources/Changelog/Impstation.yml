@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Pinkbat5
-  changes:
-  - message: Tweaked health examine text to be a little clearer.
-    type: Tweak
-  id: 1999
-  time: '2025-07-07T14:48:03.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3016
 - author: msTheowo
   changes:
   - message: Some of CentComm's interns have been conscripted.
@@ -4168,3 +4161,10 @@
   id: 2498
   time: '2025-12-26T09:17:37.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3803
+- author: msTheowo
+  changes:
+  - message: Soap can now be used to clean decals, including floor grime.
+    type: Add
+  id: 2499
+  time: '2025-12-26T09:21:06.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3667
