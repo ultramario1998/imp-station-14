@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: jtfg-dev
-  changes:
-  - message: Paradox clones will now sometimes (randomly) yearn to keep their other
-      selves alive, rather than murder them badly.
-    type: Add
-  id: 2001
-  time: '2025-07-08T05:50:07.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2963
 - author: FlippenPage
   changes:
   - message: Ratvarian Trait and Syndicate Cyborgs now have new typing indicators.
@@ -4169,3 +4161,11 @@
   id: 2500
   time: '2025-12-28T11:08:03.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3822
+- author: 12rabbits
+  changes:
+  - message: The cash rewards for certain Salvage bounties have been dramatically
+      reduced.
+    type: Tweak
+  id: 2501
+  time: '2025-12-28T12:06:38.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3786
