@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: DinnerCalzone
-  changes:
-  - message: Toolboxes have been resprited!
-    type: Add
-  id: 2014
-  time: '2025-07-11T16:56:08.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3037
 - author: msTheowo
   changes:
   - message: Mice have learned how to reproduce.
@@ -4167,3 +4160,11 @@
   id: 2513
   time: '2026-01-01T10:31:03.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3877
+- author: HAPPYNEWYEAR1999
+  changes:
+  - message: Adds Pom Poms, a rare creature from Planet Teo said to only appear during
+      new moons...
+    type: Add
+  id: 2514
+  time: '2026-01-01T18:57:56.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3826
