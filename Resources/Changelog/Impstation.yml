@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: DVDPlayerOfDiscordFame
-  changes:
-  - message: The Anaconda now hurts your wrist regardless of what you're wearing.
-      Be careful!
-    type: Tweak
-  id: 2017
-  time: '2025-07-12T03:55:25.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3064
 - author: Pinkbat5
   changes:
   - message: Beer goggles now protect you from flashes!
@@ -4168,3 +4160,10 @@
   id: 2516
   time: '2026-01-01T23:51:47.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3905
+- author: ATDoop
+  changes:
+  - message: Ants.
+    type: Add
+  id: 2517
+  time: '2026-01-02T02:40:36.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3897
