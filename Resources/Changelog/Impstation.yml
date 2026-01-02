@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Stonylogray
-  changes:
-  - message: Free agent ghost role text edited for clarification.
-    type: Tweak
-  id: 2021
-  time: '2025-07-23T10:29:32.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3148
 - author: astral_amy
   changes:
   - message: A third round of Whisper changes - details in PR.
@@ -4168,3 +4161,14 @@
   id: 2520
   time: '2026-01-02T07:10:46.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3912
+- author: honeyed-lemons
+  changes:
+  - message: Shrimp spit louder.
+    type: Fix
+  - message: Shrimp say some words kinda funny.
+    type: Add
+  - message: Shrimp shake and think things when they get too hot.
+    type: Tweak
+  id: 2521
+  time: '2026-01-02T21:22:38.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3823
