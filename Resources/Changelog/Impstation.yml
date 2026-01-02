@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: hivehum
-  changes:
-  - message: Removed several music tracks, mostly Clair de Lune.
-    type: Remove
-  id: 2019
-  time: '2025-07-12T04:02:28.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3051
 - author: DinnerCalzone
   changes:
   - message: Oasis has been updated to incorporate the latest upstream version, including
@@ -4167,3 +4160,12 @@
   id: 2518
   time: '2026-01-02T04:03:01.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3907
+- author: mousesweater
+  changes:
+  - message: you can make sausages. the chefvend has it for you
+    type: Add
+  - message: hotdogs are modular and real
+    type: Add
+  id: 2519
+  time: '2026-01-02T04:15:14.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3635
