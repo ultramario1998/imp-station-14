@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Pinkbat5
-  changes:
-  - message: Beer goggles now protect you from flashes!
-    type: Add
-  id: 2018
-  time: '2025-07-12T03:56:35.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3065
 - author: hivehum
   changes:
   - message: Removed several music tracks, mostly Clair de Lune.
@@ -4167,3 +4160,10 @@
   id: 2517
   time: '2026-01-02T02:40:36.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3897
+- author: msTheowo
+  changes:
+  - message: The IMP Paper Pusher's Club has improved the design of their pens.
+    type: Tweak
+  id: 2518
+  time: '2026-01-02T04:03:01.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3907
