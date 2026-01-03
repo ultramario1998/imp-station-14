@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: HAPPYNEWYEAR1999
-  changes:
-  - message: Pathway Station is ready after a lengthy training montage.
-    type: Add
-  id: 2023
-  time: '2025-07-25T08:50:35.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3141
 - author: youtubevideo3
   changes:
   - message: Species-specific equipment sprites for Decapoids, Gastropoids, Thaven
@@ -4172,3 +4165,11 @@
   id: 2522
   time: '2026-01-03T06:00:28.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3665
+- author: yesteryuri
+  changes:
+  - message: Added food coloring to the Booze-o-Mat. Use it for colored crystals and
+      Asterade!
+    type: Add
+  id: 2523
+  time: '2026-01-03T19:01:39.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3843
