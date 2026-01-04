@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: heirdragonair, kipdotnet
-  changes:
-  - message: Added a new tabletop intercom!
-    type: Add
-  - message: Slightly resprited intercoms.
-    type: Tweak
-  id: 2027
-  time: '2025-07-25T11:10:30.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3122
 - author: DinnerCalzone
   changes:
   - message: Omega station has been derotated.
@@ -4175,3 +4166,10 @@
   id: 2526
   time: '2026-01-04T07:16:55.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3827
+- author: coyragon96
+  changes:
+  - message: Irwizine doesn't make animals sentient anymore.
+    type: Tweak
+  id: 2527
+  time: '2026-01-04T07:29:35.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3911
