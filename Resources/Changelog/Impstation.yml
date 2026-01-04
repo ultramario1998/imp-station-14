@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: wendyribstonpippin
-  changes:
-  - message: You can now speak like you really wish you were in the death squads.
-    type: Add
-  id: 2026
-  time: '2025-07-25T10:52:47.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3114
 - author: heirdragonair, kipdotnet
   changes:
   - message: Added a new tabletop intercom!
@@ -4174,3 +4167,11 @@
   id: 2525
   time: '2026-01-04T07:15:07.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3807
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: The SGD Vocalizer can now be work in either the mask slot or the neck
+      slot!
+    type: Tweak
+  id: 2526
+  time: '2026-01-04T07:16:55.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3827
