@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: youtubevideo3
-  changes:
-  - message: Species-specific equipment sprites for Decapoids, Gastropoids, Thaven
-      and Grays should now show up on the loadout screen.
-    type: Fix
-  id: 2024
-  time: '2025-07-25T09:57:04.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3161
 - author: yesteryuri
   changes:
   - message: Vox members of command wear their command masks to work
@@ -4173,3 +4165,12 @@
   id: 2523
   time: '2026-01-03T19:01:39.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3843
+- author: Doop, mqole, honeyed-lemons, Skeepo
+  changes:
+  - message: "Anomalocarids have been authorized to work aboard Nanotrasen stations!\
+      \ Don't be shellfish, give them a hand and welcome them aboard!! \U0001F990\U0001F990\
+      \U0001F990\U0001F364"
+    type: Add
+  id: 2524
+  time: '2026-01-04T01:26:14.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3914
