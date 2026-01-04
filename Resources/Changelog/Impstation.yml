@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: yesteryuri
-  changes:
-  - message: Vox members of command wear their command masks to work
-    type: Tweak
-  - message: Vox once again have tank harnesses in their bags when needed
-    type: Fix
-  id: 2025
-  time: '2025-07-25T10:02:06.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3159
 - author: wendyribstonpippin
   changes:
   - message: You can now speak like you really wish you were in the death squads.
@@ -4174,3 +4165,12 @@
   id: 2524
   time: '2026-01-04T01:26:14.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3914
+- author: Yesteryuri, Mqole
+  changes:
+  - message: 'New trait: Hated by dogs'
+    type: Add
+  - message: Dogs just bark at those they hate and do not stun them anymore.
+    type: Tweak
+  id: 2525
+  time: '2026-01-04T07:15:07.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3807
