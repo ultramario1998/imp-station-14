@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: hivehum
-  changes:
-  - message: ERP is banned.
-    type: Remove
-  id: 2031
-  time: '2025-07-25T11:28:21.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3078
 - author: CrystalClover
   changes:
   - message: Space France forgot to pay licensing fees so their escaped baguettes
@@ -4172,3 +4165,11 @@
   id: 2530
   time: '2026-01-05T04:09:45.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3870
+- author: TheGrimbeeper
+  changes:
+  - message: Xenoarchaeology guidebook is now up-to-date for Natural and Reticulated
+      artifacts.
+    type: Tweak
+  id: 2531
+  time: '2026-01-05T13:20:32.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3917
