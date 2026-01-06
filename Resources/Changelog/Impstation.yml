@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: yesteryuri
-  changes:
-  - message: All trinkets, HOS Jumpsuits, medical glasses, and instruments in the
-      loadout menu are now sorted into collapsible categories
-    type: Tweak
-  id: 2033
-  time: '2025-07-25T11:28:23.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3019
 - author: ultramario1998
   changes:
   - message: 10 new bounties have been added to enrich Cargo's lives.
@@ -4174,3 +4166,11 @@
   id: 2532
   time: '2026-01-06T08:01:22.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3921
+- author: TheGrimbeeper
+  changes:
+  - message: removed the upstream patreon name highlights for real this time. (defeated
+      the big grape)
+    type: Fix
+  id: 2533
+  time: '2026-01-06T11:08:14.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3939
