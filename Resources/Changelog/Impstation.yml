@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: CrystalClover
-  changes:
-  - message: Space France forgot to pay licensing fees so their escaped baguettes
-      now play different music.
-    type: Tweak
-  id: 2032
-  time: '2025-07-25T11:28:22.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3049
 - author: yesteryuri
   changes:
   - message: All trinkets, HOS Jumpsuits, medical glasses, and instruments in the
@@ -4173,3 +4165,12 @@
   id: 2531
   time: '2026-01-05T13:20:32.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3917
+- author: ATDoop
+  changes:
+  - message: Anomalocarids have a survival box now!
+    type: Fix
+  - message: Anomalocarid overlay eye markings should layer correctly now!
+    type: Fix
+  id: 2532
+  time: '2026-01-06T08:01:22.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3921
