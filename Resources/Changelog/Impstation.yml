@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: CrystalClover
-  changes:
-  - message: NT scanners are picking up readings of a Gray UFO approaching our sector,
-      and sensors indicate they are ready to PARTY!!!
-    type: Add
-  id: 2042
-  time: '2025-07-25T11:28:32.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2988
 - author: yesteryuri
   changes:
   - message: Fixed salvagers not having a survival box and command members receiving
@@ -4180,3 +4172,10 @@
   id: 2541
   time: '2026-01-10T00:26:31.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3938
+- author: ATDoop
+  changes:
+  - message: Anomalocarids can now eat mice and breathe water vapor!
+    type: Add
+  id: 2542
+  time: '2026-01-10T01:28:44.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3936
