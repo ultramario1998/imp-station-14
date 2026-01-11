@@ -161,7 +161,7 @@
             - id: ClothingUniformJumpsuitHoSPro
         - !type:GroupSelector
             children:
-            - id: ClothingUniformJumpskirtHsoS
+            - id: ClothingUniformJumpskirtHoS
             - id: ClothingUniformJumpskirtHoSAlt
             - id: ClothingUniformJumpskirtHoSGrey
             - id: ClothingUniformJumpskirtHosFormal

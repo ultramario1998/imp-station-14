@@ -3,7 +3,7 @@
   name: Freelancer
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolFreelancer
-  description: No private investigator would be caught dead without one of these concealed safely on their person, somewhere. Uses .35 auto ammo. 
+  description: No private investigator would be caught dead without one of these concealed safely on their person, somewhere. Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Weapons/Guns/Pistols/freelancer.rsi
@@ -100,10 +100,10 @@
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletPistol
     fireCost: 100
-  - type: Battery
+  - type: PredictedBattery
     maxCharge: 1000
     startingCharge: 1000
   - type: BatterySelfRecharger

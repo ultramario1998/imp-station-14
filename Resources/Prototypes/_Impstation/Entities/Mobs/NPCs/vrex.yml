@@ -7,7 +7,10 @@
   components:
   - type: Bloodstream
     bloodMaxVolume: 1000
-    bloodReagent: Blood
+    bloodReagents:
+      reagents:
+      - ReagentId: Blood
+        Quantity: 1
   - type: GhostRole
     allowMovement: true
     makeSentient: true

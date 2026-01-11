@@ -135,7 +135,10 @@
   - type: Body
     prototype: Kodepiia
   - type: Bloodstream
-    bloodReagent: BloodKodepiia
+    bloodReagents:
+      reagents:
+      - ReagentId: BloodKodepiia
+        Quantity: 1
   - type: Damageable
     damageModifierSet: Kodepiia
   - type: MeleeWeapon

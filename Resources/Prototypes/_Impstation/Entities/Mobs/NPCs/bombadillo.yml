@@ -72,7 +72,10 @@
     prototype: AnimalHemocyanin
   - type: Bloodstream
     bloodMaxVolume: 50
-    bloodReagent: CopperBlood
+    bloodReagents:
+      reagents:
+      - ReagentId: CopperBlood
+        Quantity: 1
   - type: CombatMode
   - type: MeleeWeapon
     soundHit:

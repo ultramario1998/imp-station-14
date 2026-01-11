@@ -149,7 +149,10 @@
       types:
         Piercing: 0
   - type: Bloodstream
-    bloodReagent: GrayBlood
+    bloodReagents:
+      reagents:
+      - ReagentId: GrayBlood
+        Quantity: 1
     bloodMaxVolume: 50
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi

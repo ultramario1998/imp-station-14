@@ -96,8 +96,8 @@
     - !type:TargetObjectiveMindFilter
       blacklist:
         components:
-        - RandomTraitorAlive
-        - RandomTraitorProgress
+        - RandomTraitorAliveObjective
+        - RandomTraitorProgressObjective
   - type: ObjectiveBlacklistRequirement
     blacklist:
       component: null

@@ -55,7 +55,10 @@
         - MobLayer
   - type: Bloodstream
     bloodMaxVolume: 75
-    bloodReagent: Anomalium
+    bloodReagents:
+      reagents:
+      - ReagentId: Anomalium
+        Quantity: 1
   - type: InteractionPopup
     successChance: 0.1
     interactSuccessString: petting-success-anomalite

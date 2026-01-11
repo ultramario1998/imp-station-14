@@ -42,7 +42,10 @@
   - type: ReplacementAccent
     accent: dino
   - type: Bloodstream
-    bloodReagent: DinoBlood
+    bloodReagents:
+      reagents:
+      - ReagentId: DinoBlood
+        Quantity: 1
     bloodMaxVolume: 400 #poor janitors...
     bloodlossDamage:
       types:
@@ -209,7 +212,10 @@
         layer:
           - MobLayer
   - type: Bloodstream
-    bloodReagent: DinoBlood
+    bloodReagents:
+      reagents:
+      - ReagentId: DinoBlood
+        Quantity: 1
     bloodMaxVolume: 100
     bloodlossDamage:
       types:

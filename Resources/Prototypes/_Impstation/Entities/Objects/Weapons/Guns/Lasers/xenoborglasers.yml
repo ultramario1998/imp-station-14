@@ -9,5 +9,5 @@
   parent: [WeaponAdvancedLaser, BaseXenoborgContraband]
   id: XenoborgHeavyLaserGun
   components:
-  - type: HitscanBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: RedHeavyLaser

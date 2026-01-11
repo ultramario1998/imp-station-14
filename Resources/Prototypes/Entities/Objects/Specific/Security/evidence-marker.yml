@@ -84,8 +84,9 @@
   description: A small pack of numbered yellow markers, useful for labeling evidence on a crime scene. # Imp edit
   components:
   - type: Item
+    size: Tiny # Imp edit
     shape:
-    - 0,0,1,1
+    - 0,0,0,1 # Imp edit (was 0,0,1,1)
   - type: EntityTableContainerFill
     containers:
       storagebase: !type:AllSelector
@@ -106,10 +107,6 @@
     whitelist:
       tags:
         - EvidenceMarker
-  - type: Item # Imp edit
-    size: Tiny
-    shape:
-    - 0,0,0,1
   - type: Sprite
     sprite: _Impstation/Objects/Storage/boxes.rsi # Imp edit
     layers:

@@ -62,9 +62,12 @@
   - type: Tag
     tags:
     - Trash
-    - MultitoolDefibrillatorTarget 
+    - MultitoolDefibrillatorTarget
   - type: Bloodstream
-    bloodReagent: InsectBlood
+    bloodReagents:
+      reagents:
+      - ReagentId: InsectBlood
+        Quantity: 1
     bloodMaxVolume: 0.1
   - type: MobPrice
     price: 50

@@ -95,7 +95,7 @@
     baseSprintSpeed : 4.5
   - type: Body
     prototype: AnimalRuminant
-  - type: GoobAbsorbable 
+  - type: GoobAbsorbable
     biomassRestored: 0.7 #cow amount. yummy animal lots of banana on it.
   #part where it gets silly
   - type: SpamEmitSound
@@ -113,7 +113,10 @@
       amount: 1
   - type: Bloodstream
     bloodMaxVolume: 300
-    bloodReagent: Bananadine
+    bloodReagents:
+      reagents:
+      - ReagentId: Bananadine
+        Quantity: 1
   - type: SolutionContainerManager
     solutions:
       udder:

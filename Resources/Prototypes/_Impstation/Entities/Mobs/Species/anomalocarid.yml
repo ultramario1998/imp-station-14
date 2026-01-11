@@ -96,7 +96,10 @@
     damageContainer: Biological
     damageModifierSet: Anomalocarid
   - type: Bloodstream
-    bloodReagent: AnomalocaridCopperBlood #similar to CopperBlood, just a different color.
+    bloodReagents:
+      reagents:
+      - ReagentId: AnomalocaridCopperBlood #similar to CopperBlood, just a different color.
+        Quantity: 1
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:

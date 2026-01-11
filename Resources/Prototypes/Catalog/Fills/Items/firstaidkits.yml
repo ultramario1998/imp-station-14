@@ -80,14 +80,16 @@
   suffix: Filled
   parent: MedkitN2
   components:
-  - type: StorageFill
-    contents:
-      - id: ElectrodePad #IMP
-      - id: EmergencyNitrogenTankFilled #IMP; repositioned for inventory's sake
-      - id: ClothingMaskBreathMedical
-      - id: EmergencyMedipen
-      - id: PillCanisterDylovene
-      - id: PillCanisterDexalin
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ElectrodePad #IMP
+        - id: EmergencyNitrogenTankFilled #IMP; repositioned for inventory's sake
+        - id: ClothingMaskBreathMedical
+        - id: EmergencyMedipen
+        - id: PillCanisterDylovene
+        - id: PillCanisterDexalin
 
 - type: entity
   id: MedkitRadiationFilled

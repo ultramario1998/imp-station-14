@@ -90,7 +90,7 @@
           tags:
             - PowerCell
             - PowerCellSmall
-  - type: MagazineAmmoProvider #imp, removed HitscanBatteryAmmoProvider to replace with this.
+  - type: MagazineAmmoProvider #imp, removed BatteryAmmoProvider to replace with this.
 
 - type: entity
   id: ShuttleGunPerforator

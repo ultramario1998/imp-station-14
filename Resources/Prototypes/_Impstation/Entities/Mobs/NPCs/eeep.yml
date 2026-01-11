@@ -111,7 +111,10 @@
       settings: default
   - type: Bloodstream
     bloodMaxVolume: 200
-    bloodReagent: WeldingCoils
+    bloodReagents:
+      reagents:
+      - ReagentId: WeldingCoils
+        Quantity: 1
   - type: Sprite
     sprite: _Impstation/Mobs/Aliens/eeeplet.rsi
     noRot: true
@@ -146,16 +149,16 @@
         Brute: 2
   - type: StaminaDamageOnHit
     damage: 20
-  - type: SolutionContainerManager 
+  - type: SolutionContainerManager
     solutions:
-      chloralhydrate: 
+      chloralhydrate:
         reagents:
         - ReagentId: ChloralHydrate
-          Quantity: 500 
-  - type: MeleeChemicalInjector 
+          Quantity: 500
+  - type: MeleeChemicalInjector
     solution: chloralhydrate
     transferAmount: 5
-  - type: Battery
+  - type: PredictedBattery
     maxCharge: 30000
     startingCharge: 0
   - type: PolymorphOnTrigger
@@ -193,7 +196,10 @@
     - MindRoleGhostRoleTeamAntagonist
   - type: Bloodstream
     bloodMaxVolume: 400
-    bloodReagent: WeldingCoils
+    bloodReagents:
+      reagents:
+      - ReagentId: WeldingCoils
+        Quantity: 1
   - type: Electrified
     requirePower: false
     shockDamage: 4
@@ -238,13 +244,13 @@
       path: /Audio/Effects/Lightning/lightningshock.ogg
       params:
         variation: 0.2
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: EeepGunBullet
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 20
-  - type: Battery
+  - type: PredictedBattery
     maxCharge: 1000
     startingCharge: 1000
   - type: LightningArcShooter

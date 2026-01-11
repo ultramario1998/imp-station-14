@@ -98,7 +98,10 @@
     - type: Body #imp
       prototype: AnimalCarp
     - type: Bloodstream #imp
-      bloodReagent: ShimmeringBlood
+      bloodReagents:
+      reagents:
+      - ReagentId: ShimmeringBlood
+        Quantity: 1
 
 - type: entity
   parent: BaseMobCarp

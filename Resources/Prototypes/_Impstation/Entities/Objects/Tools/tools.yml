@@ -224,10 +224,10 @@
     soundEmpty:
       path: /Audio/Items/hiss.ogg
     clumsyProof: true
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: CodeViolation
     fireCost: 20
-  - type: Battery
+  - type: PredictedBattery
     maxCharge: 100
     startingCharge: 100
   - type: BatterySelfRecharger

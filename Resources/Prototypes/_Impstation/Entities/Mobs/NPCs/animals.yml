@@ -230,7 +230,10 @@
           variation: 0.125
     - type: Bloodstream
       bloodMaxVolume: 15
-      bloodReagent: VentCrud
+      bloodReagents:
+      reagents:
+      - ReagentId: VentCrud
+        Quantity: 1
     - type: NoSlip
     - type: ZombieImmune
     - type: Edible
@@ -396,7 +399,10 @@
     footstepSoundCollection:
       collection: KodepiiaStep
   - type: Bloodstream
-    bloodReagent: BloodKodepiia
+    bloodReagents:
+      reagents:
+      - ReagentId: BloodKodepiia
+        Quantity: 1
   - type: Butcherable
     spawned:
       - id: FoodMeatKodepiia
@@ -658,7 +664,10 @@
     flavorKind: station-event-random-sentience-flavor-organic
   - type: Bloodstream
     bloodMaxVolume: 50
-    bloodReagent: AnomalocaridCopperBlood
+    bloodReagents:
+      reagents:
+      - ReagentId: AnomalocaridCopperBlood
+        Quantity: 1
   - type: ReplacementAccent
     accent: babyanom
   - type: MeleeWeapon
@@ -688,7 +697,7 @@
     selectedMode: SemiAuto
     showExamineText: false
     availableModes: [ SemiAuto ]
-    soundGunshot: 
+    soundGunshot:
       path: /Audio/Animals/dog_bark1.ogg
       params:
         variation: .25

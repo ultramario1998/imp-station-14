@@ -490,7 +490,7 @@
     radius: 2
     color: "#ff0043"
     netsync: false
-  - type: Battery
+  - type: PredictedBattery
     maxCharge: 720
     startingCharge: 720 #it comes charged! wow!
   - type: Tag

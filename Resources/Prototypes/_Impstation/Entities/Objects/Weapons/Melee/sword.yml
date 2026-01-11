@@ -25,7 +25,7 @@
   - type: Stunbaton
     energyPerUse: 100
     inverted: true
-  - type: Battery
+  - type: PredictedBattery
     maxCharge: 1000
     startingCharge: 1000
   - type: Sprite

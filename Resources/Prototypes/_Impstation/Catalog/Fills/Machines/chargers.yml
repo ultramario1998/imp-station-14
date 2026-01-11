@@ -5,6 +5,8 @@
   name: cyborg recharging station
   description: A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
   components:
-  - type: StorageFill
-    contents:
-      - id: Drone
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: Drone
