@@ -2,6 +2,7 @@ using Content.Shared.GameTicking;
 using Content.Shared.Hands.Components;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Roles;
+using Content.Shared.StatusEffectNew;
 using Content.Shared.Traits;
 using Content.Shared.Whitelist;
 using Robust.Shared.Prototypes;
@@ -15,6 +16,7 @@ public sealed class TraitSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly SharedHandsSystem _sharedHandsSystem = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
+    [Dependency] private readonly StatusEffectsSystem _statusEffects = default!;
     [Dependency] private readonly BodySystem _bodySystem = default!; // imp
     [Dependency] private readonly TagSystem _tagSystem = default!; // imp
 
@@ -45,7 +47,7 @@ public sealed class TraitSystem : EntitySystem
             }
 
             if (_whitelistSystem.IsWhitelistFail(traitPrototype.Whitelist, args.Mob) ||
-                _whitelistSystem.IsBlacklistPass(traitPrototype.Blacklist, args.Mob))
+                _whitelistSystem.IsWhitelistPass(traitPrototype.Blacklist, args.Mob))
                 continue;
 
             // Add all components required by the prototype IMP: to the body or specified organ
@@ -62,7 +64,14 @@ public sealed class TraitSystem : EntitySystem
             }
             else // imp end
             {
+                if (traitPrototype.Components.Count > 0)
                 EntityManager.AddComponents(args.Mob, traitPrototype.Components, false);
+            }
+
+            // Add all JobSpecials required by the prototype
+            foreach (var special in traitPrototype.Specials)
+            {
+                special.AfterEquip(args.Mob);
             }
 
             // Add item required by the trait
