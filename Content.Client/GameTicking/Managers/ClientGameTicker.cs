@@ -125,11 +125,7 @@ namespace Content.Client.GameTicking.Managers
             RoundStartTimeSpan = message.RoundStartTimeSpan;
             IsGameStarted = message.IsRoundStarted;
             AreWeReady = message.YouAreReady;
-            // imp edit start: lobby credits
-            LobbyBackgroundImage = message.LobbyBackgroundImage;
-            LobbyBackgroundName = message.LobbyBackgroundName;
-            LobbyBackgroundArtist = message.LobbyBackgroundArtist;
-            // imp edit end
+            LobbyBackground = message.LobbyBackground;
             Paused = message.Paused;
 
             LobbyStatusUpdated?.Invoke();

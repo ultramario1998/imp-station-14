@@ -1,5 +1,4 @@
 using Content.Server._Impstation.Nutrition.Components;
-using Content.Server.PowerCell;
 using Content.Shared.Atmos;
 using Content.Shared.Body.Components;
 using Content.Shared.Chemistry;
@@ -15,6 +14,7 @@ using Content.Shared.Interaction.Events;
 using Content.Shared.Nutrition;
 using Content.Shared.Nutrition.EntitySystems;
 using Content.Shared.Power.Components;
+using Content.Shared.PowerCell;
 using Content.Shared.Smoking;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
@@ -317,15 +317,15 @@ namespace Content.Server.Nutrition.EntitySystems
             args.Handled = true;
         }
 
-        private int UsesRemaining(VapePenComponent component, BatteryComponent? battery = null)
+        private int UsesRemaining(VapePenComponent component, PredictedBatteryComponent? battery = null)
         {
             if (battery == null ||
                 component.ChargeUse == 0f) return 0;
 
-            return (int)(battery.CurrentCharge / component.ChargeUse);
+            return (int)(battery.LastCharge / component.ChargeUse);
         }
 
-        private int MaxUses(VapePenComponent component, BatteryComponent? battery = null)
+        private int MaxUses(VapePenComponent component, PredictedBatteryComponent? battery = null)
         {
             if (battery == null ||
                 component.ChargeUse == 0f) return 0;

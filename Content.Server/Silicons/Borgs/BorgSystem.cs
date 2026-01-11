@@ -31,7 +31,6 @@ public sealed partial class BorgSystem : SharedBorgSystem
     [Dependency] private readonly ItemSlotsSystem _itemSlotsSystem = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly PowerCellSystem _powerCell = default!;
-    [Dependency] private readonly GrammarSystem _grammar = default!; // imp
 
     public static readonly ProtoId<JobPrototype> BorgJobId = "Borg";
 

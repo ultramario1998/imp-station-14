@@ -8,6 +8,7 @@ using Content.Shared.Verbs;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.GameStates;
 using Robust.Shared.Utility;
+using Content.Shared.IdentityManagement; //imp
 
 namespace Content.Shared.Light;
 
@@ -48,8 +49,8 @@ public abstract class SharedHandheldLightSystem : EntitySystem
     private void OnExamine(EntityUid uid, HandheldLightComponent component, ExaminedEvent args)
     {
         args.PushMarkup(component.Activated
-            ? Loc.GetString("handheld-light-component-on-examine-is-on-message")
-            : Loc.GetString("handheld-light-component-on-examine-is-off-message"));
+            ? Loc.GetString("handheld-light-component-on-examine-is-on-message", ("target", Identity.Entity(uid, EntityManager))) //imp; gendered light sources
+            : Loc.GetString("handheld-light-component-on-examine-is-off-message", ("target", Identity.Entity(uid, EntityManager)))); //imp; gendered light sources
     }
 
     public void SetActivated(EntityUid uid, bool activated, HandheldLightComponent? component = null, bool makeNoise = true)

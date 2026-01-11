@@ -7,6 +7,7 @@ using Content.Shared.Power.Components;
 using Content.Shared.Power.EntitySystems;
 using Robust.Shared.Containers;
 using Robust.Shared.Timing;
+using Content.Shared.IdentityManagement; //imp
 
 namespace Content.Shared.PowerCell;
 
@@ -130,7 +131,8 @@ public sealed partial class PowerCellSystem : EntitySystem
     private void OnBatteryExamined(Entity<PredictedBatteryComponent> ent, ref ExaminedEvent args)
     {
         var chargePercent = _battery.GetChargeLevel(ent.AsNullable()) * 100;
-        args.PushMarkup(Loc.GetString("power-cell-component-examine-details", ("currentCharge", $"{chargePercent:F0}")));
+        args.PushMarkup(Loc.GetString("power-cell-component-examine-details", ("currentCharge", $"{chargePercent:F0}"),
+            ("target", Identity.Entity(ent, EntityManager)))); //imp edit for gendered machines
     }
 
     private void OnDrawRefreshChargeRate(Entity<PowerCellDrawComponent> ent, ref RefreshChargeRateEvent args)

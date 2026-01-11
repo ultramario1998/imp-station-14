@@ -1,5 +1,4 @@
 using Content.Server.Fluids.EntitySystems;
-using Content.Server.PowerCell;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Chemistry.Reagent;
@@ -8,6 +7,7 @@ using Content.Shared.Examine;
 using Content.Shared.Item.ItemToggle.Components;
 using Content.Shared.Item.ItemToggle;
 using Content.Shared.Power.Components;
+using Content.Shared.PowerCell;
 using Content.Shared._Impstation.Homunculi.Incubator.Components;
 using Content.Shared._Impstation.Homunculi.Incubator;
 using Robust.Server.GameObjects;
@@ -52,7 +52,7 @@ public sealed class IncubatorSystem : SharedIncubatorSystem
             popup = Loc.GetString("incubator-no-solution");
         else if (!HasDnaData(solution))
             popup = Loc.GetString("incubator-no-dna");
-        else if (!_cell.TryGetBatteryFromSlot(ent, out var battery))
+        else if (!_cell.TryGetBatteryFromSlot(ent.Owner, out var battery))
             popup = Loc.GetString("incubator-no-cell");
         else if (UsesRemaining(ent.Comp, battery) <= 0)
             popup = Loc.GetString("incubator-insufficient-power");
@@ -136,22 +136,22 @@ public sealed class IncubatorSystem : SharedIncubatorSystem
         TryGetSolution(ent, out var solution);
 
         // Spawn Homunculi
-        if (solution != null && !_homunculus.CreateHomunculiWithDna(ent,solution.Value,_transform.GetMapCoordinates(ent), out _))
+        if (solution != null && !_homunculus.CreateHomunculiWithDna(ent, solution.Value, _transform.GetMapCoordinates(ent), out _))
         {
-            _puddle.TrySpillAt(ent, solution.Value.Comp.Solution, out _ );
+            _puddle.TrySpillAt(ent, solution.Value.Comp.Solution, out _);
             _solution.RemoveAllSolution(solution.Value);
         }
 
         if (TryComp<ActiveIncubatorComponent>(ent, out var activeIncubator))
             activeIncubator.IncubationFinishTime = null;
 
-        _cell.TryUseCharge(ent, ent.Comp.ChargeUse);
+        _cell.TryUseCharge(ent.Owner, ent.Comp.ChargeUse);
         _toggle.TryDeactivate(ent.Owner);
     }
 
     private void OnExamine(Entity<IncubatorComponent> ent, ref ExaminedEvent args)
     {
-        _cell.TryGetBatteryFromSlot(ent, out var battery);
+        _cell.TryGetBatteryFromSlot(ent.Owner, out var battery);
         var charges = UsesRemaining(ent, battery);
         var maxCharges = MaxUses(ent, battery);
 
@@ -166,20 +166,20 @@ public sealed class IncubatorSystem : SharedIncubatorSystem
         }
     }
 
-    private static int UsesRemaining(IncubatorComponent component, BatteryComponent? battery = null)
+    private static int UsesRemaining(IncubatorComponent component, PredictedBatteryComponent? battery = null)
     {
         if (battery == null || component.ChargeUse == 0f)
             return 0;
 
-        return (int) (battery.CurrentCharge / component.ChargeUse);
+        return (int)(battery.LastCharge / component.ChargeUse);
     }
 
-    private static int MaxUses(IncubatorComponent component, BatteryComponent? battery = null)
+    private static int MaxUses(IncubatorComponent component, PredictedBatteryComponent? battery = null)
     {
         if (battery == null || component.ChargeUse == 0f)
             return 0;
 
-        return (int) (battery.MaxCharge / component.ChargeUse);
+        return (int)(battery.MaxCharge / component.ChargeUse);
     }
 
 }

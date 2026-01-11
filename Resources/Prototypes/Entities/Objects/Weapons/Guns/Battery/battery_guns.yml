@@ -1010,10 +1010,5 @@
   id: XenoborgHeavyLaserGunWizden #imp - see the _Impstation directory for the version we use
   abstract: true #imp
   components:
-<<<<<<< HEAD
-  - type: HitscanBatteryAmmoProvider
-    proto: RedHeavyLaser
-=======
   - type: BatteryAmmoProvider
     proto: RedHeavyLaser
->>>>>>> db366bc20d02be5dc6b4c86e4f9befb6d6e4f076

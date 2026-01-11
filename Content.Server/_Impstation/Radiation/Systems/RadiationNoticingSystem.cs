@@ -86,7 +86,7 @@ public sealed class RadiationNoticingSystem : EntitySystem
         var msgId = _random.Pick(msgArr);
         var msg = Loc.GetString(msgId);
 
-        if (HasComp<PainNumbnessComponent>(uid) && msgId.Contains("-pain-"))
+        if (HasComp<PainNumbnessStatusEffectComponent>(uid) && msgId.Contains("-pain-"))
             return; // Do not show pain messages if the person has pain numbness
 
         // show it as a popup
