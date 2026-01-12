@@ -6076,7 +6076,7 @@ entities:
     components:
     - type: Transform
       parent: 396
-    - type: PredictedBattery
+    - type: Battery
       startingCharge: 357.1994
     - type: SolutionContainerManager
       solutions: null
