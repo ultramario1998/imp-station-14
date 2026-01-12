@@ -123,7 +123,7 @@
     residueColor: residue-brown
 
 - type: entity
-  parent: [Soap, Tier1Contraband]
+  parent: [Soap, Tier1Contraband] # imp contra
   id: SoapSyndie
   description: An untrustworthy bar of soap. Smells of fear.
   components:

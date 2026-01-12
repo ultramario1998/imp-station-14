@@ -45,6 +45,7 @@
     # Syndicate
     - id: ToyFigurineNukie
     - id: ToyFigurineNukieElite
+      weight: 0.5 # imp
     - id: ToyFigurineNukieCommander
     - id: ToyFigurineFootsoldier
     - id: ToyFigurineHoloClown # >:o)
@@ -67,6 +68,53 @@
     - id: ToyFigurineSkeleton
     - id: ToyNuke
     - id: ToyFigurineOwlman
+    # IMP FIGURES START
+    # imp edit start
+    - id: ToyFigurineCourier
+    - id: ToyFigurineBrigmedic
+    - id: ToyFigurineCyborgDefault
+    - id: ToyFigurineCyborgEngineering
+    - id: ToyFigurineCyborgJanitorial
+    - id: ToyFigurineCyborgMedical
+    - id: ToyFigurineCyborgSalvage
+    - id: ToyFigurineCyborgService
+    - id: ToyFigurineStationAI
+    - id: ToyFigurineCBURNQuarantineOfficer
+      weight: 0.5
+    - id: ToyFigurineCentCommOfficial
+      weight: 0.5
+    - id: ToyFigurineChronologyAgent
+      weight: 0.01
+    - id: ToyFigurineDeathsquadAgent
+      weight: 0.5
+    - id: ToyFigurineERTChaplain
+      weight: 0.5
+    - id: ToyFigurineERTEngineer
+      weight: 0.5
+    - id: ToyFigurineERTJanitor
+      weight: 0.5
+    - id: ToyFigurineERTLeader
+      weight: 0.5
+    - id: ToyFigurineERTMedic
+      weight: 0.5
+    - id: ToyFigurineERTSecurity
+      weight: 0.5
+    - id: ToyFigurineNukieAgent
+      weight: 0.5
+    - id: ToyFigurineNukieJuggernaut
+      weight: 0.5
+    - id: ToyFigurineCyborgAssault
+      weight: 0.5
+    - id: ToyFigurineCyborgCorpsman
+      weight: 0.5
+    - id: ToyFigurineCyborgSaboteur
+      weight: 0.5
+    - id: ToyFigurineCosmicCultist
+      weight: 0.2
+    - id: ToyFigurineCrewLing
+      weight: 0.1
+    # imp edit end
+    # IMP FIGURES END
     - !type:NestedSelector
       tableId: AllFigurineMechsTable
 
