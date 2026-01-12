@@ -62,7 +62,6 @@
   - type: Tag
     tags:
     - Trash
-    - Glowstick #imp
 
 - type: entity
   parent: GlowstickBase

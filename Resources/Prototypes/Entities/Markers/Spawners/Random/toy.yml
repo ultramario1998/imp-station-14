@@ -12,11 +12,6 @@
       rarePrototypes:
         - FoamBlade
         - PlushieGhost
-        #imp edits
-        - PlushieImp
-        - PlushieApid
-        - PlushieGoblin
-        #imp edits end
       rareChance: 0.03
       prototypes:
         - PlushieBee
@@ -35,26 +30,10 @@
         - PlushieSharkBlue
         - PlushieSharkPink
         - PlushieSharkGrey
-        #imp edits
-        - PlushieSnail
-        - PlushieDecapoid
-        - PlushieThaven
-        - PlushieKodepiia
-        - PlushieGray
-        #imp edits end
         - ToyAmongPequeno
         - ToyMouse
         - PlushieDiona
         - PlushieArachind
-        # DEN begin
-        - PlushieTeddyBear
-        - PlushieTeddyBearRecolorableRandom
-        - SqueakySmileyGuy
-        - SqueakySmileyGuyRandom
-        - SqueakySmileyBall
-        - PlushieAlienGerm
-        - PlushieAlienGermMini
-        # DEN end
       chance: 0.5
       offset: 0.2
 
@@ -107,23 +86,6 @@
       rarePrototypes:
       - ToyFigurineNukieElite
       - ToyFigurineNukieCommander
-      - ToyFigurineNukieAgent #<imp>
-      - ToyFigurineNukieJuggernaut
-      - ToyFigurineCyborgAssault
-      - ToyFigurineCyborgCorpsman
-      - ToyFigurineCyborgSaboteur
-      - ToyFigurineCBURNQuarantineOfficer
-      - ToyFigurineCentCommOfficial
-      - ToyFigurineChronologyAgent
-      - ToyFigurineDeathsquadAgent
-      - ToyFigurineERTChaplain
-      - ToyFigurineERTEngineer
-      - ToyFigurineERTJanitor
-      - ToyFigurineERTLeader
-      - ToyFigurineERTMedic
-      - ToyFigurineERTSecurity
-      - ToyFigurineCosmicCultist #</imp>
-      - ToyFigurineCrewLing #Imp
       rareChance: 0.05
       prototypes:
       - ToyFigurinePassenger
@@ -172,14 +134,5 @@
       - ToyFigurineMouse
       - ToyFigurineHamlet
       - ToyFigurineThief
-      - ToyFigurineCourier #<imp>
-      - ToyFigurineBrigmedic
-      - ToyFigurineCyborgDefault
-      - ToyFigurineCyborgEngineering
-      - ToyFigurineCyborgJanitorial
-      - ToyFigurineCyborgMedical
-      - ToyFigurineCyborgSalvage
-      - ToyFigurineCyborgService
-      - ToyFigurineStationAI #</imp>
       chance: 0.90
       offset: 0.2

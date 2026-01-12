@@ -73,9 +73,9 @@
   - type: Sprite
     sprite: _Impstation/Objects/Tanks/oxygen.rsi #imp
   - type: Item
-    sprite: _Impstation/Objects/Tanks/oxygen.rsi
+    sprite: _Impstation/Objects/Tanks/oxygen.rsi #imp
   - type: Clothing
-    sprite: _Impstation/Objects/Tanks/oxygen.rsi
+    sprite: _Impstation/Objects/Tanks/oxygen.rsi #imp
 
 - type: entity
   parent: GasTankRoundBase
@@ -86,9 +86,9 @@
   - type: Sprite
     sprite: _Impstation/Objects/Tanks/nitrogen.rsi #imp
   - type: Item
-    sprite: _Impstation/Objects/Tanks/nitrogen.rsi
+    sprite: _Impstation/Objects/Tanks/nitrogen.rsi #imp
   - type: Clothing
-    sprite: _Impstation/Objects/Tanks/nitrogen.rsi
+    sprite: _Impstation/Objects/Tanks/nitrogen.rsi #imp
 
 - type: entity
   parent: GasTankRoundBase
@@ -140,9 +140,9 @@
     sprite: Objects/Tanks/emergency_red.rsi
     storedSprite:
       state: storage
-      sprite: _Impstation/Objects/Tanks/nitrogen_emergency.rsi
+      sprite: Objects/Tanks/emergency_red.rsi
   - type: Clothing
-    sprite: _Impstation/Objects/Tanks/nitrogen_emergency.rsi
+    sprite: _Impstation/Objects/Tanks/nitrogen_emergency.rsi #imp
   - type: Tag # goob edit
     tags:
       - EmergencyNitrogenTank
@@ -160,13 +160,13 @@
     sprite: Objects/Tanks/emergency_extended.rsi
     storedSprite:
       state: storage
-      sprite: _Impstation/Objects/Tanks/oxygen_engineering.rsi
+      sprite: Objects/Tanks/emergency_extended.rsi
   - type: GasTank
     air:
       volume: 1.5
       temperature: 293.15
   - type: Clothing
-    sprite: _Impstation/Objects/Tanks/oxygen_engineering.rsi
+    sprite: _Impstation/Objects/Tanks/oxygen_engineering.rsi #imp
   - type: Tag # goob edit
     tags:
       - ExtendedEmergencyOxygenTank
@@ -184,9 +184,9 @@
     sprite: Objects/Tanks/emergency_extended_red.rsi
     storedSprite:
       state: storage
-      sprite: _Impstation/Objects/Tanks/nitrogen_engineering.rsi
+      sprite: Objects/Tanks/emergency_extended_red.rsi
   - type: Clothing
-    sprite: _Impstation/Objects/Tanks/nitrogen_engineering.rsi
+    sprite: _Impstation/Objects/Tanks/nitrogen_engineering.rsi #imp
   - type: Tag # goob edit
     tags:
       - EmergencyNitrogenTank
@@ -204,13 +204,13 @@
     sprite: Objects/Tanks/emergency_double.rsi
     storedSprite:
       state: storage
-      sprite: _Impstation/Objects/Tanks/oxygen_double.rsi
+      sprite: Objects/Tanks/emergency_double.rsi
   - type: GasTank
     air:
       volume: 2.5
       temperature: 293.15
   - type: Clothing
-    sprite: _Impstation/Objects/Tanks/oxygen_double.rsi
+    sprite: _Impstation/Objects/Tanks/oxygen_double.rsi #imp
   - type: MeleeWeapon
     attackRate: 0.9
     damage:
@@ -231,13 +231,13 @@
     sprite: Objects/Tanks/emergency_double_red.rsi
     storedSprite:
       state: storage
-      sprite: _Impstation/Objects/Tanks/nitrogen_double.rsi
+      sprite: Objects/Tanks/emergency_double_red.rsi
   - type: Clothing
-    sprite: _Impstation/Objects/Tanks/nitrogen_double.rsi
-  - type: Tag
+    sprite: _Impstation/Objects/Tanks/nitrogen_double.rsi #imp
+  - type: Tag #imp
     tags:
       - EmergencyNitrogenTank
-      - GasTank # imp
+      - GasTank
 
 - type: entity
   parent: EmergencyOxygenTank
@@ -277,14 +277,14 @@
   - type: Sprite
     sprite: _Impstation/Objects/Tanks/anesthetic.rsi #imp
   - type: Item
-    sprite: _Impstation/Objects/Tanks/anesthetic.rsi
+    sprite: _Impstation/Objects/Tanks/anesthetic.rsi #imp
   - type: GasTank
     outputPressure: 30.4
   - type: Clothing
-    sprite: _Impstation/Objects/Tanks/anesthetic.rsi
+    sprite: _Impstation/Objects/Tanks/anesthetic.rsi #imp
 
 - type: entity
-  # it's a square so no rolling dough #??
+  # it's a square so no rolling dough
   parent: GasTankBase
   id: PlasmaTank
   name: plasma tank
