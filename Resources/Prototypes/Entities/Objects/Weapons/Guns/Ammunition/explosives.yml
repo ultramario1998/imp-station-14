@@ -25,7 +25,6 @@
   abstract: true # imp
   parent: [BaseItem, BaseMajorContraband]
   id: CartridgeRocketSlowWizden #imp - see the _Impstation directory for the version we use
-  abstract: true
   name: PG-7VL grenade "Snail-Rocket"
   description: A 1.5 warhead designed for the RPG-7 launcher. It's unusually slow.
   components:

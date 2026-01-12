@@ -275,7 +275,7 @@
 - type: entity
   abstract: true # imp
   parent: BaseMagazinePistolSubMachineGunWizden # imp
-  id: MagazinePistolHighCapacityEmptyWizden #imp - see the _Impstation directory for the version we use
+  id: MagazinePistolSubMachineGunWizden #imp - see the _Impstation directory for the version we use
   name: SMG magazine (.35 auto)
   description: 30-round double-stack magazine for submachine guns. Intended to hold general-purpose kinetic ammunition.
   components:
