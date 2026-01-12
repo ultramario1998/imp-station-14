@@ -528,16 +528,23 @@
         probability: 0.1
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Animal, Vox, Kodepiia, Anomalocarid ] #imp, added kode and anomalocarids
+          type: [ Animal, Vox, Plant, Kodepiia, Anomalocarid ] #imp, added kode and anomalocarids
           inverted: true
       - !type:HealthChange
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Animal, Vox, Kodepiia, Anomalocarid ] #imp, added kode and anomalocarids
+          type: [ Animal, Vox, Plant, Kodepiia, Anomalocarid ] #imp, added kode and anomalocarids
           inverted: true
         damage:
           types:
             Poison: 1
+      - !type:HealthChange
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Plant ]
+        damage:
+          types:
+            Poison: .25
       - !type:AdjustReagent
         conditions:
         - !type:MetabolizerTypeCondition

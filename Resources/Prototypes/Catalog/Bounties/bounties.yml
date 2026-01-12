@@ -111,7 +111,7 @@
 
 - type: cargoBounty
   id: BountyCrayon
-  reward: 4000
+  reward: 1500
   description: bounty-description-crayon
   entries:
   - name: bounty-item-crayon
@@ -146,7 +146,7 @@
 
 - type: cargoBounty
   id: BountyFigurine
-  reward: 8000
+  reward: 3500
   description: bounty-description-figurine
   entries:
   - name: bounty-item-figurine
@@ -296,7 +296,7 @@
 
 - type: cargoBounty
   id: BountyPercussion
-  reward: 15000
+  reward: 2500
   description: bounty-description-percussion
   entries:
   - name: bounty-item-percussion
@@ -521,10 +521,11 @@
     whitelist:
       components:
       - Battery
+      - PredictedBattery
 
 - type: cargoBounty
   id: BountyLaserGun
-  reward: 28500
+  reward: 9600
   description: bounty-description-lasergun
   idPrefix: IV
   entries:
@@ -711,7 +712,7 @@
 
 - type: cargoBounty
   id: BountyWine
-  reward: 3000
+  reward: 1500
   description: bounty-description-wine
   entries:
   - name: bounty-item-wine

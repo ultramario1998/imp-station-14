@@ -655,20 +655,8 @@
           - id: ToyNuke
           - id: ToyFigurinePassenger
           - id: ToyFigurineGriffin
-          - id: ToyHonk
           - id: ToyIan
-          - id: ToyMarauder
-          - id: ToyMauler
-          - id: ToyGygax
-          - id: ToyOdysseus
           - id: ToyFigurineOwlman
-          - id: ToyDeathRipley
-          - id: ToyPhazon
-          - id: ToyFireRipley
-          - id: ToyReticence
-          - id: ToyRipley
-          - id: ToySeraph
-          - id: ToyDurand
           - id: ToyFigurineSkeleton
           - id: FoamBlade
           - id: ClothingHeadHatBunny
@@ -686,6 +674,9 @@
           - id: GoldenPersonalAI
             weight: 0.1
           # imp edit end
+          - !type:NestedSelector
+            tableId: AllFigurineMechsTable
+            weight: 6
 
 - type: entity
   parent: BoxCardboard
@@ -721,20 +712,8 @@
     - id: ToyNuke
     - id: ToyFigurinePassenger
     - id: ToyFigurineGriffin
-    - id: ToyHonk
     - id: ToyIan
-    - id: ToyMarauder
-    - id: ToyMauler
-    - id: ToyGygax
-    - id: ToyOdysseus
     - id: ToyFigurineOwlman
-    - id: ToyDeathRipley
-    - id: ToyPhazon
-    - id: ToyFireRipley
-    - id: ToyReticence
-    - id: ToyRipley
-    - id: ToySeraph
-    - id: ToyDurand
     - id: ToyFigurineSkeleton
     - id: FoamBlade
     - id: ClothingHeadHatBunny
@@ -752,6 +731,9 @@
     - id: GoldenPersonalAI
       weight: 0.1
       # imp end
+    - !type:NestedSelector
+      tableId: AllFigurineMechsTable
+      weight: 6
 
 - type: entityTable
   id: HappyHonkToyUnsafeEntityTable
