@@ -128,8 +128,10 @@
   name: trait-hemophilia-name
   description: trait-hemophilia-desc
   category: Traits # imp
-  components:
-  - type: Hemophilia
+  specials:
+  - !type:ApplyStatusEffectSpecial
+    statusEffects:
+    - StatusEffectHemophiliaTrait
   # imp addition starts
   cost: -6
   # imp addition ends

@@ -722,6 +722,9 @@
   contrabandSeverity: Tier2Contraband # imp
   flavor: medicine
   color: "#435166"
+  plantMetabolism:
+  - !type:PlantMutateChemicals
+    randomPickBotanyReagent: EvilRandomFillSolution
   metabolisms:
     Poison:
       effects:
@@ -844,3 +847,22 @@
           types:
             Poison: 0.5
       # imp edit end
+
+- type: reagent
+  id: Hemorrhinol
+  name: reagent-name-hemorrhinol
+  group: Toxins
+  desc: reagent-desc-hemorrhinol
+  physicalDesc: reagent-physical-desc-thin
+  contrabandSeverity: Major
+  flavor: sharp
+  color: "#96424f"
+  metabolisms:
+    Poison:
+      effects:
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectHemorrhage
+        time: 21 # 7 bleed ticks, you bleed every 3 seconds by default.
+        type: Update
+      - !type:ModifyBleed
+        amount: 0.5

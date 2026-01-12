@@ -6,6 +6,9 @@ namespace Content.Shared.Projectiles;
 [ByRefEvent]
 public readonly record struct EmbedEvent(EntityUid? Shooter, EntityUid Embedded)
 {
+    /// <summary>
+    /// The entity that threw/shot the embed, if any.
+    /// </summary>
     public readonly EntityUid? Shooter = Shooter;
 
     /// <summary>
@@ -15,24 +18,18 @@ public readonly record struct EmbedEvent(EntityUid? Shooter, EntityUid Embedded)
 }
 
 /// <summary>
-///     Imp edit, raised on an entity when another entity is embedded into it.
+/// Raised directed on an entity when it stops being embedded in another entity.
 /// </summary>
 [ByRefEvent]
-public readonly record struct EmbeddedEvent(EntityUid? Shooter, EntityUid Embedded)
+public readonly record struct EmbedDetachEvent(EntityUid? Detacher, EntityUid Embedded)
 {
-    public readonly EntityUid? Shooter = Shooter;
+    /// <summary>
+    /// The entity that detached the embed, if any.
+    /// </summary>
+    public readonly EntityUid? Detacher = Detacher;
 
     /// <summary>
-    /// Entity that is embedded into this.
+    /// Entity that it is embedded in.
     /// </summary>
     public readonly EntityUid Embedded = Embedded;
-}
-
-/// <summary>
-///     EE edit, Raised on an entity when it stops embedding in another entity.
-/// </summary>
-[ByRefEvent]
-public readonly record struct RemoveEmbedEvent(EntityUid? Remover)
-{
-    public readonly EntityUid? Remover = Remover;
 }

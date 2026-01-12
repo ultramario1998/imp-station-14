@@ -101,7 +101,9 @@
   - type: Item
     size: Small
     sprite: _Impstation/Objects/Tanks/oxygen_emergency.rsi # imp
-    storedRotation: -45
+    storedSprite:
+      state: storage
+      sprite: Objects/Tanks/emergency.rsi
   - type: GasTank
     air:
       volume: 0.66
@@ -135,7 +137,10 @@
   - type: Sprite
     sprite: _Impstation/Objects/Tanks/nitrogen_emergency.rsi #imp
   - type: Item
-    sprite: _Impstation/Objects/Tanks/nitrogen_emergency.rsi
+    sprite: Objects/Tanks/emergency_red.rsi
+    storedSprite:
+      state: storage
+      sprite: _Impstation/Objects/Tanks/nitrogen_emergency.rsi
   - type: Clothing
     sprite: _Impstation/Objects/Tanks/nitrogen_emergency.rsi
   - type: Tag # goob edit
@@ -152,7 +157,10 @@
   - type: Sprite
     sprite: _Impstation/Objects/Tanks/oxygen_engineering.rsi #imp
   - type: Item
-    sprite: _Impstation/Objects/Tanks/oxygen_engineering.rsi
+    sprite: Objects/Tanks/emergency_extended.rsi
+    storedSprite:
+      state: storage
+      sprite: _Impstation/Objects/Tanks/oxygen_engineering.rsi
   - type: GasTank
     air:
       volume: 1.5
@@ -173,7 +181,10 @@
   - type: Sprite
     sprite: _Impstation/Objects/Tanks/nitrogen_engineering.rsi #imp
   - type: Item
-    sprite: _Impstation/Objects/Tanks/nitrogen_engineering.rsi
+    sprite: Objects/Tanks/emergency_extended_red.rsi
+    storedSprite:
+      state: storage
+      sprite: _Impstation/Objects/Tanks/nitrogen_engineering.rsi
   - type: Clothing
     sprite: _Impstation/Objects/Tanks/nitrogen_engineering.rsi
   - type: Tag # goob edit
@@ -190,7 +201,10 @@
   - type: Sprite
     sprite: _Impstation/Objects/Tanks/oxygen_double.rsi #imp
   - type: Item
-    sprite: _Impstation/Objects/Tanks/oxygen_double.rsi
+    sprite: Objects/Tanks/emergency_double.rsi
+    storedSprite:
+      state: storage
+      sprite: _Impstation/Objects/Tanks/oxygen_double.rsi
   - type: GasTank
     air:
       volume: 2.5
@@ -214,7 +228,10 @@
   - type: Sprite
     sprite: _Impstation/Objects/Tanks/nitrogen_double.rsi #imp
   - type: Item
-    sprite: _Impstation/Objects/Tanks/nitrogen_double.rsi
+    sprite: Objects/Tanks/emergency_double_red.rsi
+    storedSprite:
+      state: storage
+      sprite: _Impstation/Objects/Tanks/nitrogen_double.rsi
   - type: Clothing
     sprite: _Impstation/Objects/Tanks/nitrogen_double.rsi
   - type: Tag
@@ -232,6 +249,9 @@
     sprite: Objects/Tanks/emergency_clown.rsi
   - type: Item
     sprite: Objects/Tanks/emergency_clown.rsi
+    storedSprite:
+      state: storage
+      sprite: Objects/Tanks/emergency_clown.rsi
   - type: Clothing
     sprite: Objects/Tanks/emergency_clown.rsi
   - type: Tag # goob edit

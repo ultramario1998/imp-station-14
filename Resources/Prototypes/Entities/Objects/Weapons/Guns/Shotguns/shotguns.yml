@@ -105,7 +105,7 @@
 
 - type: entity
   name: double-barreled shotgun
-  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityBartenderZookeeperContraband]
+  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityBartenderZookeeperContraband] # imp zookeeper
   id: WeaponShotgunDoubleBarreledWizden #imp - see the _Impstation directory for the version we use
   abstract: true #imp
   description: An immortal classic. Uses .50 shotgun shells.
