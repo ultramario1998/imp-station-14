@@ -228,15 +228,10 @@ public abstract partial class SharedProjectileSystem : EntitySystem
         if (!TryComp<PhysicsComponent>(uid, out var physics))
             return;
 
-        // ee add auto fall out
-        component.AutoRemoveTime = null;
-        var ev = new RemoveEmbedEvent(user);
-        RaiseLocalEvent(uid, ref ev);
-        // ee end
-
         _physics.SetBodyType(uid, BodyType.Dynamic, body: physics, xform: xform);
         _transform.AttachToGridOrMap(uid, xform);
         component.EmbeddedIntoUid = null;
+        component.AutoRemoveTime = null; // ee add
         Dirty(uid, component);
 
         // Reset whether the projectile has damaged anything if it successfully was removed

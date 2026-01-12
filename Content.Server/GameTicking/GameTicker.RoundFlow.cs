@@ -400,7 +400,7 @@ namespace Content.Server.GameTicking
                 {
                     var speciesToBlacklist =
                         new HashSet<string>(_cfg.GetCVar(CCVars.ICNewAccountSpeciesBlacklist).Split(","));
-                    profile = HumanoidCharacterProfile.Random(speciesToBlacklist);
+                    profile = HumanoidCharacterProfile.Random(ignoredSpecies: speciesToBlacklist); // imp build fix
                 }
                 readyPlayerProfiles.Add(userId, profile);
             }

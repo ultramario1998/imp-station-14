@@ -33,3 +33,18 @@ public readonly record struct EmbedDetachEvent(EntityUid? Detacher, EntityUid Em
     /// </summary>
     public readonly EntityUid Embedded = Embedded;
 }
+
+
+/// <summary>
+///     Imp edit, raised on an entity when another entity is embedded into it.
+/// </summary>
+[ByRefEvent]
+public readonly record struct EmbeddedEvent(EntityUid? Shooter, EntityUid Embedded)
+{
+    public readonly EntityUid? Shooter = Shooter;
+
+    /// <summary>
+    /// Entity that is embedded into this.
+    /// </summary>
+    public readonly EntityUid Embedded = Embedded;
+}
