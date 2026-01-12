@@ -64,7 +64,7 @@
       icon-food:
         whitelist:
           components:
-          - Food
+          - Edible
       icon-mail:
         whitelist:
           components:

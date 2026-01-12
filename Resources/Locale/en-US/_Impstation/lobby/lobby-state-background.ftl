@@ -22,8 +22,8 @@ lobby-state-background-northernsettlement-artist = Wendy, Pixel Curatrix
 lobby-state-background-bellmoth-title = Shovel Incident
 lobby-state-background-bellmoth-artist = Wowls
 
-lobby-state-background-70'snovelcover-title = 70's Novel Cover
-lobby-state-background-70'snovelcover-artist = LandsharkRAWR
+lobby-state-background-70snovelcover-title = 70's Novel Cover
+lobby-state-background-70snovelcover-artist = LandsharkRAWR
 
 lobby-state-background-chezslog-title = Chez Slog
 lobby-state-background-chezslog-artist = Wendy, Pixel Curatrix

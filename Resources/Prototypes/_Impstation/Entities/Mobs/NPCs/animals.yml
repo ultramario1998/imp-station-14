@@ -231,9 +231,9 @@
     - type: Bloodstream
       bloodMaxVolume: 15
       bloodReagents:
-      reagents:
-      - ReagentId: VentCrud
-        Quantity: 1
+        reagents:
+        - ReagentId: VentCrud
+          Quantity: 1
     - type: NoSlip
     - type: ZombieImmune
     - type: Edible

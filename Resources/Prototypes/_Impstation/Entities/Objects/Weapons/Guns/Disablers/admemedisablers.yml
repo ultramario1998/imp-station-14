@@ -29,8 +29,7 @@
   - type: PredictedBattery
     maxCharge: 5000
     startingCharge: 5000
-  - type: BatterySelfRecharger
-    autoRecharge: true
+  - type: PredictedBatterySelfRecharger
     autoRechargeRate: 40
   - type: MeleeWeapon
     attackRate: 0.6

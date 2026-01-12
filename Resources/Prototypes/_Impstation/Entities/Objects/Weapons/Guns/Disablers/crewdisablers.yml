@@ -50,8 +50,7 @@
   - type: PredictedBattery
     maxCharge: 900
     startingCharge: 900
-  - type: BatterySelfRecharger
-    autoRecharge: true
+  - type: PredictedBatterySelfRecharger
     autoRechargeRate: 30
     autoRechargePauseTime: 5
   - type: Appearance

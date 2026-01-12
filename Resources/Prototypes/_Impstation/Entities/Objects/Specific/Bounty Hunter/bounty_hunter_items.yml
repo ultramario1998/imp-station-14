@@ -77,8 +77,7 @@
   - type: BatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 10
-  - type: BatterySelfRecharger
-    autoRecharge: true
+  - type: PredictedBatterySelfRecharger
     autoRechargeRate: 5
 
 - type: entity
@@ -146,8 +145,7 @@
     - Antagonists
   - type: ItemToggleDamageOtherOnHit
   - type: DamageOtherOnHit
-  - type: BatterySelfRecharger
-    autoRecharge: true
+  - type: PredictedBatterySelfRecharger
     autoRechargeRate: 0.5
 
 

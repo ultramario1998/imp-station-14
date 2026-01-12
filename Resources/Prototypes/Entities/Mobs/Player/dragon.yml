@@ -8,7 +8,10 @@
   components:
   - type: Bloodstream
     bloodMaxVolume: 650
-    bloodReagent: ShimmeringBlood #imp
+    bloodReagents:
+      reagents:
+      - ReagentId: ShimmeringBlood #imp
+        Quantity: 1
   - type: GhostRole
     allowMovement: true
     allowSpeech: true

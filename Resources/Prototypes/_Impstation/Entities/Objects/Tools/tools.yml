@@ -230,8 +230,7 @@
   - type: PredictedBattery
     maxCharge: 100
     startingCharge: 100
-  - type: BatterySelfRecharger
-    autoRecharge: true
+  - type: PredictedBatterySelfRecharger
     autoRechargeRate: 2
   - type: Item
     size: Tiny

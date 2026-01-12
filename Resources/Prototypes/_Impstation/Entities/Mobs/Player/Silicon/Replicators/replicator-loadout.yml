@@ -56,8 +56,7 @@
   - type: PredictedBattery
     maxCharge: 150
     startingCharge: 150
-  - type: BatterySelfRecharger
-    autoRecharge: true
+  - type: PredictedBatterySelfRecharger
     autoRechargeRate: 1000
   - type: MeleeWeapon
     wideAnimationRotation: -80

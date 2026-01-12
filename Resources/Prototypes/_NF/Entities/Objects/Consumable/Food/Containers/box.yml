@@ -132,8 +132,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
-        children: []
+      storagebase: !type:NoneSelector
 
 - type: entity
   id: HappyHonkEmpty
@@ -142,8 +141,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
-        children: []
+      storagebase: !type:NoneSelector
 - type: entity
   id: HappyHonkMimeEmpty
   parent: HappyHonkMime
@@ -151,8 +149,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
-        children: []
+      storagebase: !type:NoneSelector
 
 - type: entity
   id: HappyHonkNukieEmpty
@@ -161,8 +158,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
-        children: []
+      storagebase: !type:NoneSelector
 
 - type: entity
   id: HappyHonkCluwneEmpty
@@ -171,8 +167,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
-        children: []
+      storagebase: !type:NoneSelector
 
 - type: entity
   id: FoodBoxNuggetEmpty
@@ -181,8 +176,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
-        children: []
+      storagebase: !type:NoneSelector
 
 - type: entity
   id: FoodContainerEggEmpty
@@ -191,8 +185,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
-        children: []
+      storagebase: !type:NoneSelector
 
 - type: entity
   id: FoodBoxDonutEmpty
@@ -200,5 +193,4 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
-        children: []
+      storagebase: !type:NoneSelector

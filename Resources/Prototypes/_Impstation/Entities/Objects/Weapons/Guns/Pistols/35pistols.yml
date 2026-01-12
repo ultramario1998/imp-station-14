@@ -106,7 +106,7 @@
   - type: PredictedBattery
     maxCharge: 1000
     startingCharge: 1000
-  - type: BatterySelfRecharger
+  - type: PredictedBatterySelfRecharger
     autoRechargeRate: 25
   - type: AmmoCounter
 

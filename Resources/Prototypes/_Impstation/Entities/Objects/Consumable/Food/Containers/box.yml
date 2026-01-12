@@ -98,7 +98,6 @@
               weight: 0.8
             - id: FoodMacaronMimana
               weight: 0.4
-              orGroup: Macaron1
             - id: FoodGummyWorm
               weight: 0.1
   - type: Storage

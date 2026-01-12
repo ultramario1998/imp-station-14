@@ -49,8 +49,8 @@
 - type: lobbyBackground
   id: 70'sNovelCover
   background: /Textures/_Impstation/LobbyScreens/impstation70snovelcover.webp
-  title: lobby-state-background-70'snovelcover-title
-  artist: lobby-state-background-70'snovelcover-artist
+  title: lobby-state-background-70snovelcover-title
+  artist: lobby-state-background-70snovelcover-artist
 
 - type: lobbyBackground
   id: ChezSlog

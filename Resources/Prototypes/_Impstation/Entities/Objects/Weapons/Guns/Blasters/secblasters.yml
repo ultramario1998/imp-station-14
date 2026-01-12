@@ -71,8 +71,7 @@
   - type: BatteryAmmoProvider
     proto: BulletBlasterMagnum
     fireCost: 150
-  - type: BatterySelfRecharger
-    autoRecharge: true
+  - type: PredictedBatterySelfRecharger
     autoRechargeRate: 20
   - type: MeleeWeapon
     wideAnimationRotation: -80

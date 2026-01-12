@@ -35,9 +35,9 @@
     - type: Bloodstream
       bloodMaxVolume: 300
       bloodReagents:
-      reagents:
-      - ReagentId: Blood
-        Quantity: 1
+        reagents:
+        - ReagentId: Blood
+          Quantity: 1
     - type: GhostRole
       allowMovement: true
       makeSentient: true

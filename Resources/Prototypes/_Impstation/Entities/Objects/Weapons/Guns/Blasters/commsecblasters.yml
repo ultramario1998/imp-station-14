@@ -89,7 +89,7 @@
     - proto: BulletMagnumDisabler
       fireCost: 175
       pacifismAllowedMode: true
-  - type: BatterySelfRecharger
+  - type: PredictedBatterySelfRecharger
     autoRechargeRate: 35
     autoRechargePauseTime: 1
   - type: MeleeWeapon
