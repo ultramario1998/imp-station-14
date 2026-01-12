@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: DinnerCalzone
-  changes:
-  - message: Fixed command door remote not being able to interact with Hospitality
-      Director locked doors.
-    type: Fix
-  id: 2046
-  time: '2025-07-25T11:28:36.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3106
 - author: msTheowo
   changes:
   - message: Security is now allowed to start the shift without armor or a belt if
@@ -4179,3 +4171,15 @@
   id: 2545
   time: '2026-01-12T02:12:56.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3881
+- author: FlapWrap
+  changes:
+  - message: Mimes, you're blue now, that's my change.
+    type: Tweak
+  - message: Advances in metamorphic technology has allowed mime masks to better fit
+      more species.
+    type: Tweak
+  - message: Mimebot has a new coat of paint.
+    type: Add
+  id: 2546
+  time: '2026-01-12T02:34:26.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3920
