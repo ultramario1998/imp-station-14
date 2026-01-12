@@ -136,6 +136,9 @@
   - type: ReplacementAccent
     accent: tomatoKiller
   - type: Item
+    size: Large
+    shape:
+    - 0,0,2,2
   - type: GoobAbsorbable # imp edit
     biomassRestored: 0.2
   - type: MultiHandedItem

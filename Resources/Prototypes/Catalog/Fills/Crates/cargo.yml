@@ -125,17 +125,14 @@
     - id: WeaponShotgunHandmade
     - id: WeaponFlareGun
     - id: Bola
-    - id: ToySword
     - id: Shovel
-    - id: WeaponWaterPistol
-    - id: WeaponWaterBlaster
     - id: WeaponTurretXeno
     - id: WeaponGoldZipperFake #imp
     - id: WeaponPistolValu #imp
     - id: WeaponPistolZipper #imp
       weight: 2
-    - id: WeaponRifleFoam
-      weight: 3
+    - !type:NestedSelector
+      tableId: AllToyWeaponsTable
 
 - type: entityTable
   id: LotteryClothingEntityTable
