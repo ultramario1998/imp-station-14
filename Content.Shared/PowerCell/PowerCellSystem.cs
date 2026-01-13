@@ -16,7 +16,7 @@ public sealed partial class PowerCellSystem : EntitySystem
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly ItemSlotsSystem _itemSlots = default!;
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
-    [Dependency] private readonly PredictedBatterySystem _battery = default!;
+    [Dependency] private readonly SharedBatterySystem _battery = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
 
     public override void Initialize()
@@ -28,7 +28,7 @@ public sealed partial class PowerCellSystem : EntitySystem
         SubscribeLocalEvent<PowerCellSlotComponent, EntInsertedIntoContainerMessage>(OnCellSlotInserted);
         SubscribeLocalEvent<PowerCellSlotComponent, EntRemovedFromContainerMessage>(OnCellSlotRemoved);
         SubscribeLocalEvent<PowerCellSlotComponent, ExaminedEvent>(OnCellSlotExamined);
-        SubscribeLocalEvent<PowerCellSlotComponent, PredictedBatteryStateChangedEvent>(OnCellSlotStateChanged);
+        SubscribeLocalEvent<PowerCellSlotComponent, BatteryStateChangedEvent>(OnCellSlotStateChanged);
 
         SubscribeLocalEvent<PowerCellComponent, ExaminedEvent>(OnCellExamined);
 
@@ -66,7 +66,7 @@ public sealed partial class PowerCellSystem : EntitySystem
         _battery.RefreshChargeRate(args.Entity);
 
         // Only update the visuals if we actually use them.
-        if (!HasComp<PredictedBatteryVisualsComponent>(ent))
+        if (!HasComp<BatteryVisualsComponent>(ent))
             return;
 
         // Set the data to that of the power cell
@@ -95,7 +95,7 @@ public sealed partial class PowerCellSystem : EntitySystem
         _battery.RefreshChargeRate(args.Entity);
 
         // Only update the visuals if we actually use them.
-        if (!HasComp<PredictedBatteryVisualsComponent>(ent))
+        if (!HasComp<BatteryVisualsComponent>(ent))
             return;
 
         // Set the appearance to empty.
@@ -104,7 +104,7 @@ public sealed partial class PowerCellSystem : EntitySystem
     }
 
 
-    private void OnCellSlotStateChanged(Entity<PowerCellSlotComponent> ent, ref PredictedBatteryStateChangedEvent args)
+    private void OnCellSlotStateChanged(Entity<PowerCellSlotComponent> ent, ref BatteryStateChangedEvent args)
     {
         if (args.NewState != BatteryState.Empty)
             return;
@@ -124,11 +124,11 @@ public sealed partial class PowerCellSystem : EntitySystem
 
     private void OnCellExamined(Entity<PowerCellComponent> ent, ref ExaminedEvent args)
     {
-        if (TryComp<PredictedBatteryComponent>(ent, out var battery))
+        if (TryComp<BatteryComponent>(ent, out var battery))
             OnBatteryExamined((ent.Owner, battery), ref args);
     }
 
-    private void OnBatteryExamined(Entity<PredictedBatteryComponent> ent, ref ExaminedEvent args)
+    private void OnBatteryExamined(Entity<BatteryComponent> ent, ref ExaminedEvent args)
     {
         var chargePercent = _battery.GetChargeLevel(ent.AsNullable()) * 100;
         args.PushMarkup(Loc.GetString("power-cell-component-examine-details", ("currentCharge", $"{chargePercent:F0}"),
