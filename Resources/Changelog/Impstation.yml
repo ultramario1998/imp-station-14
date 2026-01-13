@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: widgetbeck
-  changes:
-  - message: Replicators are now actually targeted by dragons, space mobs, turrets,
-      etc.
-    type: Fix
-  id: 2052
-  time: '2025-07-25T11:28:42.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3112
 - author: LandsharkRAWR
   changes:
   - message: roses can now be juiced into rose water! there are 5 drinks you can make
@@ -4178,3 +4170,12 @@
   id: 2551
   time: '2026-01-13T20:23:15.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3941
+- author: Squamatic
+  changes:
+  - message: Random toy spawners can spawn more plushies now. Yay!
+    type: Tweak
+  - message: Vulpkanin plushies scream more whimsically.
+    type: Fix
+  id: 2552
+  time: '2026-01-13T20:24:26.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3944
