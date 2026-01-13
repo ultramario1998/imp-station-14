@@ -1,14 +1,4 @@
 ﻿Entries:
-- author: DVDPlayerOfDiscordFame
-  changes:
-  - message: You can now craft the Makeshift Laser Gun!
-    type: Add
-  - message: The Makeshift Laser's stats and cosmetics have been changed to set it
-      apart a little.
-    type: Tweak
-  id: 2054
-  time: '2025-07-25T11:28:44.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3107
 - author: sev7ves
   changes:
   - message: So many new pleebnar visions.
@@ -4174,3 +4164,11 @@
   id: 2553
   time: '2026-01-13T20:29:33.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3962
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: Changed the kinetic muzzle flash, and updated the M1's kinetic bolt muzzle
+      flash too.
+    type: Tweak
+  id: 2554
+  time: '2026-01-13T20:31:36.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3964
