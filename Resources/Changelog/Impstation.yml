@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Pinkbat5
-  changes:
-  - message: The invisible thief crate is now actually fully invisible.
-    type: Tweak
-  id: 2049
-  time: '2025-07-25T11:28:39.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3096
 - author: whatston3, arimah, the-hivequeen, dustylens
   changes:
   - message: Nanotrasen chefs have received proper training and have learned about
@@ -4180,3 +4173,13 @@
   id: 2548
   time: '2026-01-13T04:44:18.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3957
+- author: deltanedas, mqole
+  changes:
+  - message: The PKA's shots are now pressure sensitive. They won't do as much damage
+      indoors!
+    type: Tweak
+  - message: The PKA is a bit smaller again.
+    type: Tweak
+  id: 2549
+  time: '2026-01-13T19:46:41.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/2982
