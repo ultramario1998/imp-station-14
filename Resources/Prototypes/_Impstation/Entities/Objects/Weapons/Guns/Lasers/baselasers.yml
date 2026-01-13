@@ -32,6 +32,9 @@
     fireCost: 62.5
   - type: StaticPrice
     price: 420
+  - type: Tag
+    tags:
+    - LaserWeapon
 
 # For small laser pistols with an internal battery
 - type: entity
@@ -59,3 +62,7 @@
     fireCost: 62.5
   - type: StaticPrice
     price: 420
+  - type: Tag
+    tags:
+    - LaserWeapon
+    - Sidearm

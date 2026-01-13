@@ -123,6 +123,7 @@
   - type: Tag
     tags:
     - TurretCompatibleWeapon
+    - LaserWeapon
   - type: MeleeWeapon
     attackRate: 0.4 #slower, but hits harder; bigger object to shove with
     damage:
@@ -254,6 +255,7 @@
     - HighRiskItem
     - Sidearm
     - WeaponAntiqueLaser
+    - LaserWeapon
   - type: StaticPrice
     price: 750
   - type: StealTarget
