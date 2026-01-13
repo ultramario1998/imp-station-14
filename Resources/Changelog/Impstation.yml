@@ -1,17 +1,4 @@
 ﻿Entries:
-- author: whatston3, arimah, the-hivequeen, dustylens
-  changes:
-  - message: Nanotrasen chefs have received proper training and have learned about
-      a second and third cooking appliance, now deployed to most space kitchens.
-    type: Add
-  - message: Doctors have a proper device to make topicals and aren't nuking that
-      shit.
-    type: Add
-  - message: Chefs and bartenders have also discovered several dozen forgotten recipes!
-    type: Add
-  id: 2050
-  time: '2025-07-25T11:28:40.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3048
 - author: FlippenPage
   changes:
   - message: anomalies can now transform walls, leaving engineers across the sector
@@ -4183,3 +4170,12 @@
   id: 2549
   time: '2026-01-13T19:46:41.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/2982
+- author: lobsterpaw
+  changes:
+  - message: The Spider Clan now supplies agents with smoke bombs.
+    type: Add
+  - message: The Spider Clan has acquired a patent for advanced tool storage technology.
+    type: Tweak
+  id: 2550
+  time: '2026-01-13T20:20:05.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3931
