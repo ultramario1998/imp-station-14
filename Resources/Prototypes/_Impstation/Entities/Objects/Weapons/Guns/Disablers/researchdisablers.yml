@@ -35,7 +35,7 @@
   - type: BatteryAmmoProvider
     proto: HitscanDisabler
     fireCost: 100
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 1200
     startingCharge: 1200
   - type: StaticPrice

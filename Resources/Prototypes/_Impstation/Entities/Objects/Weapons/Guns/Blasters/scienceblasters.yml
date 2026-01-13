@@ -93,7 +93,7 @@
     - type: BatteryAmmoProvider
       proto: AntiParticlesProjectile
       fireCost: 500
-    - type: PredictedBattery
+    - type: Battery
       maxCharge: 10000
       startingCharge: 10000
     - type: MeleeWeapon

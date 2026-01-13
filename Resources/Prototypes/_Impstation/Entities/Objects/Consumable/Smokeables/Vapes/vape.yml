@@ -10,7 +10,7 @@
     size: Small
     shape:
     - 0,0,0,1
-  - type: PredictedBatteryVisuals
+  - type: BatteryVisuals
   - type: Sprite
     sprite: _Impstation/Objects/Consumable/Smokeables/Vapes/vape-swappable.rsi
     layers:

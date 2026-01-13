@@ -21,6 +21,7 @@ using Content.Shared.Weapons.Melee.Events;
 using JetBrains.Annotations;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
+using Content.Shared._DV.Chemistry.Components; //DeltaV
 
 namespace Content.Shared.Chemistry.EntitySystems;
 
@@ -193,6 +194,12 @@ public sealed partial class InjectorSystem : EntitySystem
     /// </summary>
     private bool TryMobsDoAfter(Entity<InjectorComponent> injector, EntityUid user, EntityUid target)
     {
+        if (HasComp<BlockInjectionComponent>(target)) // DeltaV
+        {
+            _popup.PopupEntity(Loc.GetString("injector-component-deny-user"), target, user);
+            return false;
+        }
+
         if (_useDelay.IsDelayed(injector.Owner) // Check for Delay.
             || !GetMobsDoAfterTime(injector, user, target, out var doAfterTime, out var amount)) // Get the DoAfter time.
             return false;
@@ -450,6 +457,9 @@ public sealed partial class InjectorSystem : EntitySystem
     /// <returns>True if the injection was successful, false if not.</returns>
     private bool TryInject(Entity<InjectorComponent> injector, EntityUid user, EntityUid target, Entity<SolutionComponent> targetSolution, bool asRefill)
     {
+        if (HasComp<BlockInjectionComponent>(target))  // DeltaV
+            return false;
+
         if (!_solutionContainer.ResolveSolution(injector.Owner,
                 injector.Comp.SolutionName,
                 ref injector.Comp.Solution,

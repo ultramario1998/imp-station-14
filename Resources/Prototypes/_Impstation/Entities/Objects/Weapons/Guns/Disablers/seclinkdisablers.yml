@@ -66,7 +66,7 @@
     magState: mag
     steps: 5
     zeroVisible: true
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 540
     startingCharge: 540
   - type: BatteryAmmoProvider
@@ -108,7 +108,7 @@
     - FullAuto
     soundGunshot:
       path: /Audio/_Impstation/Weapons/Guns/Gunshots/autodisabler.ogg
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 1440
     startingCharge: 1440
   - type: BatteryAmmoProvider
@@ -144,6 +144,6 @@
   - type: BatteryAmmoProvider
     proto: BulletMagnumDisabler
     fireCost: 150
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 1050
     startingCharge: 1050

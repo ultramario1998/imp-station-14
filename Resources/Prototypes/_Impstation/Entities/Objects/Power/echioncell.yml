@@ -13,7 +13,7 @@
     - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       state: o2
       shader: unshaded
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 540
     startingCharge: 540
   - type: BatteryAmmoProvider

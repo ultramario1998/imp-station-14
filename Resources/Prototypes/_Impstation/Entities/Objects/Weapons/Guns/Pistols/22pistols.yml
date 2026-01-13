@@ -292,9 +292,9 @@
   - type: BatteryAmmoProvider
     proto: BulletLPistol
     fireCost: 100
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 800
     startingCharge: 800
-  - type: PredictedBatterySelfRecharger
+  - type: BatterySelfRecharger
     autoRechargeRate: 40
   - type: AmmoCounter

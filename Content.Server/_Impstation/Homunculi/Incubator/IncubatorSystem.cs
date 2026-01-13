@@ -166,7 +166,7 @@ public sealed class IncubatorSystem : SharedIncubatorSystem
         }
     }
 
-    private static int UsesRemaining(IncubatorComponent component, PredictedBatteryComponent? battery = null)
+    private static int UsesRemaining(IncubatorComponent component, BatteryComponent? battery = null)
     {
         if (battery == null || component.ChargeUse == 0f)
             return 0;
@@ -174,7 +174,7 @@ public sealed class IncubatorSystem : SharedIncubatorSystem
         return (int)(battery.LastCharge / component.ChargeUse);
     }
 
-    private static int MaxUses(IncubatorComponent component, PredictedBatteryComponent? battery = null)
+    private static int MaxUses(IncubatorComponent component, BatteryComponent? battery = null)
     {
         if (battery == null || component.ChargeUse == 0f)
             return 0;

@@ -13,12 +13,12 @@ public sealed class TriggerOnBatteryFullSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<TriggerOnBatteryFullComponent, PredictedBatteryChargeChangedEvent>(OnChargeChanged);
+        SubscribeLocalEvent<TriggerOnBatteryFullComponent, ChargeChangedEvent>(OnChargeChanged);
     }
 
-    private void OnChargeChanged(Entity<TriggerOnBatteryFullComponent> ent, ref PredictedBatteryChargeChangedEvent args)
+    private void OnChargeChanged(Entity<TriggerOnBatteryFullComponent> ent, ref ChargeChangedEvent args)
     {
-        if (TryComp(ent.Owner, out PredictedBatteryComponent? battery) && battery.LastCharge >= battery.MaxCharge)
+        if (TryComp(ent.Owner, out BatteryComponent? battery) && battery.LastCharge >= battery.MaxCharge)
         {
             _trigger.Trigger(ent);
         }

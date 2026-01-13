@@ -25,7 +25,7 @@
   - type: BatteryAmmoProvider
     proto: BulletBlasterToy
     fireCost: 10
-  - type: PredictedBatterySelfRecharger
+  - type: BatterySelfRecharger
     autoRechargeRate: 200
   - type: MeleeWeapon
     wideAnimationRotation: -80

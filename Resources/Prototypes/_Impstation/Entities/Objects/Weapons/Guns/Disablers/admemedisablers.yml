@@ -26,10 +26,10 @@
   - type: BatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 200
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 5000
     startingCharge: 5000
-  - type: PredictedBatterySelfRecharger
+  - type: BatterySelfRecharger
     autoRechargeRate: 40
   - type: MeleeWeapon
     attackRate: 0.6
@@ -64,7 +64,7 @@
     quickEquip: false
     slots:
     - Back
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 4000
     startingCharge: 4000
   - type: BatteryAmmoProvider

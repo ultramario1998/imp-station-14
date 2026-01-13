@@ -22,7 +22,7 @@
     magState: mag
     steps: 6
     zeroVisible: true
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 100
     startingCharge: 100
   - type: StaticPrice
@@ -47,10 +47,10 @@
         shader: unshaded
   - type: Clothing
     sprite: _Impstation/Objects/Weapons/Guns/Disablers/hopdisabler.rsi
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 900
     startingCharge: 900
-  - type: PredictedBatterySelfRecharger
+  - type: BatterySelfRecharger
     autoRechargeRate: 30
     autoRechargePauseTime: 5
   - type: Appearance

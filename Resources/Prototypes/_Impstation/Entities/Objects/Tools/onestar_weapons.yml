@@ -18,10 +18,10 @@
   - type: BatteryAmmoProvider
     proto: CartridgeMinigun #imp
     fireCost: 100
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 10000
     startingCharge: 10000
-  - type: PredictedBatterySelfRecharger
+  - type: BatterySelfRecharger
     autoRechargeRate: 50
   - type: Appearance
   - type: ContainerContainer
@@ -67,10 +67,10 @@
   - type: BatteryAmmoProvider
     proto: CartridgeRocketSlow #imp
     fireCost: 1000
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 10000
     startingCharge: 10000
-  - type: PredictedBatterySelfRecharger
+  - type: BatterySelfRecharger
     autoRechargeRate: 500
   - type: MagazineVisuals
     magState: mag
@@ -86,7 +86,7 @@
   suffix: Unremoveable
   components:
   - type: Unremoveable
-  - type: PredictedBatterySelfRecharger
+  - type: BatterySelfRecharger
     autoRechargeRate: 25
 
 # StartingGear

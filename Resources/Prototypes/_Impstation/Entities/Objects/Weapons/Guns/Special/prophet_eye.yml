@@ -14,7 +14,7 @@
   - type: BatteryAmmoProvider
     proto: RedMediumLaser
     fireCost: 200
-  - type: PredictedBatterySelfRecharger
+  - type: BatterySelfRecharger
     autoRechargeRate: 80
 
 - type: entity

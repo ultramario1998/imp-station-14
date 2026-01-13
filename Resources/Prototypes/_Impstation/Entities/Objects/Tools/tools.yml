@@ -227,10 +227,10 @@
   - type: BatteryAmmoProvider
     proto: CodeViolation
     fireCost: 20
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 100
     startingCharge: 100
-  - type: PredictedBatterySelfRecharger
+  - type: BatterySelfRecharger
     autoRechargeRate: 2
   - type: Item
     size: Tiny

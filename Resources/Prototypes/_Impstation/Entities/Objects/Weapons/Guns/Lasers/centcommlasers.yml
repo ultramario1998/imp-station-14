@@ -27,7 +27,7 @@
   - type: BatteryAmmoProvider
     proto: Pulse
     fireCost: 200
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 2000
     startingCharge: 2000
 
@@ -61,7 +61,7 @@
   - type: BatteryAmmoProvider
     proto: Pulse
     fireCost: 200
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 5000
     startingCharge: 5000
 
@@ -93,6 +93,6 @@
   - type: BatteryAmmoProvider
     proto: Pulse
     fireCost: 100
-  - type: PredictedBattery
+  - type: Battery
     maxCharge: 40000
     startingCharge: 40000
