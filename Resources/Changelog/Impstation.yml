@@ -1,16 +1,4 @@
 ﻿Entries:
-- author: LandsharkRAWR
-  changes:
-  - message: roses can now be juiced into rose water! there are 5 drinks you can make
-      with it.
-    type: Add
-  - message: black roses now inject 4u of their contained reagents.
-    type: Tweak
-  - message: black and blood roses now deal embed damage.
-    type: Tweak
-  id: 2053
-  time: '2025-07-25T11:28:43.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3052
 - author: DVDPlayerOfDiscordFame
   changes:
   - message: You can now craft the Makeshift Laser Gun!
@@ -4179,3 +4167,10 @@
   id: 2552
   time: '2026-01-13T20:24:26.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3944
+- author: ATDoop
+  changes:
+  - message: Fugitive no longer requires 1 hour of sec time to play.
+    type: Tweak
+  id: 2553
+  time: '2026-01-13T20:29:33.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3962
