@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: FlippenPage
-  changes:
-  - message: anomalies can now transform walls, leaving engineers across the sector
-      sobbing.
-    type: Tweak
-  id: 2051
-  time: '2025-07-25T11:28:41.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2521
 - author: widgetbeck
   changes:
   - message: Replicators are now actually targeted by dragons, space mobs, turrets,
@@ -4179,3 +4171,10 @@
   id: 2550
   time: '2026-01-13T20:20:05.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3931
+- author: sev7ves
+  changes:
+  - message: i'm is replaced by thui-wa in grayspeak again
+    type: Fix
+  id: 2551
+  time: '2026-01-13T20:23:15.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3941
