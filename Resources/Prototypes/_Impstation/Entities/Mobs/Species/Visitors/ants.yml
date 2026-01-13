@@ -68,11 +68,10 @@
         sprite: _Impstation/Mobs/Effects/apid_brute_damage.rsi
         color: "#808A51"
   - type: Bloodstream
-    bloodMaxVolume: 30
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: InsectBlood
-        Quantity: 1
+        Quantity: 30
   - type: Speech
     speechBubbleOffset: -0.35
     speechVerb: Arachnid

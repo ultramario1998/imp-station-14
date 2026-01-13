@@ -72,10 +72,10 @@
     - Hair
     - Snout
   - type: Bloodstream
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: ShimmeringBlood
-        Quantity: 1
+        Quantity: 300
   - type: Inventory
     speciesId: thaven
     templateId: thaven

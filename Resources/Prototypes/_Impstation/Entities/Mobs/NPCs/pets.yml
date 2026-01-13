@@ -157,7 +157,7 @@
         0: Alive
         180: Dead
     - type: Stamina
-      critThreshold: 150
+      baseCritThreshold: 150
     - type: Butcherable
       spawned:
         - id: FoodMeatFish

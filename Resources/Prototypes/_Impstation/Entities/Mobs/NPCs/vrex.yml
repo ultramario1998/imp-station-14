@@ -6,11 +6,10 @@
   abstract: true
   components:
   - type: Bloodstream
-    bloodMaxVolume: 1000
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: Blood
-        Quantity: 1
+        Quantity: 1000
   - type: GhostRole
     allowMovement: true
     makeSentient: true
@@ -177,7 +176,7 @@
     damageContainer: Biological
     damageModifierSet: VRex
   - type: Stamina
-    critThreshold: 300
+    baseCritThreshold: 300
   - type: JumpAbility
     action: ActionVRexLeap
     jumpDistance: 3

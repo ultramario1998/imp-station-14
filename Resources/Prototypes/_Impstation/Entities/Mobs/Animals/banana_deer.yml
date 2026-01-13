@@ -112,11 +112,10 @@
     - id: MaterialBananium
       amount: 1
   - type: Bloodstream
-    bloodMaxVolume: 300
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: Bananadine
-        Quantity: 1
+        Quantity: 300
   - type: SolutionContainerManager
     solutions:
       udder:

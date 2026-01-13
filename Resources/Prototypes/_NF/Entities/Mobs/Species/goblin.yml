@@ -70,10 +70,10 @@
       Burn:
         sprite: Mobs/Effects/burn_damage.rsi
   - type: Bloodstream
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: GoblinBlood
-        Quantity: 1
+        Quantity: 250
   - type: Butcherable
     spawned:
     - id: FoodMeatGoblin

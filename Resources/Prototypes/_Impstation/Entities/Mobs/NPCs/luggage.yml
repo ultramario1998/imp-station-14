@@ -40,10 +40,10 @@
   - type: Transform
     noRot: false
   - type: Bloodstream
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: Sap
-        Quantity: 1
+        Quantity: 100
   - type: GhostTakeoverAvailable
   - type: Puller
     needsHands: false

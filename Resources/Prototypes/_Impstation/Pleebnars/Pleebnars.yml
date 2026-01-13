@@ -149,11 +149,10 @@
       types:
         Piercing: 0
   - type: Bloodstream
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: GrayBlood
-        Quantity: 1
-    bloodMaxVolume: 50
+        Quantity: 50
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning

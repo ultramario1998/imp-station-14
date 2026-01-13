@@ -121,10 +121,10 @@
       types:
         Asphyxiation: -1.0
   - type: Bloodstream
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: GrayBlood
-        Quantity: 1
+        Quantity: 150
   - type: Speech
     speechSounds: PVC
   - type: TypingIndicator
@@ -223,10 +223,10 @@
   - type: Body
     prototype: HomunculusMoth
   - type: Bloodstream
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: InsectBlood
-        Quantity: 1
+        Quantity: 150
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -357,10 +357,10 @@
       amount: 5
   - type: ThavenMoods
   - type: Bloodstream
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: ShimmeringBlood
-        Quantity: 1
+        Quantity: 150
   - type: MeleeWeapon
     damage:
       types:

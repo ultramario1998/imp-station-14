@@ -262,8 +262,10 @@
     spawned:
     - id: FoodHivelordRemains
   - type: Bloodstream #imp
-    bloodMaxVolume: 350
-    chemicalMaxVolume: 20
+    bloodReferenceSolution:
+      reagents:
+      - ReagentId: Blood
+        Quantity: 350
   - type: InteractionPopup #imp
     successChance: 0.5
     interactSuccessString: petting-success-hivelord

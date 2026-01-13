@@ -64,11 +64,10 @@
     - Trash
     - MultitoolDefibrillatorTarget
   - type: Bloodstream
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: InsectBlood
         Quantity: 1
-    bloodMaxVolume: 0.1
   - type: MobPrice
     price: 50
   - type: Destructible

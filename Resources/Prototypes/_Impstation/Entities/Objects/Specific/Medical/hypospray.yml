@@ -42,11 +42,11 @@
           Quantity: 1
   - type: ExaminableSolution
     solution: pen
-  - type: Hypospray
-    solutionName: pen
-    transferAmount: 30
-    onlyAffectsMobs: false
-    injectOnly: true
+  - type: Injector
+    currentTransferAmount: null
+    activeModeProtoId: HyposprayInjectMode
+    allowedModes:
+    - HyposprayInjectMode
   - type: Appearance
   - type: SolutionContainerVisuals
     maxFillLevels: 1

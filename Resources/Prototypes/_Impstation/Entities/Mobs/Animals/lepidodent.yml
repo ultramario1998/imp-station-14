@@ -45,10 +45,10 @@
     - id: FoodMacaronCotton
       amount: 1
   - type: Bloodstream
-    bloodReagents:
+    bloodReferenceSolution:
       reagents:
       - ReagentId: InsectBlood
-        Quantity: 1
+        Quantity: 50
   - type: SolutionContainerManager
     solutions:
       food:
