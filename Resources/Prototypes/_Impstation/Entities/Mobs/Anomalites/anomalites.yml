@@ -301,17 +301,18 @@
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: AnomaliteIce
-  - type: Temperature
+  - type: TemperatureDamage
     heatDamageThreshold: 325
     coldDamageThreshold: 0
-    currentTemperature: 310.15
     coldDamage:
       types:
         Cold: 0.0
-    specificHeat: 42
     heatDamage:
       types:
         Heat: 1.5
+  - type: Temperature
+    currentTemperature: 310.15
+    specificHeat: 42
   - type: PointLight
     radius: 2
     energy: 1

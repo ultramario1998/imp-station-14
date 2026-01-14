@@ -14,6 +14,7 @@ using Content.Shared.Interaction.Events;
 using Content.Shared.Nutrition;
 using Content.Shared.Nutrition.EntitySystems;
 using Content.Shared.Power.Components;
+using Content.Shared.Power.EntitySystems;
 using Content.Shared.PowerCell;
 using Content.Shared.Smoking;
 using Robust.Shared.Containers;
@@ -28,6 +29,7 @@ namespace Content.Server.Nutrition.EntitySystems
         [Dependency] private readonly FlavorProfileSystem _flavorProfile = default!;
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
         [Dependency] private readonly PowerCellSystem _powerCell = default!;
+        [Dependency] private readonly SharedBatterySystem _battery = default!;
 
         private void InitializeImpVapes()
         {
@@ -83,7 +85,7 @@ namespace Content.Server.Nutrition.EntitySystems
         private void OnExamine(EntityUid uid, VapePenComponent component, ExaminedEvent args)
         {
             _powerCell.TryGetBatteryFromSlot(uid, out var battery);
-            var charges = UsesRemaining(component, battery);
+            var charges = UsesRemaining(uid, component, battery);
             var maxCharges = MaxUses(component, battery);
 
             using (args.PushGroup(nameof(VapePenComponent)))
@@ -317,12 +319,12 @@ namespace Content.Server.Nutrition.EntitySystems
             args.Handled = true;
         }
 
-        private int UsesRemaining(VapePenComponent component, BatteryComponent? battery = null)
+        private int UsesRemaining(EntityUid uid, VapePenComponent component, BatteryComponent? battery = null)
         {
             if (battery == null ||
                 component.ChargeUse == 0f) return 0;
 
-            return (int)(battery.LastCharge / component.ChargeUse);
+            return (int)(_battery.GetCharge((uid, battery)) / component.ChargeUse);
         }
 
         private int MaxUses(VapePenComponent component, BatteryComponent? battery = null)

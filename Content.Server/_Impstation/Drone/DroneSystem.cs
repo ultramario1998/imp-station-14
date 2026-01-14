@@ -16,6 +16,7 @@ using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Popups;
+using Content.Shared.Power.EntitySystems;
 using Content.Shared.PowerCell;
 using Content.Shared.PowerCell.Components;
 using Content.Shared.Throwing;
@@ -38,6 +39,7 @@ namespace Content.Server._Impstation.Drone
         [Dependency] private readonly PopupSystem _popupSystem = default!;
         [Dependency] private readonly PowerCellSystem _powerCell = default!;
         [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
+        [Dependency] private readonly SharedBatterySystem _battery = default!;
         [Dependency] private readonly SharedTransformSystem _transform = default!;
         [Dependency] private readonly UserInterfaceSystem _ui = default!;
 
@@ -184,7 +186,7 @@ namespace Content.Server._Impstation.Drone
             if (_powerCell.TryGetBatteryFromSlot(uid, out var battery))
             {
                 hasBattery = true;
-                chargePercent = battery.Value.Comp.LastCharge / battery.Value.Comp.MaxCharge;
+                chargePercent = _battery.GetCharge((uid, battery)) / battery.Value.Comp.MaxCharge;
             }
 
             var state = new DroneBuiState(chargePercent, hasBattery);
@@ -203,7 +205,7 @@ namespace Content.Server._Impstation.Drone
                 return;
             }
 
-            var chargePercent = (short)MathF.Round(battery.Value.Comp.LastCharge / battery.Value.Comp.MaxCharge * 10f);
+            var chargePercent = (short)MathF.Round(_battery.GetCharge((ent, battery)) / battery.Value.Comp.MaxCharge * 10f);
 
             if (chargePercent == 5 && chargePercent < ent.Comp.LastChargePercent)
             {

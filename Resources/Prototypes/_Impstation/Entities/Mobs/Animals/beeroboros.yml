@@ -74,7 +74,7 @@
       0: Alive
       5: Dead
   - type: Stamina
-    critThreshold: 5
+    baseCritThreshold: 5
     animationThreshold: 1
   - type: PointLight
     radius: 1.5

@@ -921,7 +921,7 @@
       tags:
       - Wall
   - type: Stamina
-    critThreshold: 200
+    baseCritThreshold: 200
     stunTime: 3
   - type: FlashImmunity
   - type: GhostRole
