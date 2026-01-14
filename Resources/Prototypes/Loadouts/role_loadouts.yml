@@ -823,3 +823,10 @@
   - SurvivalExtended
   - GroupBreathToolDecapoid # imp special
   - GroupTankHarnessAquatic #imp special
+
+- type: roleLoadout
+  id: RoleSurvivalSpaceNinja
+  groups:
+  - GroupEVATank
+  - GroupBreathToolDecapoid # imp special
+  - GroupTankHarnessAquatic #imp special
