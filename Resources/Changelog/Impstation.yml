@@ -1,17 +1,4 @@
 ﻿Entries:
-- author: sev7ves
-  changes:
-  - message: So many new pleebnar visions.
-    type: Add
-  - message: Hunger and thirst rates for pleebnars are now far slower.
-    type: Tweak
-  - message: Can now search in the vision menu.
-    type: Tweak
-  - message: Pleebnars now gib on death, as was intended.
-    type: Fix
-  id: 2055
-  time: '2025-07-25T11:28:45.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3044
 - author: astral_amy
   changes:
   - message: A number of tweaks and additions to Whisper. Check PR for details.
@@ -4172,3 +4159,10 @@
   id: 2554
   time: '2026-01-13T20:31:36.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3964
+- author: DinnerCalzone
+  changes:
+  - message: PKAs were not actually changed. We made it up.
+    type: Tweak
+  id: 2555
+  time: '2026-01-14T01:05:06.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3989
