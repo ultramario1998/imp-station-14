@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: SixValentine
-  changes:
-  - message: Fires are buffed on Luna!
-    type: Remove
-  id: 2057
-  time: '2025-07-25T11:28:47.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3125
 - author: happy99, mousesweater, Squamatic
   changes:
   - message: Adds Pathway, a station that has recently recovered from a supermatter
@@ -4166,3 +4159,16 @@
   id: 2556
   time: '2026-01-15T02:37:01.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3998
+- author: msTheowo
+  changes:
+  - message: Duct spiders spawn only one web tile, instead of five.
+    type: Tweak
+  - message: Duct spiders can wear hats now!
+    type: Tweak
+  - message: Duct spiders now go under airlocks and tables.
+    type: Tweak
+  - message: You can grind duct spiders alive. If you want.
+    type: Tweak
+  id: 2557
+  time: '2026-01-15T05:40:40.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3940
