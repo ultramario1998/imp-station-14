@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: happy99, mousesweater, Squamatic
-  changes:
-  - message: Adds Pathway, a station that has recently recovered from a supermatter
-      delamination.
-    type: Add
-  id: 2058
-  time: '2025-07-25T11:28:48.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3124
 - author: Kandiyaki
   changes:
   - message: Bread and Water soup. It's a proper meal.
@@ -4172,3 +4164,11 @@
   id: 2557
   time: '2026-01-15T05:40:40.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3940
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: The Basilisk-11 now uses the correct in-hands sprite for wielding with
+      either dominant hand.
+    type: Fix
+  id: 2558
+  time: '2026-01-15T07:04:34.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3997
