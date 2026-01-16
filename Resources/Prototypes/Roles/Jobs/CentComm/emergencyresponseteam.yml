@@ -133,7 +133,6 @@
     neck: ClothingNeckStoleChaplain
     outerClothing: ClothingOuterArmorBasic
     pocket2: FlashlightSeclite
-    inhand: NullRodDefault # imp
 
 - type: startingGear
   id: ERTChaplainGearEVA
@@ -160,6 +159,7 @@
     - FoodBakedBunHotX
     - FoodBakedBunHotX
     - FoodBakedBunHotX
+    - NullRodDefault # imp
     belt:
     - Bible
     - Lantern
@@ -169,7 +169,6 @@
     - WeaponPistolMk58
     - MagazinePistol
     - FlippoEngravedLighter
-    inhand: NullRodDefault # imp
 
 - type: chameleonOutfit
   id: ERTChaplainChameleonOutfit
