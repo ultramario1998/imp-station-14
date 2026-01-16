@@ -99,6 +99,7 @@
   components:
   - type: Sprite
     state: mime
+    sprite: _Impstation/Objects/Fun/figurines.rsi #imp
   - type: SpeakOnTrigger
     pack: FigurinesMime
 

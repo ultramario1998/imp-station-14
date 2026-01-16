@@ -29,6 +29,7 @@
     - id: PlushieSlime
     - id: PlushieSnake
     - id: PlushieExperiment
+      weight: 0.05 # imp add
     - id: PlushieVox
     - id: PlushieRouny
     - id: PlushieAtmosian
@@ -39,6 +40,7 @@
     - id: PlushieArachind
     - id: PlushiePenguin
     - id: PlushieVulp
+      weight: 0.05 # imp add
     - !type:GroupSelector
       children:
       - id: PlushieBee
@@ -79,47 +81,39 @@
       - id: PlushieThrongler
       - id: PlushieGhostRevenant # You got the god roll, and failed
     # imp edit start
-    - id: PlushieGray
-    - id: PlushieUrsaMinor
     - id: PlushieBug
-      weight: 0.1
-    - id: PlushieEvilBug
-      weight: 0.01
     - id: PlushieDecapoid
-    - id: PlushieAnomalocarid #rarer because it's big and weird
-      weight: 0.3
-    - id: PlushieSnail
-    - id: PlushieRaptor
-    - id: PlushieThaven
+    - id: PlushieGray
+    - id: PlushieGriffy
     - id: PlushieKodepiia
+    - id: PlushieRaptor
+    - id: PlushieSnail
+    - id: PlushieThaven
     - id: PlushieUngu
-    - id: PlushieUnguTiny
-      weight: 0.1
-    - id: PlushieThavenWeird
-      weight: 0.1
-    - id: PlushieDwarf
-      weight: 0.1
-    - id: PlushieApid
-      weight: 0.5
-    - id: PlushieGoblin
-      weight: 0.5
-    - id: PlushieGollylad
-      weight: 0.1
-    - id: PlushieImp
-      weight: 0.1
-    - id: PlushieHeadofPersonnel
-      weight: 0.1
-    - id: PlushieCaptain
-      weight: 0.1
+    - id: PlushieUrsaMinor
+    - !type:GroupSelector
+      weight: 0.5 # uncommon
+      children:
+      - id: PlushieAnomalocarid
+      - id: PlushieApid
+      - id: PlushieGoblin
+    - !type:GroupSelector
+      weight: 0.1 # rare
+      children:
+      - id: PlushieBros
+      - id: PlushieCaptain
+      - id: PlushieDwarf
+      - id: PlushieEeepy
+      - id: PlushieEvilBug
+      - id: PlushieGnomeChild
+      - id: PlushieGollylad
+      - id: PlushieHeadofPersonnel
+      - id: PlushieImp
+      - id: PlushieJumboGray
+      - id: PlushieThavenWeird
+      - id: PlushieUnguTiny
     - id: PlushieGiantBear
       weight: 0.05
-    - id: PlushieJumboGray
-      weight: 0.1
-    - id: PlushieGriffy
-    - id: PlushieGnomeChild
-      weight: 0.1
-    - id: PlushieEeepy
-      weight: 0.2
     # imp edit end
     # DEN begin
     - !type:GroupSelector
