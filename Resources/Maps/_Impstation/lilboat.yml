@@ -43266,6 +43266,8 @@ entities:
     - type: MovementSpeedModifier
     - type: Emoting
     - type: Examiner
+    - type: Physics
+      bodyType: KinematicController
 - proto: PlushieUrsaMinor
   entities:
   - uid: 4189

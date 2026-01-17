@@ -114,10 +114,10 @@ public abstract partial class SharedBorgSystem
         if (!TryComp<UnborgableComponent>(brain, out var unborgable))
             return;
 
-        _popup.PopupPredicted(unborgable.FailPopup, ent, ent, PopupType.MediumCaution);
+        _popup.PopupPredicted(Loc.GetString(unborgable.FailPopup), ent, ent, PopupType.MediumCaution);
         _audio.PlayPredicted(unborgable.FailSound, ent, ent);
 
-        if (_solution.TryGetSolution(ent.Owner, "food", out var solution))
+        if (_solution.TryGetSolution(brain, "food", out var solution))
         {
             if (solution != null)
             {
@@ -125,6 +125,6 @@ public abstract partial class SharedBorgSystem
                 _puddle.TrySpillAt(Transform(ent).Coordinates, solutions.Comp.Solution, out _);
             }
         }
-        EntityManager.PredictedQueueDeleteEntity(ent);
+        EntityManager.PredictedQueueDeleteEntity(brain);
     }
 }

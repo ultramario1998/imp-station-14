@@ -319,12 +319,12 @@ namespace Content.Server.Nutrition.EntitySystems
             args.Handled = true;
         }
 
-        private int UsesRemaining(EntityUid uid, VapePenComponent component, BatteryComponent? battery = null)
+        private int UsesRemaining(EntityUid uid, VapePenComponent component, Entity<BatteryComponent>? battery = null)
         {
             if (battery == null ||
                 component.ChargeUse == 0f) return 0;
 
-            return (int)(_battery.GetCharge((uid, battery)) / component.ChargeUse);
+            return (int)(_battery.GetCharge(battery.Value.AsNullable()) / component.ChargeUse);
         }
 
         private int MaxUses(VapePenComponent component, BatteryComponent? battery = null)

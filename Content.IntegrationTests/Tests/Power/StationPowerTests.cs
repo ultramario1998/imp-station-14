@@ -21,31 +21,20 @@ public sealed class StationPowerTests
     private const float MinimumPowerDurationSeconds = 10 * 60;
 
     private static readonly string[] GameMaps =
-    [
+    {
         // WIZDEN PROTOTYPES, ONES COMMENTED OUT ARE IN ignoredPrototypes.yml:
-        // "Bagel",
-        // "Box",
-        // "Elkridge",
-        // "Fland",
-        // "Marathon",
-        // "Oasis",
-        // "Packed",
-        // "Plasma",
-        // "Relic",
-        // "Snowball",
-        // "Reach",
-        // "Exo",
-        // "Meta",
-        // "Omega",
-        // "Core",
-        // "Saltern",
-        // "Reach",
-        // "Train",
-        // "Gate",
-        // "Amber",
-        // "Loop",
-        // "Convex",
-        // "Oasis",
+        //"Bagel",
+        //"Box",
+        //"Elkridge",
+        //"Fland",
+        //"Marathon",
+        //"Oasis",
+        //"Packed",
+        //"Plasma",
+        //"Relic",
+        //"Snowball",
+        //"Reach",
+        //"Exo",
 
         // IMP PROTOTYPES:
         "AmberImp",
@@ -55,33 +44,36 @@ public sealed class StationPowerTests
         "Bedlam",
         "Boat",
         "BoxImp",
-        "CentCommImp",
+        //"CentCommImp",
+        "Cluster",
         "CogImp",
         "CoreImp",
-        "E1M1",
+        //"E1M1",
         "ElkridgeImp",
         "GateImp",
-        "Hash",
         "Hummingbird",
         "Lilboat",
-        "Luna",
         "MarathonImp",
         "OasisImp",
         "PackedImp",
         "PlasmaImp",
         "ReachImp",
-        "RelicImp",
         "SalternImp",
         "Submarine",
         "TrainImp",
-        "Xeno",
-
-        // NOT IN ROTATION BUT WE STILL NEED THEM TESTED SINCE THEY STILL HAVE A PROTOTYPE:
-        "Eclipse",
-        "Refsdal",
-        "Skimmer",
         "Union",
-    ];
+        "Xeno",
+        "Pathway",
+        "Whisper",
+
+        // DEROTATED:
+        //"Eclipse",
+        //"Luna",
+        //"Refsdal",
+        //"reHash",
+        //"RelicImp",
+        //"Skimmer",
+    };
 
     [Explicit]
     [Test, TestCaseSource(nameof(GameMaps))]
