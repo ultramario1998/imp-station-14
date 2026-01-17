@@ -6,7 +6,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ClothingOuterHardsuitCourier
   - type: AccessReader # this hardsuit is kind of really good so this is a preemptive anti-powergaming measure
@@ -20,7 +20,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: WeaponMailLake
         - id: BoxMailCapsulePrimed
@@ -35,7 +35,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: BoxMailCapsulePrimed
         - id: BoxMailCapsulePrimed

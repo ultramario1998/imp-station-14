@@ -6,7 +6,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: JugSpaceCleaner
           amount: 6 #1200u total, ~half the amount
@@ -19,7 +19,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ClothingOuterHardsuitJanitor
           amount: 1
@@ -32,7 +32,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: BoozeDispenserMachineCircuitboard
         - id: SodaDispenserMachineCircuitboard

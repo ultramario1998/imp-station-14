@@ -6,7 +6,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: MiniGyroscopeFlatpack
 
@@ -18,7 +18,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ThrusterFlatpack
         - id: MiniGyroscopeFlatpack
@@ -35,7 +35,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: WallmountSubstationElectronics
         - id: WallmountGeneratorAPUElectronics
