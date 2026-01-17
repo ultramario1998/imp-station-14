@@ -5,7 +5,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ClothingUniformRandomBusiness
           amount: 10
@@ -19,7 +19,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ClothingUniformJumpsuitColorGrey
           amount: 2
@@ -40,7 +40,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ClothingShoesColorBlack
           amount: 1
@@ -70,7 +70,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ClothingUniformJumpsuitColorYellow
         - id: ClothingUniformJumpskirtColorYellow
@@ -86,7 +86,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ClothingUniformJumpsuitColorWhite
         - id: ClothingUniformJumpskirtColorWhite
@@ -101,7 +101,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ClothingUniformJumpsuitColorBlue
         - id: ClothingUniformJumpskirtColorBlue
@@ -115,7 +115,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ClothingUniformJumpsuitColorPink
         - id: ClothingUniformJumpskirtColorPink
@@ -129,7 +129,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ClothingUniformJumpsuitColorBlack
         - id: ClothingUniformJumpskirtColorBlack
@@ -146,7 +146,7 @@
   components:
   - type: EntityTableContainerFill
     containers:
-      storagebase: !type:AllSelector
+      entity_storage: !type:AllSelector
         children:
         - id: ClothingUniformJumpsuitColorGreen
         - id: ClothingUniformJumpskirtColorGreen

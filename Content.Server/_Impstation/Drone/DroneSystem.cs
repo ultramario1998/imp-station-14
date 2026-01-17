@@ -62,7 +62,7 @@ namespace Content.Server._Impstation.Drone
         // imp. for the battery system
         private void OnMapInit(Entity<DroneComponent> ent, ref MapInitEvent args)
         {
-            UpdateBatteryAlert((ent.Owner, ent.Comp));
+            UpdateBatteryAlert(ent);
 
             if (!TryComp<MindContainerComponent>(ent.Owner, out var mind) || !mind.HasMind)
                 _powerCell.SetDrawEnabled(ent.Owner, false);
@@ -193,9 +193,9 @@ namespace Content.Server._Impstation.Drone
             _ui.SetUiState(uid, DroneUiKey.Key, state);
         }
 
-        private void UpdateBatteryAlert(Entity<DroneComponent> ent, PowerCellSlotComponent? slotComponent = null)
+        private void UpdateBatteryAlert(Entity<DroneComponent> ent)
         {
-            if (!Resolve(ent, ref slotComponent))
+            if (!TryComp<PowerCellSlotComponent>(ent, out var slotComponent))
                 return;
 
             if (!_powerCell.TryGetBatteryFromSlot((ent, slotComponent), out var battery))
