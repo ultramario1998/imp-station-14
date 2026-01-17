@@ -186,7 +186,7 @@ namespace Content.Server._Impstation.Drone
             if (_powerCell.TryGetBatteryFromSlot(uid, out var battery))
             {
                 hasBattery = true;
-                chargePercent = _battery.GetCharge((uid, battery)) / battery.Value.Comp.MaxCharge;
+                chargePercent = _battery.GetCharge(battery.Value.AsNullable()) / battery.Value.Comp.MaxCharge;
             }
 
             var state = new DroneBuiState(chargePercent, hasBattery);
@@ -205,7 +205,7 @@ namespace Content.Server._Impstation.Drone
                 return;
             }
 
-            var chargePercent = (short)MathF.Round(_battery.GetCharge((ent, battery)) / battery.Value.Comp.MaxCharge * 10f);
+            var chargePercent = (short)MathF.Round(_battery.GetCharge(battery.Value.AsNullable()) / battery.Value.Comp.MaxCharge * 10f);
 
             if (chargePercent == 5 && chargePercent < ent.Comp.LastChargePercent)
             {
