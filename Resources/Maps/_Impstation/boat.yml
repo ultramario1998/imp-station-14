@@ -144398,6 +144398,8 @@ entities:
     - type: Emoting
     - type: Examiner
     - type: ScrambledAccent
+    - type: Physics
+      bodyType: KinematicController
 - proto: Thruster
   entities:
   - uid: 21725
