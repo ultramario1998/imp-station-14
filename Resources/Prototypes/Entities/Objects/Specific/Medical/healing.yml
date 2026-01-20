@@ -28,8 +28,8 @@
   - type: Item
     heldPrefix: ointment
     storedSprite:
-      state: ointment-storage
-      sprite: Objects/Specific/Medical/medical.rsi
+      state: ointment # imp
+      sprite: _Impstation/Objects/Specific/Medical/medical.rsi # imp
   - type: Healing
     damageContainers:
       - Biological

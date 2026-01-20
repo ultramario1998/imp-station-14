@@ -28,14 +28,6 @@
     - state: led
       map: [ "enum.PowerCellVisualLayers.Base" ]
       visible: false
-  - type: GenericVisualizer
-    visuals:
-      enum.BatteryVisuals.State:
-        enum.PowerCellVisualLayers.Base:
-          Full: {visible: true, state: led}
-          Neither: {visible: true, state: led}
-          Empty: {visible: false}
-
 
 - type: entity
   parent: BaseVapeDisposable

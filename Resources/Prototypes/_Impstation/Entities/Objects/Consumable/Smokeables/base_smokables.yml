@@ -14,9 +14,10 @@
           True: { visible: true }
           False: { visible: false }
       enum.BatteryVisuals.State:
-        Full: { visible: true }
-        Neither: { visible: true }
-        Empty: { visible: false }
+        enum.PowerCellVisualLayers.Base:
+          Full: {visible: true}
+          Neither: {visible: true}
+          Empty: {visible: false}
   - type: SolutionContainerVisuals
     maxFillLevels: 2
     fillBaseName: fill
