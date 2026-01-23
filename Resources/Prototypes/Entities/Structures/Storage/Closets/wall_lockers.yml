@@ -253,4 +253,4 @@
   - type: AccessReader
     access: [["SyndicateAgent"]]
   - type: Sprite # imp add
-    sprite: _Impstation/Structures/Storage/closet.rsi
+    sprite: Structures/Storage/wall_locker.rsi
