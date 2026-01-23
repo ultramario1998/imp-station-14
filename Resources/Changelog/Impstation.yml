@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: msTheowo
-  changes:
-  - message: Strange pills have random sprites
-    type: Tweak
-  id: 2069
-  time: '2025-07-25T11:28:59.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3077
 - author: jtfg-dev
   changes:
   - message: Basically every sign has a new description.
@@ -4162,3 +4155,10 @@
   id: 2568
   time: '2026-01-23T01:33:13.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3971
+- author: Ecramox
+  changes:
+  - message: Shuttle and Steel Maint tiles are now officially good
+    type: Tweak
+  id: 2569
+  time: '2026-01-23T02:01:55.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4016
