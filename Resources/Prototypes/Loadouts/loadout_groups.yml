@@ -1925,6 +1925,7 @@
   loadouts:
   - EmergencyNitrogenMilitaryDouble
   - EmergencyOxygenMilitaryDouble
+  - LoadoutSpeciesAquaticFullTank # Imp
 
 - type: loadoutGroup
   id: GroupSpeciesBreathTool

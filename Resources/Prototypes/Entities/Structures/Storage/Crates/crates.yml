@@ -364,6 +364,23 @@
     sprite: Structures/Storage/Crates/syndicate_secure.rsi
   - type: Sprite
     sprite: Structures/Storage/Crates/syndicate_secure.rsi
+    layers: # imp, need to redefine these from CrateGeneric
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: paper
+      sprite: Structures/Storage/Crates/labels.rsi
+      map: ["enum.PaperLabelVisuals.Layer"]
+      offset: 0.0, -0.0625
+      # imp edit start, used for GenericVisualizer to allow offsetting this layer
+    - state: open
+      map: [ open_crate ]
+      offset: 0, 0
+    # imp edit end
   - type: AccessReader
     access: [["SyndicateAgent", "NuclearOperative"]]
 
