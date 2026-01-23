@@ -806,6 +806,7 @@
   id: RoleSurvivalMilitaryDouble
   groups:
   - SurvivalMilitaryDouble
+  - GroupBreathToolDecapoid # imp special
 
 - type: roleLoadout
   id: RoleSurvivalNukie
