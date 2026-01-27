@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: hivehum
-  changes:
-  - message: Kodepiia are hungrier.
-    type: Tweak
-  id: 2078
-  time: '2025-07-26T09:34:34.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3164
 - author: astral_amy
   changes:
   - message: Whisper station is now in rotation.
@@ -4163,3 +4156,11 @@
   id: 2577
   time: '2026-01-26T05:28:13.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3942
+- author: sev7ves
+  changes:
+  - message: The time between rounds has been reduced to 10 minutes. 2:30 minutes
+      round end and 7:30 minutes lobby time.
+    type: Tweak
+  id: 2578
+  time: '2026-01-27T23:15:20.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4045
