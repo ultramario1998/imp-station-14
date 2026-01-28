@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: hivehum, FoxxoTrystan, portfiend
-  changes:
-  - message: Prize tickets now have a use! Redeem them for toys from the brand new
-      prize counter!
-    type: Add
-  id: 2081
-  time: '2025-07-26T10:21:26.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3138
 - author: wendyribstonpippin
   changes:
   - message: Military Jargon speakers will keep getting worse until morale improves
@@ -4159,3 +4151,10 @@
   id: 2580
   time: '2026-01-28T19:35:06.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4047
+- author: ATDoop
+  changes:
+  - message: The pirate captain's hardsuit has been resprited!
+    type: Tweak
+  id: 2581
+  time: '2026-01-28T19:59:21.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3973
