@@ -1,14 +1,4 @@
 ﻿Entries:
-- author: Jellvisk
-  changes:
-  - message: Added the Steel Wood Wall and reinforced variant. Shove some wood in
-      your steel girders today!
-    type: Add
-  - message: Wood Wall has been re-sprited.
-    type: Tweak
-  id: 2080
-  time: '2025-07-26T10:08:46.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3168
 - author: hivehum, FoxxoTrystan, portfiend
   changes:
   - message: Prize tickets now have a use! Redeem them for toys from the brand new
@@ -4162,3 +4152,10 @@
   id: 2579
   time: '2026-01-28T19:23:42.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3945
+- author: Simul-ad-Astra
+  changes:
+  - message: Crew have been reporting passengers adopting a new station pet
+    type: Add
+  id: 2580
+  time: '2026-01-28T19:35:06.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4047
