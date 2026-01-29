@@ -1,14 +1,4 @@
 ﻿Entries:
-- author: wendyribstonpippin
-  changes:
-  - message: You can now talk like a knight. or a medieval peasant. archaic speech
-      is in!
-    type: Add
-  - message: the serf that had snuck into the military camp has been dealt with
-    type: Fix
-  id: 2088
-  time: '2025-07-27T23:45:20.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3171
 - author: Mousetrinity
   changes:
   - message: Pathway Station didn't pass inspection, so we had to send in our best
@@ -4173,3 +4163,10 @@
   id: 2587
   time: '2026-01-29T01:00:38.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4033
+- author: msTheowo
+  changes:
+  - message: Non-cargo crew cannot embezzle cargo's funds anymore.
+    type: Fix
+  id: 2588
+  time: '2026-01-29T01:05:49.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3767
