@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Mousetrinity
-  changes:
-  - message: Pathway Station didn't pass inspection, so we had to send in our best
-      team to fix it up! See PR for details
-    type: Tweak
-  id: 2089
-  time: '2025-07-27T23:58:48.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3175
 - author: DinnerCalzone
   changes:
   - message: Plasma has been updated to feature genpop and a new TEG setup.
@@ -4170,3 +4162,11 @@
   id: 2588
   time: '2026-01-29T01:05:49.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3767
+- author: TheGrimbeeper
+  changes:
+  - message: Fixed infinite TC & traitor objectives bug when mindswapping into a Traitor
+      Reinforcement or Syndicate Infiltraitor (or if they were polymorphed)
+    type: Fix
+  id: 2589
+  time: '2026-01-29T01:10:10.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4046
