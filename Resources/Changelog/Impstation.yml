@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: youtubevideo3
-  changes:
-  - message: You will no longer wear fancy gloves on your head.
-    type: Fix
-  id: 2087
-  time: '2025-07-27T21:12:56.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3179
 - author: wendyribstonpippin
   changes:
   - message: You can now talk like a knight. or a medieval peasant. archaic speech
@@ -4171,3 +4164,12 @@
   id: 2586
   time: '2026-01-28T22:36:57.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3934
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: Gun projectile speeds have been standardized!
+    type: Tweak
+  - message: All four projectiles in the M-1's lethal spread are now the same.
+    type: Fix
+  id: 2587
+  time: '2026-01-29T01:00:38.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4033
