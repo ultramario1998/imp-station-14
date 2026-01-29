@@ -1,21 +1,4 @@
 ﻿Entries:
-- author: Impstation, bear777, DOSRG, mqole
-  changes:
-  - message: 'Modifications to various server rules! Please read them joyfully. Specific
-      changes are:'
-    type: Tweak
-  - message: A new 'Escalation Table' that seeks to answer some frequent questions
-      about escalation rules.
-    type: Add
-  - message: Clauses to rules A1, A2, A3, A6, B2, B3, B4, B5, B6, B8, Antag, and Silicon.
-    type: Add
-  - message: "Honestly there\u2019s a lot of specifics in there. If you're keen on\
-      \ the nitty-gritty, go to the PR page on GitHub, and hit 'View Changes' to see\
-      \ exactly what's different."
-    type: Add
-  id: 2091
-  time: '2025-07-29T09:22:52.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3172
 - author: wendyribstonpippin
   changes:
   - message: forsooth! this archaic accent needed more!
@@ -4170,3 +4153,10 @@
   id: 2590
   time: '2026-01-29T06:40:53.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4055
+- author: hivehum
+  changes:
+  - message: Tall species now tend to work like a lightning rod...
+    type: Tweak
+  id: 2591
+  time: '2026-01-29T08:54:20.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4000
