@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: DinnerCalzone
-  changes:
-  - message: Plasma has been updated to feature genpop and a new TEG setup.
-    type: Add
-  id: 2090
-  time: '2025-07-29T08:51:45.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3188
 - author: Impstation, bear777, DOSRG, mqole
   changes:
   - message: 'Modifications to various server rules! Please read them joyfully. Specific
@@ -4170,3 +4163,10 @@
   id: 2589
   time: '2026-01-29T01:10:10.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4046
+- author: TheGrimbeeper
+  changes:
+  - message: Cockroaches may once again be targeted by sentience events.
+    type: Tweak
+  id: 2590
+  time: '2026-01-29T06:40:53.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4055
