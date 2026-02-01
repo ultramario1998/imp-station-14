@@ -1,18 +1,4 @@
 ﻿Entries:
-- author: honeyed-lemons
-  changes:
-  - message: adds cream cheese, a cream cheese bagel,  and chocolate chips.
-    type: Add
-  - message: Altered various recipes that insinuated the use of chocolate chips and
-      cream cheese
-    type: Tweak
-  - message: Butter and Butter slice have been resprited
-    type: Tweak
-  - message: Chocolate bars now require being heated to be made
-    type: Tweak
-  id: 2097
-  time: '2025-07-31T15:06:49.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3113
 - author: hivehum
   changes:
   - message: Snails can now be obliterated by pleebnars.
@@ -4165,3 +4151,10 @@
   id: 2596
   time: '2026-02-01T22:25:35.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4058
+- author: honeyed-lemons
+  changes:
+  - message: Mr. Chang has slightly more edible looking noodles!
+    type: Tweak
+  id: 2597
+  time: '2026-02-01T22:28:09.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4064
