@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: hivehum
-  changes:
-  - message: Snails can now be obliterated by pleebnars.
-    type: Tweak
-  id: 2098
-  time: '2025-08-01T03:01:49.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3080
 - author: sev7ves
   changes:
   - message: The spider clan has seen a sharp decrease in recruits.
@@ -4158,3 +4151,10 @@
   id: 2597
   time: '2026-02-01T22:28:09.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4064
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: Blaster and Starflare Cells fit in security belts now
+    type: Fix
+  id: 2598
+  time: '2026-02-01T22:30:53.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4069
