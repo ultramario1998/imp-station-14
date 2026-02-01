@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: DVDPlayerOfDiscordFame
-  changes:
-  - message: Mk 93 + 92HB sprites get a couple little updates
-    type: Tweak
-  id: 2093
-  time: '2025-07-29T20:52:08.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3191
 - author: Jellvisk
   changes:
   - message: steel wood walls resprited
@@ -4161,3 +4154,14 @@
   id: 2592
   time: '2026-02-01T01:57:36.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4067
+- author: widgetbeck
+  changes:
+  - message: NT lawbound silicons now have their laws synchronized with the station
+      AI.
+    type: Add
+  - message: The Research Director now has a tool that allows them to re-synchronize
+      any errant silicons.
+    type: Add
+  id: 2593
+  time: '2026-02-01T22:06:09.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4019
