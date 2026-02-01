@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: yesteryuri
-  changes:
-  - message: Bottle boxes have three more bottles
-    type: Tweak
-  id: 2096
-  time: '2025-07-30T08:35:18.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3197
 - author: honeyed-lemons
   changes:
   - message: adds cream cheese, a cream cheese bagel,  and chocolate chips.
@@ -4165,3 +4158,10 @@
   id: 2595
   time: '2026-02-01T22:09:53.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4028
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: The Svalinn will shoots its dinky red lasers once more
+    type: Fix
+  id: 2596
+  time: '2026-02-01T22:25:35.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4058
