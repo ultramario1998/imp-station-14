@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: Jellvisk
-  changes:
-  - message: steel wood walls resprited
-    type: Tweak
-  id: 2094
-  time: '2025-07-29T21:19:59.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3190
-- author: yesteryuri
-  changes:
-  - message: Doctors won't be pressured to wear clown shoes by default, and other
-      similar cases.
-    type: Fix
-  id: 2095
-  time: '2025-07-30T08:34:16.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3196
 - author: yesteryuri
   changes:
   - message: Bottle boxes have three more bottles
@@ -4165,3 +4150,18 @@
   id: 2593
   time: '2026-02-01T22:06:09.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4019
+- author: starlighthowls
+  changes:
+  - message: The frigate class ship Monarch has been moved into IMP sector space.
+    type: Add
+  id: 2594
+  time: '2026-02-01T22:10:19.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4032
+- author: widgetbeck
+  changes:
+  - message: Added customizable lawboards, so antags can write their own laws to upload
+      into the AI. (currently unobtainable)
+    type: Add
+  id: 2595
+  time: '2026-02-01T22:09:53.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4028
