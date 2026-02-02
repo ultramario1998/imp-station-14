@@ -1,15 +1,4 @@
 ﻿Entries:
-- author: DVDPlayerOfDiscordFame
-  changes:
-  - message: The Syndicate Raid Suit will now protect you from being knocked over
-      by the Leviathan firing.
-    type: Tweak
-  - message: The Mk 93 + 92HB both will now default to their respective signature
-      firing modes.
-    type: Tweak
-  id: 2102
-  time: '2025-08-02T08:44:49.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3212
 - author: DinnerCalzone
   changes:
   - message: Carpets can now be cut off the floor by using a wirecutter on them.
@@ -4163,3 +4152,10 @@
   id: 2601
   time: '2026-02-02T20:20:23.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4039
+- author: mqole
+  changes:
+  - message: Pointing while holding a gun is now more threatening.
+    type: Add
+  id: 2602
+  time: '2026-02-02T20:24:21.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3337
