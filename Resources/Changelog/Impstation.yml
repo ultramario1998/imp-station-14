@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: sev7ves
-  changes:
-  - message: The spider clan has seen a sharp decrease in recruits.
-    type: Tweak
-  id: 2099
-  time: '2025-08-01T03:04:17.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3185
 - author: Kandiyaki
   changes:
   - message: the heretic's void blast can once again be aimed at non-visible targets.
@@ -4158,3 +4151,11 @@
   id: 2598
   time: '2026-02-01T22:30:53.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4069
+- author: DinnerCalzone
+  changes:
+  - message: '"Retro" radiators can now be crafted through the construction menu.
+      An old, chunky friend has returned.'
+    type: Add
+  id: 2599
+  time: '2026-02-02T18:49:01.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3975
