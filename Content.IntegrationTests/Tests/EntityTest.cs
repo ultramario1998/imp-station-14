@@ -20,7 +20,8 @@ namespace Content.IntegrationTests.Tests
     {
         private static readonly ProtoId<EntityCategoryPrototype> SpawnerCategory = "Spawner";
 
-        [Test, NonParallelizable] // imp nonparallelize for OOM
+        [Test]
+        [Explicit] // Floofstation - OOM bait
         public async Task SpawnAndDeleteAllEntitiesOnDifferentMaps()
         {
             // This test dirties the pair as it simply deletes ALL entities when done. Overhead of restarting the round
@@ -83,7 +84,8 @@ namespace Content.IntegrationTests.Tests
             await pair.CleanReturnAsync();
         }
 
-        [Test, NonParallelizable] // imp nonparallelize for OOM
+        [Test]
+        [Explicit] // Floofstation - OOM bait
         public async Task SpawnAndDeleteAllEntitiesInTheSameSpot()
         {
             // This test dirties the pair as it simply deletes ALL entities when done. Overhead of restarting the round
@@ -142,7 +144,8 @@ namespace Content.IntegrationTests.Tests
         ///     Variant of <see cref="SpawnAndDeleteAllEntitiesOnDifferentMaps"/> that also launches a client and dirties
         ///     all components on every entity.
         /// </summary>
-        [Test, NonParallelizable] // imp nonparallelize for OOM
+        [Test]
+        [Explicit] // Floofstation - OOM bait
         [Ignore("Broken due to engine issue relating to RemCompDeferred")] // imp heisentest
         public async Task SpawnAndDirtyAllEntities()
         {
@@ -228,7 +231,7 @@ namespace Content.IntegrationTests.Tests
         /// Note that this isn't really a strict requirement, and there are probably quite a few edge cases. Its a pretty
         /// crude test to try catch issues like this, and possibly should just be disabled.
         /// </remarks>
-        [Test, NonParallelizable] // imp nonparallelize for OOM
+        [Test]
         [Ignore("Broken due to engine issue relating to RemCompDeferred")] // imp heisentest
         public async Task SpawnAndDeleteEntityCountTest()
         {
@@ -370,7 +373,7 @@ namespace Content.IntegrationTests.Tests
             return false;
         }
 
-        [Test, NonParallelizable] // imp nonparallelize for OOM
+        [Test]
         public async Task AllComponentsOneToOneDeleteTest()
         {
             var skipComponents = new[]
