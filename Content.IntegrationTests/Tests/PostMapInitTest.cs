@@ -169,7 +169,7 @@ namespace Content.IntegrationTests.Tests
         /// <summary>
         /// Asserts that specific files have been saved as grids and not maps.
         /// </summary>
-        [Test, TestCaseSource(nameof(Grids))]
+        [Test, TestCaseSource(nameof(Grids)), NonParallelizable] // imp nonparallelize for OOM
         public async Task GridsLoadableTest(string mapFile)
         {
             await using var pair = await PoolManager.GetServerClient();
@@ -204,7 +204,7 @@ namespace Content.IntegrationTests.Tests
         /// <summary>
         /// Asserts that shuttles are loadable and have been saved as grids and not maps.
         /// </summary>
-        [Test]
+        [Test, NonParallelizable] // imp nonparallelize for OOM
         public async Task ShuttlesLoadableTest()
         {
             await using var pair = await PoolManager.GetServerClient();
@@ -250,7 +250,7 @@ namespace Content.IntegrationTests.Tests
             await pair.CleanReturnAsync();
         }
 
-        [Test]
+        [Test, NonParallelizable] // imp nonparallelize for OOM
         public async Task NoSavedPostMapInitTest()
         {
             await using var pair = await PoolManager.GetServerClient();
@@ -415,7 +415,7 @@ namespace Content.IntegrationTests.Tests
             return true;
         }
 
-        [Test, TestCaseSource(nameof(GameMaps))]
+        [Test, TestCaseSource(nameof(GameMaps)), NonParallelizable] // imp nonparallelize for OOM
         public async Task GameMapsLoadableTest(string mapProto)
         {
             await using var pair = await PoolManager.GetServerClient(new PoolSettings
@@ -560,7 +560,7 @@ namespace Content.IntegrationTests.Tests
             return resultCount;
         }
 
-        [Test]
+        [Test, NonParallelizable] // imp nonparallelize for OOM
         public async Task AllMapsTested()
         {
             await using var pair = await PoolManager.GetServerClient();
@@ -579,7 +579,7 @@ namespace Content.IntegrationTests.Tests
             await pair.CleanReturnAsync();
         }
 
-        [Test]
+        [Test, NonParallelizable] // imp nonparallelize for OOM
         public async Task NonGameMapsLoadableTest()
         {
             await using var pair = await PoolManager.GetServerClient();

@@ -20,7 +20,7 @@ namespace Content.IntegrationTests.Tests
     {
         private static readonly ProtoId<EntityCategoryPrototype> SpawnerCategory = "Spawner";
 
-        [Test]
+        [Test, NonParallelizable] // imp nonparallelize for OOM
         public async Task SpawnAndDeleteAllEntitiesOnDifferentMaps()
         {
             // This test dirties the pair as it simply deletes ALL entities when done. Overhead of restarting the round
@@ -83,7 +83,7 @@ namespace Content.IntegrationTests.Tests
             await pair.CleanReturnAsync();
         }
 
-        [Test]
+        [Test, NonParallelizable] // imp nonparallelize for OOM
         public async Task SpawnAndDeleteAllEntitiesInTheSameSpot()
         {
             // This test dirties the pair as it simply deletes ALL entities when done. Overhead of restarting the round
@@ -142,7 +142,7 @@ namespace Content.IntegrationTests.Tests
         ///     Variant of <see cref="SpawnAndDeleteAllEntitiesOnDifferentMaps"/> that also launches a client and dirties
         ///     all components on every entity.
         /// </summary>
-        [Test]
+        [Test, NonParallelizable] // imp nonparallelize for OOM
         [Ignore("Broken due to engine issue relating to RemCompDeferred")] // imp heisentest
         public async Task SpawnAndDirtyAllEntities()
         {
@@ -228,7 +228,7 @@ namespace Content.IntegrationTests.Tests
         /// Note that this isn't really a strict requirement, and there are probably quite a few edge cases. Its a pretty
         /// crude test to try catch issues like this, and possibly should just be disabled.
         /// </remarks>
-        [Test]
+        [Test, NonParallelizable] // imp nonparallelize for OOM
         [Ignore("Broken due to engine issue relating to RemCompDeferred")] // imp heisentest
         public async Task SpawnAndDeleteEntityCountTest()
         {
@@ -370,7 +370,7 @@ namespace Content.IntegrationTests.Tests
             return false;
         }
 
-        [Test]
+        [Test, NonParallelizable] // imp nonparallelize for OOM
         public async Task AllComponentsOneToOneDeleteTest()
         {
             var skipComponents = new[]
