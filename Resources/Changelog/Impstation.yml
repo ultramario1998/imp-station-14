@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: Widgetbeck, AirFryerBuyOneGetOneFree
-  changes:
-  - message: The Cargorilla has a rare chance to spawn at roundstart.
-    type: Add
-  - message: The Cargorilla can now stand up and beat his chest.
-    type: Add
-  id: 2106
-  time: '2025-08-02T09:01:49.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3095
 - author: HippiDippi
   changes:
   - message: Added a new round end sound of coming
@@ -4152,3 +4143,11 @@
   id: 2605
   time: '2026-02-04T22:46:40.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4075
+- author: DinnerCalzone
+  changes:
+  - message: Most species' guidebook pages have been updated to better reflect their
+      mechanics.
+    type: Tweak
+  id: 2606
+  time: '2026-02-04T22:50:37.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4072
