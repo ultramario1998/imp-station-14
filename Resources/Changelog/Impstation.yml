@@ -1,24 +1,4 @@
 ﻿Entries:
-- author: AvianMaiden
-  changes:
-  - message: The K2903 Star Rifle, a relic much like the Kardashev-Mosin but with
-      an interesting twist; buy now in your uplink!
-    type: Add
-  - message: Several weapon sounds and sound changes (such as volume) for feedback
-      and coolness.
-    type: Add
-  - message: More variety to Nanotrasen's cargo gifts in the armory category.
-    type: Add
-  - message: Teeny buffs and nerfs to a few weapons.
-    type: Tweak
-  - message: Have you melee'd with a flamethrower recently?
-    type: Tweak
-  - message: Rifle crate from the cargo armory catalog, since the Lecter crate already
-      exists.
-    type: Remove
-  id: 2104
-  time: '2025-08-02T08:50:30.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3182
 - author: Boaz1111, DinnerCalzone
   changes:
   - message: More atmos devices can now be constructed on layers from the construction
@@ -4160,3 +4140,14 @@
   id: 2603
   time: '2026-02-03T22:36:11.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4084
+- author: DinnerCalzone
+  changes:
+  - message: Ungu are a bit more susceptible to high body temperatures, as their guidebook
+      entry suggested.
+    type: Tweak
+  - message: Ungu's weakness to Heat damage from weapons has been reduced from 50%
+      to 30%
+    type: Tweak
+  id: 2604
+  time: '2026-02-04T22:43:03.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4076
