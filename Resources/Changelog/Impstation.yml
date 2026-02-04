@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Boaz1111, DinnerCalzone
-  changes:
-  - message: More atmos devices can now be constructed on layers from the construction
-      menu.
-    type: Add
-  id: 2105
-  time: '2025-08-02T08:55:54.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3135
 - author: Widgetbeck, AirFryerBuyOneGetOneFree
   changes:
   - message: The Cargorilla has a rare chance to spawn at roundstart.
@@ -4151,3 +4143,12 @@
   id: 2604
   time: '2026-02-04T22:43:03.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4076
+- author: DinnerCalzone
+  changes:
+  - message: Slime people no longer lose extra blood while bleeding.
+    type: Remove
+  - message: 'This feature can now be selected as a character trait: Hemorrhaging!'
+    type: Add
+  id: 2605
+  time: '2026-02-04T22:46:40.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4075
