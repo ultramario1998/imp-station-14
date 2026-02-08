@@ -1,15 +1,4 @@
 ﻿Entries:
-- author: kipdotnet
-  changes:
-  - message: Apids now have slightly better acceleration and air control.
-    type: Tweak
-  - message: Apid engineers now start with an RCD.
-    type: Tweak
-  - message: Apids can now wear gloves.
-    type: Tweak
-  id: 2111
-  time: '2025-08-03T12:09:16.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3216
 - author: Pinkbat5
   changes:
   - message: I want to get online. I, NEED, a computer.
@@ -4162,3 +4151,11 @@
   id: 2610
   time: '2026-02-08T21:36:44.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4070
+- author: BubbaBean
+  changes:
+  - message: New SOS sound effect to alert nearby people when you're being stabbed
+      in the maints.
+    type: Add
+  id: 2611
+  time: '2026-02-08T21:38:57.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4078
