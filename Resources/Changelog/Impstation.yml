@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: Stonylogray
-  changes:
-  - message: Decapoids are now slower than they were, but not quite as slow as they
-      used to be.
-    type: Tweak
-  id: 2113
-  time: '2025-08-03T12:16:01.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3155
-- author: Kandiyaki, smuglysuperior
-  changes:
-  - message: Added the Wildering Mirror, a heretic item that reflects energy weapons!
-    type: Add
-  id: 2114
-  time: '2025-08-03T13:01:14.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3134
 - author: VeeNomine
   changes:
   - message: Ported and added the magnet pickup feature from Frontier to the ore and
@@ -4159,3 +4144,17 @@
   id: 2612
   time: '2026-02-08T21:40:48.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4088
+- author: FancyPlanks
+  changes:
+  - message: Cryopods have a new look
+    type: Tweak
+  id: 2613
+  time: '2026-02-08T21:42:50.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4092
+- author: yesteryuri
+  changes:
+  - message: Mysterious gray puking disease has been cured
+    type: Fix
+  id: 2614
+  time: '2026-02-08T21:43:33.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4096
