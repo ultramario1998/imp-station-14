@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: ATDoop
-  changes:
-  - message: Swapping hands while singing into a microphone will no longer make you
-      stop singing.
-    type: Tweak
-  id: 2108
-  time: '2025-08-03T02:17:46.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3220
 - author: msTheowo
   changes:
   - message: Departments now have their own communications consoles, usable by their
@@ -4158,3 +4150,10 @@
   id: 2607
   time: '2026-02-08T20:52:16.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3578
+- author: msTheowo
+  changes:
+  - message: Anomalocards now vomit Discount Dan's ShrimpSips!
+    type: Tweak
+  id: 2608
+  time: '2026-02-08T21:10:14.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3932
