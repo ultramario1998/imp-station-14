@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: HippiDippi
-  changes:
-  - message: Added a new round end sound of coming
-    type: Add
-  id: 2107
-  time: '2025-08-03T01:35:16.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3211
 - author: ATDoop
   changes:
   - message: Swapping hands while singing into a microphone will no longer make you
@@ -4128,7 +4121,8 @@
   - message: Ungu are a bit more susceptible to high body temperatures, as their guidebook
       entry suggested.
     type: Tweak
-  - message: Ungu's death threshold has been lowered to 200 damage from 250. Their crit threshold is unchanged.
+  - message: Ungu's death threshold has been lowered to 200 damage from 250. Their
+      crit threshold is unchanged.
     type: Tweak
   - message: Ungu no longer take three times the suffocation damage as other species.
     type: Fix
@@ -4152,3 +4146,15 @@
   id: 2606
   time: '2026-02-04T22:50:37.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4072
+- author: JustASpaceNugget
+  changes:
+  - message: Added Black, Brown, White, and Fancy cowboy chaps to the theater drobe.
+      Don't forget your pants!!
+    type: Add
+  - message: Added Cow print and black leather vests to the theater drobe.
+    type: Add
+  - message: Added Giant Cowboy Hat to theater drobe.
+    type: Add
+  id: 2607
+  time: '2026-02-08T20:52:16.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3578
