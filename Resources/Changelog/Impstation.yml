@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Pinkbat5
-  changes:
-  - message: I want to get online. I, NEED, a computer.
-    type: Add
-  id: 2112
-  time: '2025-08-03T12:12:26.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3215
 - author: Stonylogray
   changes:
   - message: Decapoids are now slower than they were, but not quite as slow as they
@@ -4159,3 +4152,10 @@
   id: 2611
   time: '2026-02-08T21:38:57.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4078
+- author: lobsterpaw
+  changes:
+  - message: Lowered DAGD odds by half.
+    type: Tweak
+  id: 2612
+  time: '2026-02-08T21:40:48.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4088
