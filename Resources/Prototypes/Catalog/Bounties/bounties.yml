@@ -21,7 +21,7 @@
       tags:
       - BaseballBat
 
-# imp edit - no longer a practical bounty with offmed
+# imp edit - these are just bad
 # - type: cargoBounty
 #   id: BountyBrain
 #   reward: 12500
@@ -237,6 +237,7 @@
       tags:
       - Lime
 
+# imp edit - these are just bad
 # - type: cargoBounty
 #   id: BountyLung
 #   reward: 2000
@@ -294,16 +295,17 @@
       tags:
       - Pen
 
-- type: cargoBounty
-  id: BountyPercussion
-  reward: 2500
-  description: bounty-description-percussion
-  entries:
-  - name: bounty-item-percussion
-    amount: 4
-    whitelist:
-      tags:
-      - PercussionInstrument
+# imp edit - these are just bad
+# - type: cargoBounty
+#   id: BountyPercussion
+#   reward: 2500
+#   description: bounty-description-percussion
+#   entries:
+#   - name: bounty-item-percussion
+#     amount: 4
+#     whitelist:
+#       tags:
+#       - PercussionInstrument
 
 - type: cargoBounty
   id: BountyPie
@@ -469,7 +471,7 @@
       tags:
       - ArtifactFragment
 
-# imp edit - no longer a practical bounty with offmed
+# imp edit - these are just bad
 # - type: cargoBounty
 #   id: BountyOrgans
 #   reward: 2000
@@ -533,6 +535,7 @@
     whitelist:
       components:
       - BatteryAmmoProvider
+      - Clothing # imp edit - this will otherwise just accept any weapon battery
     blacklist:
       components:
       - PowerCell
