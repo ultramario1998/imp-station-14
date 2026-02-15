@@ -536,6 +536,7 @@
       components:
       - BatteryAmmoProvider
       - Clothing # imp edit - this will otherwise just accept any weapon battery
+      requireAll: true
     blacklist:
       components:
       - PowerCell
