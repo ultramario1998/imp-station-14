@@ -21,7 +21,7 @@
       tags:
       - BaseballBat
 
-# imp edit - these are just bad
+# imp edit - removed due to unpopularity
 # - type: cargoBounty
 #   id: BountyBrain
 #   reward: 12500
@@ -237,7 +237,7 @@
       tags:
       - Lime
 
-# imp edit - these are just bad
+# imp edit - removed due to unpopularity
 # - type: cargoBounty
 #   id: BountyLung
 #   reward: 2000
@@ -295,7 +295,7 @@
       tags:
       - Pen
 
-# imp edit - these are just bad
+# imp edit - removed due to unpopularity
 # - type: cargoBounty
 #   id: BountyPercussion
 #   reward: 2500
@@ -471,7 +471,7 @@
       tags:
       - ArtifactFragment
 
-# imp edit - these are just bad
+# imp edit - removed due to unpopularity
 # - type: cargoBounty
 #   id: BountyOrgans
 #   reward: 2000
