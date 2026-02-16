@@ -471,18 +471,17 @@
       tags:
       - ArtifactFragment
 
-# imp edit - removed due to unpopularity
-# - type: cargoBounty
-#   id: BountyOrgans
-#   reward: 2000
-#   description: bounty-description-organs
-#   idPrefix: UNTH
-#   entries:
-#   - name: bounty-item-organs
-#     amount: 8
-#     whitelist:
-#       components:
-#       - Organ
+- type: cargoBounty
+  id: BountyOrgans
+  reward: 4000 # imp edit: 2000 -> 4000
+  description: bounty-description-organs
+  idPrefix: UNTH
+  entries:
+  - name: bounty-item-organs
+    amount: 4 # imp edit: 8 -> 4
+    whitelist:
+      components:
+      - Organ
 
 - type: cargoBounty
   id: BountyLabeler
