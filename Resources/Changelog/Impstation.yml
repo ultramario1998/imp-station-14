@@ -1,15 +1,4 @@
 ﻿Entries:
-- author: DinnerCalzone
-  changes:
-  - message: Woe, usptream merge be upon ye! This update includes changes from Wizden
-      published on July 7th and July 20th.
-    type: Add
-  - message: The janitorial welder has been removed from the janibelt and moved to
-      the locker (don't worry, they're still craftable at a lathe!)
-    type: Tweak
-  id: 2121
-  time: '2025-08-06T10:31:48.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3223
 - author: ATDoop
   changes:
   - message: Magnum stun projectiles should be a little more obvious.
@@ -4160,3 +4149,12 @@
   id: 2620
   time: '2026-02-12T20:21:20.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4083
+- author: Starlighthowls and many many many helpers
+  changes:
+  - message: Wizards have a new spell library!
+    type: Add
+  - message: Slowed the flash effect on the KILL and EAT tags.
+    type: Tweak
+  id: 2621
+  time: '2026-02-17T18:41:24.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3606
