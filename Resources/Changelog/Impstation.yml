@@ -1,27 +1,4 @@
 ﻿Entries:
-- author: ATDoop
-  changes:
-  - message: Magnum stun projectiles should be a little more obvious.
-    type: Tweak
-  id: 2122
-  time: '2025-08-06T11:05:25.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3199
-- author: yesteryuri
-  changes:
-  - message: Added the psychologist's pill canister and a couple of other loadout
-      options to psychologist.
-    type: Add
-  id: 2123
-  time: '2025-08-06T11:37:03.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3234
-- author: Mousetrinity
-  changes:
-  - message: the v-rex has had a few kinks and bugs flattened out. we have added vocal
-      cords for screaming, longer limbs for swiping at pesky crew, and more!
-    type: Fix
-  id: 2124
-  time: '2025-08-06T16:34:58.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3236
 - author: Sneakyph0enix
   changes:
   - message: fixed the mobster accent adding extra punctuation in the middle of sentences
@@ -4158,3 +4135,32 @@
   id: 2621
   time: '2026-02-17T18:41:24.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3606
+- author: yesteryuri
+  changes:
+  - message: During Revolutionaries, there is now an automated announcement and blue
+      alert when 30% of the crew is converted.
+    type: Add
+  id: 2622
+  time: '2026-02-17T19:05:29.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4090
+- author: mqole
+  changes:
+  - message: The SecTech can now be used to access the SecLink store.
+    type: Add
+  - message: Fully-charged stun batons and disablers can now be used on the SecTech
+      to redeem them for SecLink currency.
+    type: Add
+  - message: Security Officers once again start with stun batons in their belts.
+    type: Tweak
+  - message: SecLink radios have been removed from lockers.
+    type: Remove
+  id: 2623
+  time: '2026-02-17T19:04:50.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4020
+- author: msTheowo
+  changes:
+  - message: You don't automatically guzzle drinks as fast as you can anymore.
+    type: Tweak
+  id: 2624
+  time: '2026-02-17T19:04:31.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3981
