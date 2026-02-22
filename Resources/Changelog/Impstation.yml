@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: honeyed-lemons
-  changes:
-  - message: Xeno has been moved to a location with meteors rich in Artifexium
-    type: Add
-  id: 2138
-  time: '2025-08-09T01:44:57.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3073
 - author: msTheowo
   changes:
   - message: Wardens can now use the security communications computer.
@@ -4164,3 +4157,12 @@
   id: 2637
   time: '2026-02-22T21:21:29.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4110
+- author: Doop, FlippenPage
+  changes:
+  - message: Dragons, Pipi, and Dolby can now stamp papers with their paws.
+    type: Add
+  - message: Hamlet is a stamp now too.
+    type: Add
+  id: 2638
+  time: '2026-02-22T21:31:39.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4126
