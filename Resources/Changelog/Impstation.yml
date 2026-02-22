@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: spanky-spanky, AirFryerBuyOneGetOneFree
-  changes:
-  - message: Added computer beeps and boops for additional ambience.
-    type: Add
-  id: 2136
-  time: '2025-08-08T08:56:00.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3252
 - author: yesteryuri
   changes:
   - message: Fixed Fin-Fin
@@ -4163,3 +4156,11 @@
   id: 2635
   time: '2026-02-22T21:10:11.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4059
+- author: eviltori
+  changes:
+  - message: the head of security's grey jumpskirt now correctly has the same cost
+      as other command uniforms.
+    type: Fix
+  id: 2636
+  time: '2026-02-22T21:18:38.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4106
