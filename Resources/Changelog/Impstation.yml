@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: msTheowo
-  changes:
-  - message: Wardens can now use the security communications computer.
-    type: Tweak
-  id: 2139
-  time: '2025-08-09T06:19:17.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3260
 - author: TheGrimbeeper
   changes:
   - message: prize tickets can now ash again - into ONE ash
@@ -4166,3 +4159,10 @@
   id: 2638
   time: '2026-02-22T21:31:39.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4126
+- author: CombustibleToast
+  changes:
+  - message: Inlet pressure regulators are no longer hidden under catwalks.
+    type: Fix
+  id: 2639
+  time: '2026-02-22T21:42:01.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4153
