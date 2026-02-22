@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: yesteryuri
-  changes:
-  - message: Fixed Fin-Fin
-    type: Fix
-  id: 2137
-  time: '2025-08-08T11:30:13.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3256
 - author: honeyed-lemons
   changes:
   - message: Xeno has been moved to a location with meteors rich in Artifexium
@@ -4164,3 +4157,10 @@
   id: 2636
   time: '2026-02-22T21:18:38.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4106
+- author: FancyPlanks
+  changes:
+  - message: Intercoms have a new casing!
+    type: Tweak
+  id: 2637
+  time: '2026-02-22T21:21:29.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4110
