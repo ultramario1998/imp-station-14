@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: yesteryuri
-  changes:
-  - message: Fixed MRE wrappers tasting trashy
-    type: Fix
-  id: 2134
-  time: '2025-08-08T08:53:44.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3255
 - author: VeeNomine
   changes:
   - message: Drones no longer know the joys of flashing others when they toggle their
@@ -4164,3 +4157,12 @@
   id: 2633
   time: '2026-02-18T21:06:10.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4066
+- author: starlighthowls
+  changes:
+  - message: Added a new botanist specific uplink item, syndicate trained kissers.
+    type: Add
+  - message: Killer and Kisser tomatoes no longer take passive damage.
+    type: Tweak
+  id: 2634
+  time: '2026-02-22T21:08:18.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4050
